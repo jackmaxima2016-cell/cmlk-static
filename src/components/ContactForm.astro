@@ -1,7 +1,7 @@
 ---
 // Formulaire de qualification des prospects — publications sponsorisées
 // Envoi AJAX vers FormSubmit (relais email, zéro backend), anti-spam honeypot.
-const MAILTO = 'contact@fluiid.ch';
+const MAILTO = 'info@fluiid.ch';
 ---
 
 <section class="contact-wrap">
@@ -186,8 +186,8 @@ const MAILTO = 'contact@fluiid.ch';
       }
     } catch (err) {
       status.textContent = err.message
-        ? `${err.message} — Vous pouvez aussi écrire à contact@fluiid.ch.`
-        : 'Une erreur est survenue. Réessayez ou écrivez-nous directement à contact@fluiid.ch.';
+        ? `${err.message} — Vous pouvez aussi écrire à info@fluiid.ch.`
+        : 'Une erreur est survenue. Réessayez ou écrivez-nous directement à info@fluiid.ch.';
       status.classList.add('is-error');
       btn.disabled = false;
       btn.textContent = 'Envoyer ma demande';
