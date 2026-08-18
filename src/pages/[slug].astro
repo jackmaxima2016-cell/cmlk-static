@@ -4,6 +4,7 @@
 // ⚠️ Le <h1> et .entry-content restent strictement identiques (contrat SEO).
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
+import ContactForm from '../components/ContactForm.astro';
 import { getPosts, getPages, getImageMeta, getPostCategories, getPostAuthor, getReadingTime, decodeEntities, stripHtml } from '../lib/wp.mjs';
 import { getSeoForUrl } from '../lib/seo.mjs';
 
@@ -128,7 +129,11 @@ const jsonLd = kind === 'post'
       </>
     )}
 
-    <div class="entry-content" set:html={entry.content?.rendered ?? ''} />
+    {entry.slug === 'contact' ? (
+      <ContactForm />
+    ) : (
+      <div class="entry-content" set:html={entry.content?.rendered ?? ''} />
+    )}
 
     {kind === 'post' && relatedFallback.length > 0 && (
       <section class="related" aria-label="Articles liés">

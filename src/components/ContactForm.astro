@@ -1,0 +1,196 @@
+---
+// Formulaire de qualification des prospects — publications sponsorisées
+// Envoi AJAX vers FormSubmit (relais email, zéro backend), anti-spam honeypot.
+const MAILTO = 'contact@fluiid.ch';
+---
+
+<section class="contact-wrap">
+  <div class="contact-intro">
+    <p class="contact-kicker">Publications sponsorisées</p>
+    <h2 class="contact-title">Proposez votre article</h2>
+    <p>
+      Fluiid accueille des contenus de marque au sein de ses rubriques éditoriales.
+      Envoyez-nous votre projet : vous recevez une réponse sous 24–48&nbsp;h avec
+      une proposition adaptée à votre objectif (visibilité, notoriété, trafic).
+    </p>
+    <ol class="contact-steps">
+      <li><strong>1. Votre demande</strong> — décrivez votre projet ci-contre.</li>
+      <li><strong>2. Devis sous 24–48&nbsp;h</strong> — proposition sur mesure, relecture éditoriale incluse.</li>
+      <li><strong>3. Publication</strong> — votre article est intégré à la rubrique de votre choix, avec lien vers votre site.</li>
+    </ol>
+    <p class="contact-note">💳 Paiement sécurisé par carte bancaire — disponible prochainement.</p>
+  </div>
+
+  <div class="contact-form-wrap">
+    <form id="prospect-form" class="prospect-form" action={`https://formsubmit.co/ajax/${MAILTO}`} method="POST" novalidate>
+      <input type="hidden" name="_subject" value="Nouvelle demande de publication — fluiid.ch" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <!-- Honeypot anti-spam (laissé vide par les humains) -->
+      <input type="text" name="_honey" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="f-nom">Nom complet *</label>
+          <input type="text" id="f-nom" name="nom" required autocomplete="name" placeholder="Prénom et nom" />
+        </div>
+        <div class="form-field">
+          <label for="f-email">E-mail *</label>
+          <input type="email" id="f-email" name="email" required autocomplete="email" placeholder="vous@entreprise.ch" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="f-entreprise">Entreprise / marque *</label>
+          <input type="text" id="f-entreprise" name="entreprise" required placeholder="Nom de votre entreprise" />
+        </div>
+        <div class="form-field">
+          <label for="f-telephone">Téléphone</label>
+          <input type="tel" id="f-telephone" name="telephone" autocomplete="tel" placeholder="Optionnel" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="f-type">Type de publication *</label>
+          <select id="f-type" name="type" required>
+            <option value="" disabled selected>Choisir…</option>
+            <option>Article sponsorisé</option>
+            <option>Communiqué de presse</option>
+            <option>Dossier de présentation</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="f-budget">Budget indicatif *</label>
+          <select id="f-budget" name="budget" required>
+            <option value="" disabled selected>Choisir…</option>
+            <option>Moins de 500 CHF</option>
+            <option>500 – 1 000 CHF</option>
+            <option>1 000 – 2 000 CHF</option>
+            <option>Plus de 2 000 CHF</option>
+            <option>À discuter</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="f-delai">Délai souhaité *</label>
+        <select id="f-delai" name="delai" required>
+          <option value="" disabled selected>Choisir…</option>
+          <option>Sous 1 semaine</option>
+          <option>1 – 3 semaines</option>
+          <option>1 – 3 mois</option>
+          <option>Flexible</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="f-sujet">Sujet de la publication *</label>
+        <textarea id="f-sujet" name="sujet" required rows="3" placeholder="Thème, angle éditorial, informations clés à mettre en avant…"></textarea>
+      </div>
+
+      <div class="form-field">
+        <label for="f-message">Message complémentaire</label>
+        <textarea id="f-message" name="message" rows="3" placeholder="Références, objectifs, contraintes… (optionnel)"></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">Envoyer ma demande</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <div class="form-success" hidden>
+      <h3>Demande envoyée ✅</h3>
+      <p>Merci ! Votre demande est bien reçue. Nous revenons vers vous sous 24–48&nbsp;h avec une proposition.</p>
+      <p class="form-success-back"><a href="/">← Retour à l’accueil</a></p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact-wrap {
+    display: grid; grid-template-columns: 1fr; gap: 32px;
+    max-width: 980px; margin: 0 auto;
+  }
+  @media (min-width: 900px) { .contact-wrap { grid-template-columns: 2fr 3fr; gap: 48px; } }
+  .contact-kicker {
+    text-transform: uppercase; font-size: 12px; font-weight: 700;
+    letter-spacing: 0.12em; color: var(--accent); margin: 0 0 8px;
+  }
+  .contact-title { font-size: 26px; margin: 0 0 14px; }
+  .contact-intro p { font-size: 15px; line-height: 1.65; }
+  .contact-steps { list-style: none; margin: 18px 0 0; padding: 0; }
+  .contact-steps li {
+    font-size: 14px; line-height: 1.55; padding: 10px 0;
+    border-top: 1px solid var(--border); color: #444;
+  }
+  .contact-note { font-size: 13px; color: #666; margin-top: 16px; }
+
+  .prospect-form .form-row { display: grid; grid-template-columns: 1fr; gap: 0; }
+  @media (min-width: 640px) { .prospect-form .form-row { grid-template-columns: 1fr 1fr; gap: 16px; } }
+  .form-field { margin-bottom: 16px; }
+  .form-field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+  .prospect-form input, .prospect-form select, .prospect-form textarea {
+    width: 100%; padding: 11px 12px; font: inherit; font-size: 15px;
+    border: 1px solid #ccc; border-radius: 4px; background: #fff; color: var(--ink);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .prospect-form input:focus, .prospect-form select:focus, .prospect-form textarea:focus {
+    outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(200, 16, 46, 0.12);
+  }
+  .prospect-form textarea { resize: vertical; }
+  .prospect-form select { appearance: auto; }
+  .hp-field { position: absolute; left: -9999px; opacity: 0; height: 0; width: 0; }
+  .form-submit {
+    display: inline-block; padding: 13px 28px; font: inherit; font-size: 15px;
+    font-weight: 700; letter-spacing: 0.03em; color: #fff; background: var(--ink);
+    border: none; border-radius: 4px; cursor: pointer; margin-top: 4px;
+    transition: background 0.15s;
+  }
+  .form-submit:hover { background: var(--accent); }
+  .form-submit[disabled] { opacity: 0.6; cursor: wait; }
+  .form-status { font-size: 14px; margin: 12px 0 0; min-height: 20px; }
+  .form-status.is-error { color: #b00020; }
+  .form-success h3 { font-size: 22px; margin: 0 0 10px; }
+  .form-success p { font-size: 15px; line-height: 1.6; }
+  .form-success-back { margin-top: 16px; }
+</style>
+
+<script>
+  const form = document.getElementById('prospect-form');
+  const status = form.querySelector('.form-status');
+  const success = document.querySelector('.form-success');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!form.reportValidity()) return;
+    status.textContent = '';
+    status.classList.remove('is-error');
+    const btn = form.querySelector('.form-submit');
+    btn.disabled = true;
+    btn.textContent = 'Envoi en cours…';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form),
+      });
+      const data = await res.json();
+      if (res.ok && data.success === 'true') {
+        form.hidden = true;
+        success.hidden = false;
+      } else {
+        // FormSubmit renvoie un message précis (activation requise, etc.)
+        throw new Error(data.message || 'Réponse invalide');
+      }
+    } catch (err) {
+      status.textContent = err.message
+        ? `${err.message} — Vous pouvez aussi écrire à contact@fluiid.ch.`
+        : 'Une erreur est survenue. Réessayez ou écrivez-nous directement à contact@fluiid.ch.';
+      status.classList.add('is-error');
+      btn.disabled = false;
+      btn.textContent = 'Envoyer ma demande';
+    }
+  });
+</script>
