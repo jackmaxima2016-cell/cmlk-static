@@ -84,6 +84,34 @@ a { color: inherit; }
 .nav-inner a:hover { color: var(--accent); }
 .nav-inner a.is-active { color: var(--accent); border-bottom-color: var(--accent); }
 
+/* Menu déroulant « Services » (rubriques) */
+.nav-drop { position: relative; display: flex; flex-direction: column; }
+.nav-drop-btn {
+  flex: 0 0 auto; padding: 10px 12px; background: none; border: none; cursor: pointer;
+  font-family: inherit; font-size: 13px; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; color: var(--ink); min-height: 44px;
+  display: flex; align-items: center; gap: 5px;
+  border-bottom: 2px solid transparent;
+}
+.nav-drop-btn:hover { color: var(--accent); }
+.nav-drop-caret { font-size: 11px; transition: transform 0.2s ease; }
+.nav-drop.is-open .nav-drop-caret { transform: rotate(180deg); }
+.nav-drop-menu { display: none; list-style: none; margin: 0; padding: 0; }
+@media (min-width: 900px) {
+  .nav-drop:hover .nav-drop-menu, .nav-drop.is-open .nav-drop-menu {
+    display: block; position: absolute; top: 100%; left: 0; z-index: 55;
+    background: var(--bg); min-width: 250px;
+    border: 1px solid var(--border); border-top: 2px solid var(--accent);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+  }
+  .nav-drop-menu a {
+    display: block; padding: 10px 16px; border-bottom: 1px solid var(--border);
+    min-height: 0;
+  }
+  .nav-drop-menu a:last-child { border-bottom: none; }
+  .nav-drop-menu a:hover { background: #f5f5f5; color: var(--accent); }
+}
+
 /* Bouton burger (mobile uniquement) */
 .nav-toggle {
   display: none;
@@ -115,6 +143,16 @@ a { color: inherit; }
   .nav-inner a {
     border-top: 1px solid var(--border); border-bottom: none;
     padding: 15px 24px; font-size: 15px; min-height: 50px;
+  }
+  .nav-drop-btn {
+    padding: 15px 24px; font-size: 15px; min-height: 50px; width: 100%;
+    justify-content: space-between; border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+  }
+  .nav-drop-menu { display: block; }
+  .nav-drop-menu a {
+    padding: 15px 24px 15px 44px; font-size: 15px; min-height: 50px;
+    border-top: 1px solid var(--border); border-bottom: none;
   }
 }
 

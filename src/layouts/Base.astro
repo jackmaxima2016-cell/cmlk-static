@@ -113,9 +113,16 @@ const today = new Date().toLocaleDateString('fr-FR', {
       </button>
       <div class="container nav-inner">
         <a href="/">Accueil</a>
-        {topCats.map((c) => (
-          <a href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a>
-        ))}
+        <div class="nav-drop">
+          <button class="nav-drop-btn" type="button" aria-expanded="false" aria-haspopup="true">
+            Services <span class="nav-drop-caret" aria-hidden="true">▾</span>
+          </button>
+          <div class="nav-drop-menu" role="menu">
+            {topCats.map((c) => (
+              <a role="menuitem" href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a>
+            ))}
+          </div>
+        </div>
         <a href="/contact/">Contact</a>
       </div>
     </nav>
@@ -162,6 +169,25 @@ const today = new Date().toLocaleDateString('fr-FR', {
         navMenu.querySelectorAll('a').forEach((a) => a.addEventListener('click', close));
         document.addEventListener('keydown', (e) => {
           if (e.key === 'Escape') close();
+        });
+      }
+      // Menu déroulant « Services »
+      const navDrop = document.querySelector('.nav-drop');
+      const navDropBtn = document.querySelector('.nav-drop-btn');
+      if (navDrop && navDropBtn) {
+        const setDrop = (open) => {
+          navDrop.classList.toggle('is-open', open);
+          navDropBtn.setAttribute('aria-expanded', String(open));
+        };
+        navDropBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          setDrop(!navDrop.classList.contains('is-open'));
+        });
+        document.addEventListener('click', (e) => {
+          if (!navDrop.contains(e.target)) setDrop(false);
+        });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') setDrop(false);
         });
       }
     </script>
