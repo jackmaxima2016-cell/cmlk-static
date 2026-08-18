@@ -55,7 +55,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
 <section class="contact-wrap">
   <div class="contact-intro">
     <p class="contact-kicker">Publications sponsorisées</p>
-    <h2 class="contact-title">Devis instantané</h2>
+    <h2 class="contact-title">Commander maintenant</h2>
     <p>
       Quatre étapes, moins de deux minutes. Choisissez votre pack, la durée de
       publication et vos options : le total se calcule en direct. Nous revenons
@@ -73,7 +73,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
 
     <ol class="contact-steps">
       <li><strong>1. Votre demande</strong> — pack + durée + options, ci-contre.</li>
-      <li><strong>2. Devis sous 24–48&nbsp;h</strong> — validation du calendrier et de l'angle.</li>
+      <li><strong>2. Confirmation sous 24–48&nbsp;h</strong> — validation du calendrier et de l'angle.</li>
       <li><strong>3. Publication</strong> — votre article paraît dans la rubrique choisie, avec vos liens.</li>
     </ol>
     <p class="contact-note">Tous les prix sont en CHF (ou EUR, au taux du jour) et s'entendent hors TVA.</p>
@@ -232,9 +232,20 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     <ul class="trust-badges" aria-label="Réassurance">
       <li><strong>🔒 Paiement sécurisé</strong><span>Stripe — carte bancaire</span></li>
       <li><strong>⚡ Confirmation immédiate</strong><span>reçu après paiement</span></li>
-      <li><strong>🤝 Devis sous 24–48 h</strong><span>validation du calendrier</span></li>
+      <li><strong>🤝 Confirmation sous 24–48 h</strong><span>validation du calendrier</span></li>
       <li><strong>🛡️ Annulation gratuite</strong><span>avant publication</span></li>
     </ul>
+
+    <div class="delivery-info">
+      <h4>📦 Livraison de votre publication</h4>
+      <ol>
+        <li><strong>Paiement sécurisé</strong> — carte bancaire (Stripe), reçu immédiat.</li>
+        <li><strong>Confirmation par email</strong> — votre commande et le calendrier prévu (info@fluiid.ch).</li>
+        <li><strong>Rédaction &amp; validation</strong> — délai selon le pack : 24&nbsp;h (Impact), 48&nbsp;h (Premium), 5 jours (Standard), 7 jours (Essentiel).</li>
+        <li><strong>Publication</strong> — l'article paraît dans la rubrique choisie, avec vos liens.</li>
+        <li><strong>Lien de livraison</strong> — vous recevez l'URL de votre publication, prête à partager.</li>
+      </ol>
+    </div>
 
     <div class="form-success" hidden>
       <h3>Demande envoyée ✅</h3>
@@ -434,6 +445,16 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   .trust-badges li { display: flex; flex-direction: column; font-size: 13px; color: #333; }
   .trust-badges li strong { font-size: 13.5px; color: #111; }
   .trust-badges li span { color: #6b6b6b; }
+
+  /* ---- Livraison de la publication ---- */
+  .delivery-info {
+    margin: 14px 0 0; padding: 14px 16px;
+    background: #fff; border: 1px solid #d5d5d5; border-left: 4px solid var(--accent);
+    border-radius: 8px;
+  }
+  .delivery-info h4 { margin: 0 0 8px; font-size: 15px; color: #111; }
+  .delivery-info ol { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.55; color: #333; }
+  .delivery-info li + li { margin-top: 4px; }
 </style>
 
 <script>

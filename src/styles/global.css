@@ -374,3 +374,29 @@ main { padding: 20px 0 64px; }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ---- Bandeau coulissant promo (accueil, style e-commerce) ---- */
+.promo-ticker {
+  overflow: hidden; background: #111; color: #fff;
+  border-bottom: 1px solid var(--border);
+}
+.promo-ticker-track {
+  display: flex; align-items: center; width: max-content; white-space: nowrap;
+  animation: promo-ticker 40s linear infinite;
+  will-change: transform;
+}
+.promo-ticker:hover .promo-ticker-track { animation-play-state: paused; }
+.promo-ticker-item {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 9px 0; font-size: 14px; font-weight: 600; color: #fff;
+  text-decoration: none;
+}
+.promo-ticker-item:hover { color: var(--accent); }
+.promo-ticker-sep { margin: 0 26px; color: var(--accent); font-size: 13px; }
+@keyframes promo-ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .promo-ticker-track { animation: none; flex-wrap: wrap; white-space: normal; }
+}
