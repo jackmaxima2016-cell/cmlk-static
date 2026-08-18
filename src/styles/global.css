@@ -400,7 +400,7 @@ main { padding: 20px 0 64px; }
   .edito-grid .card:first-child { grid-column: span 4; }
   .rubric-grid { grid-template-columns: repeat(3, 1fr); }
   .post-grid { grid-template-columns: repeat(2, 1fr); gap: 32px 28px; }
-  .footer-grid { grid-template-columns: 2fr 1fr 1fr; }
+  .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
   main { padding-top: 28px; }
 }
 
