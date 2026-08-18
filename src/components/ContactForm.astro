@@ -60,8 +60,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       Quatre étapes, moins de deux minutes. Choisissez votre pack, la durée de
       publication et vos options : le total se calcule en direct. Nous revenons
       vers vous sous 24–48&nbsp;h pour valider le calendrier et l'angle
-      éditorial. Paiement sécurisé par carte bancaire — disponible
-      prochainement.
+      éditorial. Paiement sécurisé par carte bancaire (Stripe).
     </p>
 
     <h3 class="roi-title">Pourquoi c'est rentable ?</h3>
@@ -81,7 +80,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   </div>
 
   <div class="contact-form-wrap">
-    <form id="prospect-form" class="prospect-form" action="/api/contact" method="POST" novalidate>
+    <form id="prospect-form" class="prospect-form" action="/api/checkout" method="POST" novalidate>
       <input type="hidden" name="_subject" value="Nouvelle demande de publication — fluiid.ch" />
       <input type="hidden" name="_template" value="table" />
       <!-- Honeypot anti-spam (laissé vide par les humains) -->
@@ -493,12 +492,25 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     btnNext.disabled = true;
     btnNext.textContent = 'Envoi en cours…';
     try {
-      const res = await fetch(form.action, {
+      // Données complètes du formulaire (avec les cases à cocher)
+      const payload = {};
+      persistables.forEach((el) => {
+        if (el.type === 'radio') { if (el.checked) payload[el.name] = el.value; }
+        else if (el.type === 'checkbox') payload[el.name] = el.checked;
+        else payload[el.name] = el.value;
+      });
+      payload['cf-turnstile-response'] = token.value;
+      const res = await fetch('/api/checkout', {
         method: 'POST',
-        headers: { Accept: 'application/json' },
-        body: new FormData(form),
+        headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
       });
       const data = await res.json().catch(() => ({}));
+      // Paiement Stripe : redirection vers Checkout
+      if (data.url) {
+        window.location.href = data.url;
+        return;
+      }
       if (res.ok && data.success === 'true') {
         localStorage.removeItem(STORAGE_KEY);
         form.hidden = true;
