@@ -9,14 +9,15 @@ const FORM_MAILTO = 'info@fluiid.ch';
 const SITE = 'https://fluiid.ch';
 
 // Source de vérité des prix (doit correspondre au formulaire)
-const PACKS = { Essentiel: 169, Standard: 399, Premium: 799, Impact: 1499 };
+// Prix promotionnels (−40 % ; le prix d'origine barré est affiché côté formulaire)
+const PACKS = { Essentiel: 101, Standard: 239, Premium: 479, Impact: 899 };
 const OPTIONS = {
-  opt_redaction: { label: 'Rédaction par nos soins', price: 149 },
-  opt_lien: { label: 'Lien supplémentaire', price: 49 },
-  opt_express: { label: 'Publication express 24 h', price: 99 },
-  opt_reseaux: { label: 'Post LinkedIn + Facebook', price: 49 },
-  opt_newsletter: { label: 'Mise en avant newsletter', price: 79 },
-  opt_article: { label: 'Article additionnel', price: 199 },
+  opt_redaction: { label: 'Rédaction par nos soins', price: 89 },
+  opt_lien: { label: 'Lien supplémentaire', price: 29 },
+  opt_express: { label: 'Publication express 24 h', price: 59 },
+  opt_reseaux: { label: 'Post LinkedIn + Facebook', price: 29 },
+  opt_newsletter: { label: 'Mise en avant newsletter', price: 47 },
+  opt_article: { label: 'Article additionnel', price: 119 },
 };
 
 function json(data, status = 200) {

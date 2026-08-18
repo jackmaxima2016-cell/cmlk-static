@@ -16,19 +16,19 @@ const rubriques = getCategories()
 
 const packs = [
   {
-    id: 'essentiel', name: 'Essentiel', price: 169, tagline: 'Pour une première visibilité',
+    id: 'essentiel', name: 'Essentiel', price: 101, old: 169, tagline: 'Pour une première visibilité',
     feats: ['Article de 400–600 mots', '1 lien dofollow vers votre site (SEO)', 'Publication sous 7 jours', '1 rubrique au choix', 'Durée de publication incluse'],
   },
   {
-    id: 'standard', name: 'Standard', price: 399, tagline: 'Le meilleur rapport visibilité/prix', popular: true,
+    id: 'standard', name: 'Standard', price: 239, old: 399, tagline: 'Le meilleur rapport visibilité/prix', popular: true,
     feats: ['Article de 700–900 mots', '2 liens + 1 lien interne (SEO renforcé)', 'Publication sous 5 jours', 'Mise en avant dans le fil d’actualité', 'Badge « Contenu sponsorisé »', 'Durée de publication incluse'],
   },
   {
-    id: 'premium', name: 'Premium', price: 799, tagline: 'Une présence éditoriale affirmée',
+    id: 'premium', name: 'Premium', price: 479, old: 799, tagline: 'Une présence éditoriale affirmée',
     feats: ['Article de 1 000–1 400 mots', '3 liens + 2 liens internes', 'Publication sous 48 h', 'Mise en avant sur la page d’accueil', 'Relecture éditoriale prioritaire', 'Durée de publication incluse'],
   },
   {
-    id: 'impact', name: 'Impact', price: 1499, tagline: 'Dossier complet ou campagne multi-articles',
+    id: 'impact', name: 'Impact', price: 899, old: 1499, tagline: 'Dossier complet ou campagne multi-articles',
     feats: ['Dossier de 2 000+ mots ou 3 articles', 'Liens renforcés (5 + 3 internes)', 'Publication sous 24 h', 'Accompagnement éditorial dédié', 'Mention dans la newsletter', 'Durée de publication incluse'],
   },
 ];
@@ -41,12 +41,12 @@ const durees = [
 ];
 
 const options = [
-  { id: 'opt-redaction', name: 'opt_redaction', label: 'Rédaction par nos soins', note: 'vous fournissez le sujet, nous écrivons', price: 149 },
-  { id: 'opt-lien', name: 'opt_lien', label: 'Lien supplémentaire', note: 'un backlink de plus vers votre site', price: 49 },
-  { id: 'opt-express', name: 'opt_express', label: 'Publication express 24 h', note: 'priorité absolue au planning', price: 99 },
-  { id: 'opt-reseaux', name: 'opt_reseaux', label: 'Post LinkedIn + Facebook', note: 'annonce de votre article', price: 49 },
-  { id: 'opt-newsletter', name: 'opt_newsletter', label: 'Mise en avant newsletter', note: 'à nos abonnés', price: 79 },
-  { id: 'opt-article', name: 'opt_article', label: 'Article additionnel', note: 'un article de plus dans le même pack', price: 199 },
+  { id: 'opt-redaction', name: 'opt_redaction', label: 'Rédaction par nos soins', note: 'vous fournissez le sujet, nous écrivons', price: 89, old: 149 },
+  { id: 'opt-lien', name: 'opt_lien', label: 'Lien supplémentaire', note: 'un backlink de plus vers votre site', price: 29, old: 49 },
+  { id: 'opt-express', name: 'opt_express', label: 'Publication express 24 h', note: 'priorité absolue au planning', price: 59, old: 99 },
+  { id: 'opt-reseaux', name: 'opt_reseaux', label: 'Post LinkedIn + Facebook', note: 'annonce de votre article', price: 29, old: 49 },
+  { id: 'opt-newsletter', name: 'opt_newsletter', label: 'Mise en avant newsletter', note: 'à nos abonnés', price: 47, old: 79 },
+  { id: 'opt-article', name: 'opt_article', label: 'Article additionnel', note: 'un article de plus dans le même pack', price: 119, old: 199 },
 ];
 
 const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informations', 'Votre projet'];
@@ -80,6 +80,10 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   </div>
 
   <div class="contact-form-wrap">
+    <div class="promo-banner" id="promo-banner">
+      <span class="promo-flag">🔥 Offre de lancement — 40&nbsp;% de réduction</span>
+      <span class="promo-timer">⏳ La promotion se termine dans <strong id="promo-countdown">15:00</strong></span>
+    </div>
     <form id="prospect-form" class="prospect-form" action="/api/checkout" method="POST" novalidate>
       <input type="hidden" name="_subject" value="Nouvelle demande de publication — fluiid.ch" />
       <input type="hidden" name="_template" value="table" />
@@ -107,11 +111,12 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
         <div class="packs-grid" id="packs-grid">
           {packs.map((p) => (
             <label class:list={['pack-card', { 'is-popular': p.popular }]}>
-              <input type="radio" name="pack" value={p.name} data-price={p.price} required />
+              <input type="radio" name="pack" value={p.name} data-price={p.price} data-old={p.old} required />
               {p.popular && <span class="pack-popular">Le plus choisi</span>}
               <span class="pack-head">
                 <span class="pack-name">{p.name}</span>
                 <span class="pack-price">{p.price}&nbsp;CHF</span>
+                <span class="pack-old">{p.old}&nbsp;CHF</span>
               </span>
               <span class="pack-tagline">{p.tagline}</span>
               <span class="pack-feats">
@@ -143,14 +148,14 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
           {options.map((o) => (
             <label class="opt-item" for={o.id}>
               <span class="opt-main">
-                <input type="checkbox" id={o.id} name={o.name} data-price={o.price} />
+                <input type="checkbox" id={o.id} name={o.name} data-price={o.price} data-old={o.old} />
                 <span class="opt-check" aria-hidden="true"></span>
                 <span>
                   <span class="opt-label">{o.label}</span>
                   <span class="opt-note">{o.note}</span>
                 </span>
               </span>
-              <span class="opt-price">+{o.price} CHF</span>
+              <span class="opt-price"><s class="opt-old">{o.old} CHF</s> +{o.price} CHF</span>
             </label>
           ))}
         </div>
@@ -212,7 +217,10 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       <div class="form-footer">
         <div class="total-row">
           <span>Total estimé</span>
-          <strong id="total-estime">—</strong>
+          <span class="total-amounts">
+            <s id="total-old" hidden></s>
+            <strong id="total-estime">—</strong>
+          </span>
         </div>
         <div class="form-nav">
           <button type="button" class="btn-prev" id="btn-prev" hidden>← Précédent</button>
@@ -220,6 +228,13 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
         </div>
       </div>
     </form>
+
+    <ul class="trust-badges" aria-label="Réassurance">
+      <li><strong>🔒 Paiement sécurisé</strong><span>Stripe — carte bancaire</span></li>
+      <li><strong>⚡ Confirmation immédiate</strong><span>reçu après paiement</span></li>
+      <li><strong>🤝 Devis sous 24–48 h</strong><span>validation du calendrier</span></li>
+      <li><strong>🛡️ Annulation gratuite</strong><span>avant publication</span></li>
+    </ul>
 
     <div class="form-success" hidden>
       <h3>Demande envoyée ✅</h3>
@@ -386,6 +401,39 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   .form-success h3 { font-size: 22px; margin: 0 0 10px; }
   .form-success p { font-size: 15px; line-height: 1.6; }
   .form-success-back { margin-top: 16px; }
+
+  /* ---- Bandeau promotion + compte à rebours ---- */
+  .promo-banner {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px;
+    background: linear-gradient(90deg, #8e0000, #b30000);
+    color: #fff; border-radius: 8px; padding: 12px 18px; margin: 0 0 18px;
+    font-size: 15px; line-height: 1.4;
+  }
+  .promo-flag { font-weight: 800; letter-spacing: 0.2px; }
+  .promo-timer { font-weight: 600; }
+  .promo-timer strong {
+    display: inline-block; background: #fff; color: #b30000; border-radius: 6px;
+    padding: 2px 10px; margin-left: 6px; font-variant-numeric: tabular-nums;
+    font-size: 17px; letter-spacing: 1px;
+  }
+
+  /* ---- Prix barrés ---- */
+  .pack-old { display: block; color: #6b6b6b; text-decoration: line-through; font-size: 14px; font-weight: 500; margin-top: 2px; }
+  .opt-old { color: #6b6b6b; text-decoration: line-through; font-size: 13px; font-weight: 500; margin-right: 6px; }
+
+  /* ---- Total avec prix barré ---- */
+  .total-amounts { display: inline-flex; align-items: baseline; gap: 12px; }
+  .total-amounts s { color: #b5b5b5; font-size: 16px; font-weight: 600; }
+
+  /* ---- Réassurance ---- */
+  .trust-badges {
+    list-style: none; margin: 16px 0 0; padding: 14px 16px;
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 16px;
+    background: #f7f7f7; border: 1px solid #d5d5d5; border-radius: 8px;
+  }
+  .trust-badges li { display: flex; flex-direction: column; font-size: 13px; color: #333; }
+  .trust-badges li strong { font-size: 13.5px; color: #111; }
+  .trust-badges li span { color: #6b6b6b; }
 </style>
 
 <script>
@@ -410,10 +458,21 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   let turnstileRendered = false;
 
   /* ---------- Total ---------- */
+  const totalOldEl = document.getElementById('total-old');
   const updateTotal = () => {
     let total = 0;
-    pricers.forEach((el) => { if (el.checked) total += Number(el.dataset.price); });
+    let totalOld = 0;
+    pricers.forEach((el) => {
+      if (el.checked) {
+        total += Number(el.dataset.price);
+        totalOld += Number(el.dataset.old || 0);
+      }
+    });
     totalEl.textContent = total ? `${total} CHF` : '—';
+    if (totalOldEl) {
+      totalOldEl.textContent = totalOld ? `${totalOld} CHF` : '';
+      totalOldEl.hidden = !totalOld;
+    }
   };
   pricers.forEach((el) => el.addEventListener('change', () => { updateTotal(); saveState(); }));
 
@@ -569,6 +628,40 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     });
     return turnstileLoading;
   };
+
+  /* ---------- Compte à rebours promo (individuel par visiteur) ---------- */
+  const PROMO_KEY = 'fluiid_promo_v1';
+  const PROMO_MS = 15 * 60 * 1000;
+  const countdownEl = document.getElementById('promo-countdown');
+  const startPromoCountdown = () => {
+    let remain = PROMO_MS;
+    try {
+      const stored = parseInt(localStorage.getItem(PROMO_KEY), 10) || 0;
+      const now = Date.now();
+      if (!stored || now - stored >= PROMO_MS) {
+        localStorage.setItem(PROMO_KEY, String(now));
+        remain = PROMO_MS;
+      } else {
+        remain = PROMO_MS - (now - stored);
+      }
+    } catch (e) { remain = PROMO_MS; }
+    const fmt = (ms) => {
+      const m = Math.floor(ms / 60000);
+      const s = Math.floor((ms % 60000) / 1000);
+      return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    };
+    const tick = () => {
+      if (remain <= 0) {
+        countdownEl.textContent = '00:00';
+        return;
+      }
+      countdownEl.textContent = fmt(remain);
+      remain -= 1000;
+    };
+    tick();
+    setInterval(tick, 1000);
+  };
+  startPromoCountdown();
 
   /* ---------- Init ---------- */
   restoreState();
