@@ -77,16 +77,14 @@ const today = new Date().toLocaleDateString('fr-FR', {
       GA4_ID && (
         <>
           <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
-          <script is:inline>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){{dataLayer.push(arguments);}}
-            gtag('js', new Date());
-            gtag('consent', 'default', {{
-              ad_storage: 'denied', ad_user_data: 'denied',
-              ad_personalization: 'denied', analytics_storage: 'denied',
-            }});
-            gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
-          </script>
+          <script is:inline set:html={`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('consent', 'default', {
+  ad_storage: 'denied', ad_user_data: 'denied',
+  ad_personalization: 'denied', analytics_storage: 'denied',
+});
+gtag('config', '${GA4_ID}', { anonymize_ip: true });`}></script>
         </>
       )
     }
