@@ -99,7 +99,7 @@ a { color: inherit; }
 .nav-drop-menu { display: none; list-style: none; margin: 0; padding: 0; }
 .nav-drop.is-open .nav-drop-menu { display: block; }
 @media (min-width: 900px) {
-  .nav-inner { justify-content: center; }
+  .nav-inner { justify-content: center; overflow: visible; }
   .nav-drop.is-open .nav-drop-menu {
     position: absolute; top: 100%; left: 0; z-index: 55;
     background: var(--bg); min-width: 250px;

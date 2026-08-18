@@ -246,6 +246,11 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       </div>
     </form>
 
+    <div class="promo-banner promo-banner-2" id="promo-banner-2">
+      <span class="promo-flag">🔥 Offre de lancement — 40&nbsp;% de réduction</span>
+      <span class="promo-timer">⏳ La promotion se termine dans <strong id="promo-countdown-2">15:00</strong></span>
+    </div>
+
     <ul class="trust-badges" aria-label="Réassurance">
       <li><strong>🔒 Paiement sécurisé</strong><span>Stripe — carte bancaire</span></li>
       <li><strong>⚡ Confirmation immédiate</strong><span>reçu après paiement</span></li>
@@ -438,6 +443,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     color: #fff; border-radius: 8px; padding: 12px 18px; margin: 0 0 18px;
     font-size: 15px; line-height: 1.4;
   }
+  .promo-banner-2 { margin: 0 0 14px; }
   .promo-flag { font-weight: 800; letter-spacing: 0.2px; }
   .promo-timer { font-weight: 600; }
   .promo-timer strong {
@@ -705,7 +711,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   /* ---------- Compte à rebours promo (individuel par visiteur) ---------- */
   const PROMO_KEY = 'fluiid_promo_v1';
   const PROMO_MS = 15 * 60 * 1000;
-  const countdownEl = document.getElementById('promo-countdown');
+  const countdownEls = [...document.querySelectorAll('#promo-countdown, #promo-countdown-2')];
   const startPromoCountdown = () => {
     let remain = PROMO_MS;
     try {
@@ -725,10 +731,10 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     };
     const tick = () => {
       if (remain <= 0) {
-        countdownEl.textContent = '00:00';
+        countdownEls.forEach((el) => { el.textContent = '00:00'; });
         return;
       }
-      countdownEl.textContent = fmt(remain);
+      countdownEls.forEach((el) => { el.textContent = fmt(remain); });
       remain -= 1000;
     };
     tick();
