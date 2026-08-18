@@ -205,6 +205,24 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
           <label for="f-sujet">Sujet de la publication *</label>
           <textarea id="f-sujet" name="sujet" required rows="3" placeholder="Thème, angle éditorial, informations clés à mettre en avant…"></textarea>
         </div>
+        <div class="cond-fields" id="cond-fields">
+          <div class="form-field cond-field" data-cond="opt-redaction" data-required="false" hidden>
+            <label for="f-opt-redaction">Mots-clés / angle pour la rédaction</label>
+            <input type="text" id="f-opt-redaction" name="opt_redaction_angle" placeholder="Ex. : cybersécurité, PME suisses, données…" />
+          </div>
+          <div class="form-field cond-field" data-cond="opt-lien" data-required="true" hidden>
+            <label for="f-opt-lien">URL du lien supplémentaire *</label>
+            <input type="url" id="f-opt-lien" name="opt_lien_url" placeholder="https://votre-site.ch/page-a-lier" />
+          </div>
+          <div class="form-field cond-field" data-cond="opt-reseaux" data-required="false" hidden>
+            <label for="f-opt-reseaux">Comptes à mentionner (LinkedIn / Facebook)</label>
+            <input type="text" id="f-opt-reseaux" name="opt_reseaux_comptes" placeholder="Ex. : @votre-entreprise, page Facebook…" />
+          </div>
+          <div class="form-field cond-field" data-cond="opt-article" data-required="true" hidden>
+            <label for="f-opt-article">Sujet de l'article additionnel *</label>
+            <input type="text" id="f-opt-article" name="opt_article_sujet" placeholder="Le thème du 2e article" />
+          </div>
+        </div>
         <div class="form-field">
           <label for="f-message">Message complémentaire</label>
           <textarea id="f-message" name="message" rows="3" placeholder="Références, objectifs, contraintes… (optionnel)"></textarea>
@@ -497,6 +515,19 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   };
   pricers.forEach((el) => el.addEventListener('change', () => { updateTotal(); saveState(); }));
 
+  /* ---------- Champs conditionnels selon les options choisies ---------- */
+  const condFields = [...form.querySelectorAll('.cond-field')];
+  const syncCondFields = () => {
+    condFields.forEach((f) => {
+      const opt = document.getElementById(f.dataset.cond);
+      const show = !!opt && opt.checked;
+      f.hidden = !show;
+      const input = f.querySelector('input, textarea');
+      if (input) input.required = show && f.dataset.required === 'true';
+    });
+  };
+  pricers.forEach((el) => el.addEventListener('change', syncCondFields));
+
   /* ---------- Persistance localStorage ---------- */
   const saveState = () => {
     try {
@@ -535,8 +566,9 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     });
     fill.style.width = `${(n / 4) * 100}%`;
     btnPrev.hidden = n === 1;
-    btnNext.textContent = n === 4 ? 'Envoyer ma demande' : 'Continuer →';
+    btnNext.textContent = n === 4 ? 'Commander ma publication' : 'Continuer →';
     if (n === 4) ensureTurnstile();
+    syncCondFields();
     saveState();
   };
 
@@ -575,6 +607,11 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       // Données complètes du formulaire (avec les cases à cocher)
       const payload = {};
       persistables.forEach((el) => {
+        const condWrap = el.closest('.cond-field');
+        if (condWrap) {
+          const opt = form.querySelector(`#${condWrap.dataset.cond}`);
+          if (!opt || !opt.checked) return; // champ lié à une option non choisie
+        }
         if (el.type === 'radio') { if (el.checked) payload[el.name] = el.value; }
         else if (el.type === 'checkbox') payload[el.name] = el.checked;
         else payload[el.name] = el.value;
@@ -603,7 +640,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       if (/anti-robot|vérification/i.test(msg) && window.turnstile) window.turnstile.reset();
       showStatus(`${msg} — Vous pouvez aussi écrire à info@fluiid.ch.`, true);
       btnNext.disabled = false;
-      btnNext.textContent = 'Envoyer ma demande';
+      btnNext.textContent = 'Commander ma publication';
     }
   });
 

@@ -98,6 +98,7 @@ const today = new Date().toLocaleDateString('fr-FR', {
         </div>
       </nav>
     </header>
+    <slot name="ticker" />
     <main class="container">
       <slot />
     </main>

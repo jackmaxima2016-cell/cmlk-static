@@ -98,11 +98,16 @@ export async function onRequestPost(context) {
     const rubrique = String(data.rubrique || '');
     const sujet = String(data.sujet || '');
     const message = String(data.message || '');
+    // Champs conditionnels (liés aux options choisies dans le formulaire)
+    const optLienUrl = String(data.opt_lien_url || '').trim();
+    const optReseauxComptes = String(data.opt_reseaux_comptes || '').trim();
+    const optArticleSujet = String(data.opt_article_sujet || '').trim();
+    const optRedactionAngle = String(data.opt_redaction_angle || '').trim();
 
     // ---- Pas de clé Stripe : repli email (provisoire) ----
     if (!env.STRIPE_SECRET_KEY) {
       const ok = await sendMailFallback(
-        { pack: packName, duree, total: `${total} CHF`, nom, email, entreprise, telephone, rubrique, site, sujet, message, options: chosen.join(', ') },
+        { pack: packName, duree, total: `${total} CHF`, nom, email, entreprise, telephone, rubrique, site, sujet, message, options: chosen.join(', '), lien_supplementaire: optLienUrl, comptes_reseaux: optReseauxComptes, sujet_article_additionnel: optArticleSujet, angle_redaction: optRedactionAngle },
         new FormData()
       );
       return ok
@@ -126,6 +131,10 @@ export async function onRequestPost(context) {
     params.set('metadata[rubrique]', rubrique.slice(0, 120));
     params.set('metadata[site]', site.slice(0, 200));
     params.set('metadata[sujet]', sujet.slice(0, 480));
+    params.set('metadata[lien_supplementaire]', optLienUrl.slice(0, 480));
+    params.set('metadata[comptes_reseaux]', optReseauxComptes.slice(0, 480));
+    params.set('metadata[sujet_article_additionnel]', optArticleSujet.slice(0, 480));
+    params.set('metadata[angle_redaction]', optRedactionAngle.slice(0, 480));
     params.set('metadata[options]', chosen.join(', ').slice(0, 480));
     params.set('metadata[total]', `${total} CHF`);
 
