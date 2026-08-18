@@ -58,6 +58,7 @@ Consent Mode v2) + contrat SEO bloquant dans la CI.
 | `functions/api/confirm.js` | `FORM_MAILTO` | idem |
 | `src/components/ContactForm.astro` | `TURNSTILE_SITE_KEY` (publique), `_subject` | `0x4AAAA…` |
 | `src/layouts/Base.astro` | nom/logo (« Fluiid »), tagline, footer, clés localStorage | « MonMédia », `mm_consent_v1` |
+| `src/pages/contact/index.astro` | `TITLE`/`DESC`/`CANONICAL` (page formulaire incluse dans le modèle) | `https://mondomaine.ch/contact/` |
 | Pages légales (`mentions-legales`, `confidentialite`, `cgv`, `plan-du-site`) | `CANONICAL` + nom de l'éditeur dans `DESC`/texte | `https://mondomaine.ch/cgv/` |
 
 > Les fallbacks `https://fluiid.ch` dans `index.astro`, `[slug].astro`, `page/[page].astro`,
