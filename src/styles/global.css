@@ -64,7 +64,7 @@ a { color: inherit; }
   letter-spacing: -0.5px; color: var(--ink); text-decoration: none; line-height: 1.1;
 }
 
-/* Navigation rubriques — sticky, scroll horizontal sur mobile */
+/* Navigation rubriques — sticky ; menu burger sur mobile, barre sur desktop */
 .header-nav {
   position: sticky; top: 0; z-index: 50; background: var(--bg);
   border-bottom: 2px solid var(--ink);
@@ -83,6 +83,40 @@ a { color: inherit; }
 }
 .nav-inner a:hover { color: var(--accent); }
 .nav-inner a.is-active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Bouton burger (mobile uniquement) */
+.nav-toggle {
+  display: none;
+}
+@media (max-width: 899.98px) {
+  .header-nav { display: flex; align-items: center; }
+  .nav-toggle {
+    display: inline-flex; flex-direction: column; justify-content: center; align-items: center;
+    gap: 5px; width: 48px; height: 48px; flex: 0 0 auto;
+    background: none; border: none; cursor: pointer; padding: 0;
+  }
+  .nav-toggle-bar {
+    display: block; width: 22px; height: 2px; background: var(--ink);
+    transition: transform 0.25s ease, opacity 0.2s ease;
+  }
+  .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2) { opacity: 0; }
+  .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  /* Panneau déroulant plein écran */
+  .nav-inner {
+    position: absolute; top: 100%; left: 0; width: 100%;
+    flex-direction: column; align-items: stretch; gap: 0;
+    max-height: 0; overflow: hidden;
+    background: var(--bg); border-bottom: 2px solid var(--ink);
+    box-shadow: 0 16px 28px rgba(0, 0, 0, 0.14);
+    transition: max-height 0.3s ease;
+  }
+  .header-nav.is-open .nav-inner { max-height: calc(100vh - 60px); overflow-y: auto; }
+  .nav-inner a {
+    border-top: 1px solid var(--border); border-bottom: none;
+    padding: 15px 24px; font-size: 15px; min-height: 50px;
+  }
+}
 
 /* ============ MAIN ============ */
 

@@ -43,7 +43,11 @@ export function getFeaturedImage(post) {
 }
 
 // Image à la une avec taille adaptée + dimensions (CLS-safe)
-export function getImageMeta(post, size = 'medium_large') {
+// Fallback : si l'article n'a pas d'image, prend celle d'un article de la même rubrique
+// (le plus récent), pour ne jamais afficher de carte sans visuel.
+const _imageCache = new Map();
+
+function imageMetaOf(post, size) {
   const media = post._embedded?.['wp:featuredmedia']?.[0];
   const sizes = media?.media_details?.sizes ?? {};
   const pick = sizes[size] ?? sizes.large ?? sizes.full ?? {};
@@ -54,6 +58,20 @@ export function getImageMeta(post, size = 'medium_large') {
     alt: media?.alt_text ?? '',
     caption: media?.caption?.rendered ?? '',
   };
+}
+
+export function getImageMeta(post, size = 'medium_large') {
+  const meta = imageMetaOf(post, size);
+  if (meta.src) return meta;
+  const cats = getPostCategories(post);
+  const key = cats.map((c) => c.id).sort((a, b) => a - b).join(',') || 'aucune';
+  if (!_imageCache.has(key)) {
+    const source = getPosts().find(
+      (p) => p.slug !== post.slug && getPostCategories(p).some((pc) => cats.some((c) => c.id === pc.id)) && imageMetaOf(p, size).src
+    );
+    _imageCache.set(key, source ? imageMetaOf(source, size) : { src: '', width: null, height: null, alt: '', caption: '' });
+  }
+  return _imageCache.get(key);
 }
 
 export function getImageSrc(post, size = 'medium_large') {

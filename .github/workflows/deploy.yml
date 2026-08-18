@@ -26,13 +26,11 @@ jobs:
         run: npm run fetch:wp
 
       - name: Build static site
-        # ⚠️ PRÉVERSION : retirer NOINDEX=1 au moment de la bascule en production
-        run: NOINDEX=1 npm run build
+        run: npm run build
 
       - name: SEO contract (bloquant)
-        # ⚠️ PRÉVERSION : retirer --allow-noindex au moment de la bascule en production
         run: |
-          python3 scripts/seo_contract.py data/audit_fluiid.json dist --posts data/wp/posts.json --allow-noindex
+          python3 scripts/seo_contract.py data/audit_fluiid.json dist --posts data/wp/posts.json
 
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy dist --project-name fluiid --branch main

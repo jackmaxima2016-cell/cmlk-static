@@ -83,7 +83,12 @@ const today = new Date().toLocaleDateString('fr-FR', {
           <a class="logo" href="/">Fluiid</a>
         </div>
       </div>
-      <nav class="header-nav" aria-label="Rubriques">
+      <nav class="header-nav" id="nav-menu" aria-label="Rubriques">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
         <div class="container nav-inner">
           <a href="/">Accueil</a>
           {topCats.map((c) => (
@@ -120,5 +125,24 @@ const today = new Date().toLocaleDateString('fr-FR', {
         </div>
       </div>
     </footer>
+    <script>
+      // Menu burger mobile : ouverture/fermeture + accessibilité
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+      if (navToggle && navMenu) {
+        const close = () => {
+          navMenu.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        };
+        navToggle.addEventListener('click', () => {
+          const open = navMenu.classList.toggle('is-open');
+          navToggle.setAttribute('aria-expanded', String(open));
+        });
+        navMenu.querySelectorAll('a').forEach((a) => a.addEventListener('click', close));
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') close();
+        });
+      }
+    </script>
   </body>
 </html>
