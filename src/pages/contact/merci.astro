@@ -52,7 +52,7 @@ const DESC = "Confirmation de votre demande de publication";
   const sid = new URLSearchParams(location.search).get('session_id');
 
   const setPending = () => {
-    status.textContent = 'Confirmation en cours — vous recevrez un e-mail de notre équipe à info@fluiid.ch si besoin.';
+    status.textContent = 'Confirmation en cours — vous recevrez les détails de votre commande sur votre e-mail.';
   };
 
   if (sid) {

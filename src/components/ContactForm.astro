@@ -5,7 +5,6 @@
 // anti-bot Turnstile vérifié par la Pages Function /api/contact → FormSubmit.
 import { getCategories, decodeEntities } from '../lib/wp.mjs';
 
-const MAILTO = 'info@fluiid.ch';
 // Site key Turnstile (publique — sans danger dans le code)
 const TURNSTILE_SITE_KEY = '0x4AAAAAAETjkjCYOZ1SXxyR';
 
@@ -258,7 +257,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       <h4>📦 Livraison de votre publication</h4>
       <ol>
         <li><strong>Paiement sécurisé</strong> — carte bancaire (Stripe), reçu immédiat.</li>
-        <li><strong>Confirmation par email</strong> — votre commande et le calendrier prévu (info@fluiid.ch).</li>
+        <li><strong>Confirmation par email</strong> — vous recevrez les détails de votre commande et le calendrier prévu sur votre e-mail.</li>
         <li><strong>Rédaction &amp; validation</strong> — délai selon le pack : 24&nbsp;h (Impact), 48&nbsp;h (Premium), 5 jours (Standard), 7 jours (Essentiel).</li>
         <li><strong>Publication</strong> — l'article paraît dans la rubrique choisie, avec vos liens.</li>
         <li><strong>Lien de livraison</strong> — vous recevez l'URL de votre publication, prête à partager.</li>
@@ -638,7 +637,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     } catch (err) {
       const msg = err.message || '';
       if (/anti-robot|vérification/i.test(msg) && window.turnstile) window.turnstile.reset();
-      showStatus(`${msg} — Vous pouvez aussi écrire à info@fluiid.ch.`, true);
+      showStatus(`${msg} — Vous recevrez les détails sur votre e-mail.`, true);
       btnNext.disabled = false;
       btnNext.textContent = 'Commander ma publication';
     }

@@ -71,6 +71,27 @@ const today = new Date().toLocaleDateString('fr-FR', {
     {jsonLd.map((block) => <script type="application/ld+json" set:html={JSON.stringify(block)} />)}
   </head>
   <body>
+    <!-- Bandeau promo coulissant (sticky, tout en haut de chaque page) -->
+    <div class="promo-ticker" aria-label="Offre spéciale — publications sponsorisées">
+      <div class="promo-ticker-track">
+        <a class="promo-ticker-item" href="/contact/">📢 Investissez dans une publication : le tremplin décisif pour le succès de votre entreprise</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">🔥 −40&nbsp;% sur tous les packs — offre de lancement</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">⏳ Offre limitée — publication sous 24&nbsp;h, liens SEO vers votre site</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">👉 Commander maintenant</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">📢 Investissez dans une publication : le tremplin décisif pour le succès de votre entreprise</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">🔥 −40&nbsp;% sur tous les packs — offre de lancement</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">⏳ Offre limitée — publication sous 24&nbsp;h, liens SEO vers votre site</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+        <a class="promo-ticker-item" href="/contact/">👉 Commander maintenant</a>
+        <span class="promo-ticker-sep" aria-hidden="true">✦</span>
+      </div>
+    </div>
     <header class="site-header">
       <div class="header-top">
         <div class="container header-top-inner">
@@ -83,22 +104,21 @@ const today = new Date().toLocaleDateString('fr-FR', {
           <a class="logo" href="/">Fluiid</a>
         </div>
       </div>
-      <nav class="header-nav" id="nav-menu" aria-label="Rubriques">
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-        </button>
-        <div class="container nav-inner">
-          <a href="/">Accueil</a>
-          {topCats.map((c) => (
-            <a href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a>
-          ))}
-          <a href="/contact/">Contact</a>
-        </div>
-      </nav>
     </header>
-    <slot name="ticker" />
+    <nav class="header-nav" id="nav-menu" aria-label="Rubriques">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <div class="container nav-inner">
+        <a href="/">Accueil</a>
+        {topCats.map((c) => (
+          <a href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a>
+        ))}
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
     <main class="container">
       <slot />
     </main>

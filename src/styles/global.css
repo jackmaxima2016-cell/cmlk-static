@@ -66,7 +66,7 @@ a { color: inherit; }
 
 /* Navigation rubriques — sticky ; menu burger sur mobile, barre sur desktop */
 .header-nav {
-  position: sticky; top: 0; z-index: 50; background: var(--bg);
+  position: sticky; top: 42px; z-index: 50; background: var(--bg);
   border-bottom: 2px solid var(--ink);
 }
 .nav-inner {
@@ -377,6 +377,7 @@ main { padding: 20px 0 64px; }
 
 /* ---- Bandeau coulissant promo (accueil, style e-commerce) ---- */
 .promo-ticker {
+  position: sticky; top: 0; z-index: 60; height: 42px;
   overflow: hidden; width: 100%;
   background: linear-gradient(90deg, #c40000, #e60000);
   color: #fff;
