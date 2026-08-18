@@ -14,14 +14,34 @@ const BASE = (process.env.WP_BASE || process.argv[2] || 'https://fluiid.ch').rep
 const OUT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'wp');
 fs.mkdirSync(OUT, { recursive: true });
 
-const UA = 'Mozilla/5.0 (compatible; HermesMigration/1.0)';
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+
+// GET avec 3 tentatives + backoff (les runners cloud peuvent être rate-limités)
+async function fetchRetry(url, attempts = 3) {
+  let lastErr;
+  for (let i = 1; i <= attempts; i++) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': UA, 'Accept': 'application/json' },
+        signal: AbortSignal.timeout(30000),
+      });
+      if (res.ok) return res;
+      lastErr = new Error(`HTTP ${res.status}`);
+    } catch (err) {
+      lastErr = err;
+    }
+    console.warn(`  [retry ${i}/${attempts}] ${url.split('/wp-json')[1]} -> ${lastErr.message}`);
+    await new Promise((r) => setTimeout(r, 2000 * i));
+  }
+  throw lastErr;
+}
 
 async function getAll(endpoint, perPage = 100) {
   const items = [];
   let page = 1;
   for (;;) {
     const url = `${BASE}/wp-json/wp/v2/${endpoint}?per_page=${perPage}&page=${page}&_embed`;
-    const res = await fetch(url, { headers: { 'User-Agent': UA } });
+    const res = await fetchRetry(url);
     if (!res.ok) {
       console.warn(`  [warn] ${endpoint} page ${page} -> HTTP ${res.status}`);
       break;
