@@ -290,7 +290,8 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   /* ---- Progression ---- */
   .progress-wrap { margin-bottom: 22px; }
   .progress-steps { list-style: none; display: flex; gap: 4px; margin: 0 0 10px; padding: 0; min-width: 0; }
-  .progress-step { display: flex; align-items: center; gap: 7px; flex: 1 1 0; min-width: 0; font-size: 12.5px; font-weight: 600; color: #555; }
+  .progress-step { display: flex; align-items: center; gap: 7px; flex: 1 1 0; min-width: 0; font-size: 12.5px; font-weight: 600; color: #555; cursor: pointer; transition: opacity 0.15s ease; }
+  .progress-step:hover { opacity: 0.8; }
   .progress-step.is-active { color: #111; font-weight: 800; }
   .p-num {
     display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto;
@@ -584,6 +585,21 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   };
 
   btnPrev.addEventListener('click', () => { if (currentStep > 1) goToStep(currentStep - 1); });
+
+  /* ---------- Numéros d'étapes cliquables ---------- */
+  steps.forEach((s, i) => {
+    s.setAttribute('role', 'button');
+    s.setAttribute('tabindex', '0');
+    s.addEventListener('click', () => {
+      const target = i + 1;
+      if (target === currentStep) return;
+      if (target < currentStep) { goToStep(target); return; }
+      if (validatePanel(currentStep)) goToStep(target); // étape suivante : valider le panneau courant d'abord
+    });
+    s.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); s.click(); }
+    });
+  });
 
   form.addEventListener('submit', async (e) => {
     if (currentStep < 4) {

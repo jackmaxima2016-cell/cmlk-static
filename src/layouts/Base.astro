@@ -91,6 +91,9 @@ const today = new Date().toLocaleDateString('fr-FR', {
         <a class="promo-ticker-item" href="/contact/">👉 Commander maintenant</a>
         <span class="promo-ticker-sep" aria-hidden="true">✦</span>
       </div>
+      <span class="ticker-countdown" role="timer" aria-label="Fin de l'offre dans">
+        ⏳ <strong id="ticker-countdown">15:00</strong>
+      </span>
     </div>
     <header class="site-header">
       <div class="header-top">
@@ -189,6 +192,27 @@ const today = new Date().toLocaleDateString('fr-FR', {
         document.addEventListener('keydown', (e) => {
           if (e.key === 'Escape') setDrop(false);
         });
+      }
+      // Compte à rebours promo dans le bandeau (même minuteur que le formulaire)
+      const tickerCd = document.getElementById('ticker-countdown');
+      if (tickerCd) {
+        const PKEY = 'fluiid_promo_v1';
+        const PMS = 15 * 60 * 1000;
+        let premain = PMS;
+        try {
+          const stored = parseInt(localStorage.getItem(PKEY), 10) || 0;
+          const now = Date.now();
+          if (!stored || now - stored >= PMS) { localStorage.setItem(PKEY, String(now)); premain = PMS; }
+          else premain = PMS - (now - stored);
+        } catch (e) { premain = PMS; }
+        const pfmt = (ms) => `${String(Math.floor(ms / 60000)).padStart(2, '0')}:${String(Math.floor((ms % 60000) / 1000)).padStart(2, '0')}`;
+        const ptick = () => {
+          if (premain <= 0) { tickerCd.textContent = '00:00'; return; }
+          tickerCd.textContent = pfmt(premain);
+          premain -= 1000;
+        };
+        ptick();
+        setInterval(ptick, 1000);
       }
     </script>
   </body>
