@@ -1,0 +1,4446 @@
+[
+ {
+  "id": 19,
+  "count": 3,
+  "description": "",
+  "link": "https://fluiid.ch/actualite/",
+  "name": "actualité",
+  "slug": "actualite",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des actualité - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des actualité - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/actualite/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/actualite\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/actualite\\/\",\"name\":\"Archives des actualité - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/actualite\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/actualite\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"actualité\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des actualité - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des actualité - Fluiid",
+   "og_url": "https://fluiid.ch/actualite/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/actualite/",
+      "url": "https://fluiid.ch/actualite/",
+      "name": "Archives des actualité - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/actualite/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/actualite/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "actualité"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/19",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=19"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 12,
+  "count": 3,
+  "description": "",
+  "link": "https://fluiid.ch/art-et-culture/",
+  "name": "art et culture",
+  "slug": "art-et-culture",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des art et culture - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des art et culture - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/art-et-culture/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/art-et-culture\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/art-et-culture\\/\",\"name\":\"Archives des art et culture - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/art-et-culture\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/art-et-culture\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"art et culture\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des art et culture - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des art et culture - Fluiid",
+   "og_url": "https://fluiid.ch/art-et-culture/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/art-et-culture/",
+      "url": "https://fluiid.ch/art-et-culture/",
+      "name": "Archives des art et culture - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/art-et-culture/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/art-et-culture/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "art et culture"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/12",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=12"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 51,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/assurance/",
+  "name": "assurance",
+  "slug": "assurance",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des assurance - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des assurance - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/assurance/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/assurance\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/assurance\\/\",\"name\":\"Archives des assurance - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/assurance\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/assurance\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"assurance\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des assurance - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des assurance - Fluiid",
+   "og_url": "https://fluiid.ch/assurance/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/assurance/",
+      "url": "https://fluiid.ch/assurance/",
+      "name": "Archives des assurance - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/assurance/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/assurance/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "assurance"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/51",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=51"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 29,
+  "count": 3,
+  "description": "",
+  "link": "https://fluiid.ch/automobile/",
+  "name": "automobile",
+  "slug": "automobile",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des automobile - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des automobile - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/automobile/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/automobile\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/automobile\\/\",\"name\":\"Archives des automobile - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/automobile\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/automobile\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"automobile\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des automobile - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des automobile - Fluiid",
+   "og_url": "https://fluiid.ch/automobile/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/automobile/",
+      "url": "https://fluiid.ch/automobile/",
+      "name": "Archives des automobile - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/automobile/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/automobile/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "automobile"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/29",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=29"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 75,
+  "count": 16,
+  "description": "",
+  "link": "https://fluiid.ch/services/avocat/",
+  "name": "Avocat",
+  "slug": "avocat",
+  "taxonomy": "category",
+  "parent": 55,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des Avocat - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des Avocat - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/services/avocat/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/avocat\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/services\\/avocat\\/\",\"name\":\"Archives des Avocat - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/avocat\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/avocat\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"services\",\"item\":\"https:\\/\\/fluiid.ch\\/services\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Avocat\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des Avocat - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des Avocat - Fluiid",
+   "og_url": "https://fluiid.ch/services/avocat/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/services/avocat/",
+      "url": "https://fluiid.ch/services/avocat/",
+      "name": "Archives des Avocat - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/services/avocat/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/services/avocat/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "services",
+        "item": "https://fluiid.ch/services/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Avocat"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/75",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "up": [
+    {
+     "embeddable": true,
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/55"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=75"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "up": [
+    {
+     "id": 55,
+     "link": "https://fluiid.ch/services/",
+     "name": "services",
+     "slug": "services",
+     "taxonomy": "category",
+     "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des services - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des services - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/services/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/services\\/\",\"name\":\"Archives des services - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"services\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+     "yoast_head_json": {
+      "title": "Archives des services - Fluiid",
+      "robots": {
+       "index": "noindex",
+       "follow": "follow"
+      },
+      "og_locale": "fr_FR",
+      "og_type": "article",
+      "og_title": "Archives des services - Fluiid",
+      "og_url": "https://fluiid.ch/services/",
+      "og_site_name": "Fluiid",
+      "twitter_card": "summary_large_image",
+      "schema": {
+       "@context": "https://schema.org",
+       "@graph": [
+        {
+         "@type": "CollectionPage",
+         "@id": "https://fluiid.ch/services/",
+         "url": "https://fluiid.ch/services/",
+         "name": "Archives des services - Fluiid",
+         "isPartOf": {
+          "@id": "https://fluiid.ch/#website"
+         },
+         "breadcrumb": {
+          "@id": "https://fluiid.ch/services/#breadcrumb"
+         },
+         "inLanguage": "fr-FR"
+        },
+        {
+         "@type": "BreadcrumbList",
+         "@id": "https://fluiid.ch/services/#breadcrumb",
+         "itemListElement": [
+          {
+           "@type": "ListItem",
+           "position": 1,
+           "name": "Accueil",
+           "item": "https://fluiid.ch/"
+          },
+          {
+           "@type": "ListItem",
+           "position": 2,
+           "name": "services"
+          }
+         ]
+        },
+        {
+         "@type": "WebSite",
+         "@id": "https://fluiid.ch/#website",
+         "url": "https://fluiid.ch/",
+         "name": "Fluiid",
+         "description": "Le site de l&#039;actualité en Europe et dans le monde",
+         "potentialAction": [
+          {
+           "@type": "SearchAction",
+           "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+           },
+           "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+           }
+          }
+         ],
+         "inLanguage": "fr-FR"
+        }
+       ]
+      }
+     },
+     "_links": {
+      "self": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/categories/55",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+       }
+      ],
+      "about": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+       }
+      ],
+      "wp:post_type": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=55"
+       }
+      ],
+      "curies": [
+       {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": 6,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/beaute/",
+  "name": "beauté",
+  "slug": "beaute",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des beauté - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des beauté - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/beaute/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/beaute\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/beaute\\/\",\"name\":\"Archives des beauté - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/beaute\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/beaute\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"beauté\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des beauté - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des beauté - Fluiid",
+   "og_url": "https://fluiid.ch/beaute/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/beaute/",
+      "url": "https://fluiid.ch/beaute/",
+      "name": "Archives des beauté - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/beaute/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/beaute/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "beauté"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/6",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=6"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 10,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/bebe/",
+  "name": "bebe",
+  "slug": "bebe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des bebe - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des bebe - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/bebe/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/bebe\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/bebe\\/\",\"name\":\"Archives des bebe - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/bebe\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/bebe\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"bebe\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des bebe - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des bebe - Fluiid",
+   "og_url": "https://fluiid.ch/bebe/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/bebe/",
+      "url": "https://fluiid.ch/bebe/",
+      "name": "Archives des bebe - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/bebe/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/bebe/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "bebe"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/10",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=10"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 74,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/sante/cbd/",
+  "name": "CBD",
+  "slug": "cbd",
+  "taxonomy": "category",
+  "parent": 7,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des CBD - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des CBD - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/sante/cbd/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/cbd\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/sante\\/cbd\\/\",\"name\":\"Archives des CBD - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/cbd\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/cbd\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"santé\",\"item\":\"https:\\/\\/fluiid.ch\\/sante\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"CBD\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des CBD - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des CBD - Fluiid",
+   "og_url": "https://fluiid.ch/sante/cbd/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/sante/cbd/",
+      "url": "https://fluiid.ch/sante/cbd/",
+      "name": "Archives des CBD - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/sante/cbd/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/sante/cbd/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "santé",
+        "item": "https://fluiid.ch/sante/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "CBD"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/74",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "up": [
+    {
+     "embeddable": true,
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/7"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=74"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "up": [
+    {
+     "id": 7,
+     "link": "https://fluiid.ch/sante/",
+     "name": "santé",
+     "slug": "sante",
+     "taxonomy": "category",
+     "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des santé - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des santé - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/sante/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/sante\\/\",\"name\":\"Archives des santé - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"santé\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+     "yoast_head_json": {
+      "title": "Archives des santé - Fluiid",
+      "robots": {
+       "index": "noindex",
+       "follow": "follow"
+      },
+      "og_locale": "fr_FR",
+      "og_type": "article",
+      "og_title": "Archives des santé - Fluiid",
+      "og_url": "https://fluiid.ch/sante/",
+      "og_site_name": "Fluiid",
+      "twitter_card": "summary_large_image",
+      "schema": {
+       "@context": "https://schema.org",
+       "@graph": [
+        {
+         "@type": "CollectionPage",
+         "@id": "https://fluiid.ch/sante/",
+         "url": "https://fluiid.ch/sante/",
+         "name": "Archives des santé - Fluiid",
+         "isPartOf": {
+          "@id": "https://fluiid.ch/#website"
+         },
+         "breadcrumb": {
+          "@id": "https://fluiid.ch/sante/#breadcrumb"
+         },
+         "inLanguage": "fr-FR"
+        },
+        {
+         "@type": "BreadcrumbList",
+         "@id": "https://fluiid.ch/sante/#breadcrumb",
+         "itemListElement": [
+          {
+           "@type": "ListItem",
+           "position": 1,
+           "name": "Accueil",
+           "item": "https://fluiid.ch/"
+          },
+          {
+           "@type": "ListItem",
+           "position": 2,
+           "name": "santé"
+          }
+         ]
+        },
+        {
+         "@type": "WebSite",
+         "@id": "https://fluiid.ch/#website",
+         "url": "https://fluiid.ch/",
+         "name": "Fluiid",
+         "description": "Le site de l&#039;actualité en Europe et dans le monde",
+         "potentialAction": [
+          {
+           "@type": "SearchAction",
+           "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+           },
+           "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+           }
+          }
+         ],
+         "inLanguage": "fr-FR"
+        }
+       ]
+      }
+     },
+     "_links": {
+      "self": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/categories/7",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+       }
+      ],
+      "about": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+       }
+      ],
+      "wp:post_type": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=7"
+       }
+      ],
+      "curies": [
+       {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": 14,
+  "count": 0,
+  "description": "",
+  "link": "https://fluiid.ch/emploie/",
+  "name": "emploie",
+  "slug": "emploie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des emploie - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des emploie - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/emploie/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/emploie\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/emploie\\/\",\"name\":\"Archives des emploie - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/emploie\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/emploie\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"emploie\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des emploie - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des emploie - Fluiid",
+   "og_url": "https://fluiid.ch/emploie/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/emploie/",
+      "url": "https://fluiid.ch/emploie/",
+      "name": "Archives des emploie - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/emploie/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/emploie/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "emploie"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/14",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=14"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 25,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/evenementiel/",
+  "name": "evenementiel",
+  "slug": "evenementiel",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des evenementiel - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des evenementiel - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/evenementiel/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/evenementiel\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/evenementiel\\/\",\"name\":\"Archives des evenementiel - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/evenementiel\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/evenementiel\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"evenementiel\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des evenementiel - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des evenementiel - Fluiid",
+   "og_url": "https://fluiid.ch/evenementiel/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/evenementiel/",
+      "url": "https://fluiid.ch/evenementiel/",
+      "name": "Archives des evenementiel - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/evenementiel/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/evenementiel/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "evenementiel"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/25",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=25"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 11,
+  "count": 3,
+  "description": "",
+  "link": "https://fluiid.ch/famille/",
+  "name": "famille",
+  "slug": "famille",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des famille - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des famille - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/famille/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/famille\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/famille\\/\",\"name\":\"Archives des famille - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/famille\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/famille\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"famille\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des famille - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des famille - Fluiid",
+   "og_url": "https://fluiid.ch/famille/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/famille/",
+      "url": "https://fluiid.ch/famille/",
+      "name": "Archives des famille - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/famille/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/famille/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "famille"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/11",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=11"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 16,
+  "count": 9,
+  "description": "",
+  "link": "https://fluiid.ch/finance/",
+  "name": "finance",
+  "slug": "finance",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des finance - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des finance - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/finance/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/finance\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/finance\\/\",\"name\":\"Archives des finance - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/finance\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/finance\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"finance\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des finance - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des finance - Fluiid",
+   "og_url": "https://fluiid.ch/finance/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/finance/",
+      "url": "https://fluiid.ch/finance/",
+      "name": "Archives des finance - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/finance/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/finance/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "finance"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/16",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=16"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 79,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/fluiidvoice/",
+  "name": "FLUIIDVOICE",
+  "slug": "fluiidvoice",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des FLUIIDVOICE - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des FLUIIDVOICE - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/fluiidvoice/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/fluiidvoice\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/fluiidvoice\\/\",\"name\":\"Archives des FLUIIDVOICE - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/fluiidvoice\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/fluiidvoice\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"FLUIIDVOICE\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des FLUIIDVOICE - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des FLUIIDVOICE - Fluiid",
+   "og_url": "https://fluiid.ch/fluiidvoice/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/fluiidvoice/",
+      "url": "https://fluiid.ch/fluiidvoice/",
+      "name": "Archives des FLUIIDVOICE - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/fluiidvoice/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/fluiidvoice/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FLUIIDVOICE"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/79",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=79"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3,
+  "count": 4,
+  "description": "",
+  "link": "https://fluiid.ch/gastronomie/",
+  "name": "gastronomie",
+  "slug": "gastronomie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des gastronomie - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des gastronomie - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/gastronomie/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/gastronomie\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/gastronomie\\/\",\"name\":\"Archives des gastronomie - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/gastronomie\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/gastronomie\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"gastronomie\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des gastronomie - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des gastronomie - Fluiid",
+   "og_url": "https://fluiid.ch/gastronomie/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/gastronomie/",
+      "url": "https://fluiid.ch/gastronomie/",
+      "name": "Archives des gastronomie - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/gastronomie/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/gastronomie/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "gastronomie"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/3",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=3"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 22,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/immobilier/",
+  "name": "immobilier",
+  "slug": "immobilier",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des immobilier - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des immobilier - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/immobilier/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/immobilier\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/immobilier\\/\",\"name\":\"Archives des immobilier - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/immobilier\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/immobilier\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"immobilier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des immobilier - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des immobilier - Fluiid",
+   "og_url": "https://fluiid.ch/immobilier/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/immobilier/",
+      "url": "https://fluiid.ch/immobilier/",
+      "name": "Archives des immobilier - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/immobilier/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/immobilier/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "immobilier"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/22",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=22"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 5,
+  "count": 8,
+  "description": "",
+  "link": "https://fluiid.ch/informatique/",
+  "name": "informatique",
+  "slug": "informatique",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des informatique - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des informatique - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/informatique/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/informatique\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/informatique\\/\",\"name\":\"Archives des informatique - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/informatique\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/informatique\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"informatique\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des informatique - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des informatique - Fluiid",
+   "og_url": "https://fluiid.ch/informatique/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/informatique/",
+      "url": "https://fluiid.ch/informatique/",
+      "name": "Archives des informatique - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/informatique/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/informatique/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "informatique"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/5",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=5"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 76,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/services/location-jet-privee/",
+  "name": "Location Jet privée",
+  "slug": "location-jet-privee",
+  "taxonomy": "category",
+  "parent": 55,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des Location Jet privée - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des Location Jet privée - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/services/location-jet-privee/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/location-jet-privee\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/services\\/location-jet-privee\\/\",\"name\":\"Archives des Location Jet privée - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/location-jet-privee\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/location-jet-privee\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"services\",\"item\":\"https:\\/\\/fluiid.ch\\/services\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Location Jet privée\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des Location Jet privée - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des Location Jet privée - Fluiid",
+   "og_url": "https://fluiid.ch/services/location-jet-privee/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/services/location-jet-privee/",
+      "url": "https://fluiid.ch/services/location-jet-privee/",
+      "name": "Archives des Location Jet privée - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/services/location-jet-privee/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/services/location-jet-privee/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "services",
+        "item": "https://fluiid.ch/services/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Location Jet privée"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/76",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "up": [
+    {
+     "embeddable": true,
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/55"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=76"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "up": [
+    {
+     "id": 55,
+     "link": "https://fluiid.ch/services/",
+     "name": "services",
+     "slug": "services",
+     "taxonomy": "category",
+     "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des services - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des services - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/services/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/services\\/\",\"name\":\"Archives des services - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"services\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+     "yoast_head_json": {
+      "title": "Archives des services - Fluiid",
+      "robots": {
+       "index": "noindex",
+       "follow": "follow"
+      },
+      "og_locale": "fr_FR",
+      "og_type": "article",
+      "og_title": "Archives des services - Fluiid",
+      "og_url": "https://fluiid.ch/services/",
+      "og_site_name": "Fluiid",
+      "twitter_card": "summary_large_image",
+      "schema": {
+       "@context": "https://schema.org",
+       "@graph": [
+        {
+         "@type": "CollectionPage",
+         "@id": "https://fluiid.ch/services/",
+         "url": "https://fluiid.ch/services/",
+         "name": "Archives des services - Fluiid",
+         "isPartOf": {
+          "@id": "https://fluiid.ch/#website"
+         },
+         "breadcrumb": {
+          "@id": "https://fluiid.ch/services/#breadcrumb"
+         },
+         "inLanguage": "fr-FR"
+        },
+        {
+         "@type": "BreadcrumbList",
+         "@id": "https://fluiid.ch/services/#breadcrumb",
+         "itemListElement": [
+          {
+           "@type": "ListItem",
+           "position": 1,
+           "name": "Accueil",
+           "item": "https://fluiid.ch/"
+          },
+          {
+           "@type": "ListItem",
+           "position": 2,
+           "name": "services"
+          }
+         ]
+        },
+        {
+         "@type": "WebSite",
+         "@id": "https://fluiid.ch/#website",
+         "url": "https://fluiid.ch/",
+         "name": "Fluiid",
+         "description": "Le site de l&#039;actualité en Europe et dans le monde",
+         "potentialAction": [
+          {
+           "@type": "SearchAction",
+           "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+           },
+           "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+           }
+          }
+         ],
+         "inLanguage": "fr-FR"
+        }
+       ]
+      }
+     },
+     "_links": {
+      "self": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/categories/55",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+       }
+      ],
+      "about": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+       }
+      ],
+      "wp:post_type": [
+       {
+        "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=55"
+       }
+      ],
+      "curies": [
+       {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": 8,
+  "count": 17,
+  "description": "",
+  "link": "https://fluiid.ch/maison/",
+  "name": "maison",
+  "slug": "maison",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des maison - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des maison - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/maison/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/maison\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/maison\\/\",\"name\":\"Archives des maison - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/maison\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/maison\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"maison\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des maison - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des maison - Fluiid",
+   "og_url": "https://fluiid.ch/maison/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/maison/",
+      "url": "https://fluiid.ch/maison/",
+      "name": "Archives des maison - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/maison/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/maison/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "maison"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/8",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=8"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 18,
+  "count": 2,
+  "description": "",
+  "link": "https://fluiid.ch/marketing/",
+  "name": "marketing",
+  "slug": "marketing",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des marketing - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des marketing - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/marketing/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/marketing\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/marketing\\/\",\"name\":\"Archives des marketing - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/marketing\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/marketing\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"marketing\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des marketing - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des marketing - Fluiid",
+   "og_url": "https://fluiid.ch/marketing/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/marketing/",
+      "url": "https://fluiid.ch/marketing/",
+      "name": "Archives des marketing - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/marketing/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/18",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=18"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 20,
+  "count": 3,
+  "description": "",
+  "link": "https://fluiid.ch/mode/",
+  "name": "mode",
+  "slug": "mode",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des mode - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des mode - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/mode/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/mode\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/mode\\/\",\"name\":\"Archives des mode - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/mode\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/mode\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"mode\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des mode - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des mode - Fluiid",
+   "og_url": "https://fluiid.ch/mode/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/mode/",
+      "url": "https://fluiid.ch/mode/",
+      "name": "Archives des mode - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/mode/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/mode/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "mode"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/20",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=20"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/non-classe/",
+  "name": "Non classé",
+  "slug": "non-classe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des Non classé - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des Non classé - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/non-classe/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/non-classe\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/non-classe\\/\",\"name\":\"Archives des Non classé - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/non-classe\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/non-classe\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Non classé\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des Non classé - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des Non classé - Fluiid",
+   "og_url": "https://fluiid.ch/non-classe/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/non-classe/",
+      "url": "https://fluiid.ch/non-classe/",
+      "name": "Archives des Non classé - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/non-classe/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/non-classe/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Non classé"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/1",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=1"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 56,
+  "count": 2,
+  "description": "",
+  "link": "https://fluiid.ch/nutrition/",
+  "name": "Nutrition",
+  "slug": "nutrition",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des Nutrition - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des Nutrition - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/nutrition/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/nutrition\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/nutrition\\/\",\"name\":\"Archives des Nutrition - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/nutrition\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/nutrition\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Nutrition\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des Nutrition - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des Nutrition - Fluiid",
+   "og_url": "https://fluiid.ch/nutrition/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/nutrition/",
+      "url": "https://fluiid.ch/nutrition/",
+      "name": "Archives des Nutrition - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/nutrition/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/nutrition/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nutrition"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/56",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=56"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 21,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/photographie/",
+  "name": "photographie",
+  "slug": "photographie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des photographie - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des photographie - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/photographie/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/photographie\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/photographie\\/\",\"name\":\"Archives des photographie - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/photographie\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/photographie\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"photographie\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des photographie - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des photographie - Fluiid",
+   "og_url": "https://fluiid.ch/photographie/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/photographie/",
+      "url": "https://fluiid.ch/photographie/",
+      "name": "Archives des photographie - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/photographie/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/photographie/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "photographie"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/21",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=21"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 54,
+  "count": 5,
+  "description": "",
+  "link": "https://fluiid.ch/rencontres/",
+  "name": "rencontres",
+  "slug": "rencontres",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des rencontres - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des rencontres - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/rencontres/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/rencontres\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/rencontres\\/\",\"name\":\"Archives des rencontres - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/rencontres\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/rencontres\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"rencontres\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des rencontres - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des rencontres - Fluiid",
+   "og_url": "https://fluiid.ch/rencontres/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/rencontres/",
+      "url": "https://fluiid.ch/rencontres/",
+      "name": "Archives des rencontres - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/rencontres/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/rencontres/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "rencontres"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/54",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=54"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 23,
+  "count": 2,
+  "description": "",
+  "link": "https://fluiid.ch/retraite/",
+  "name": "retraite",
+  "slug": "retraite",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des retraite - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des retraite - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/retraite/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/retraite\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/retraite\\/\",\"name\":\"Archives des retraite - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/retraite\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/retraite\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"retraite\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des retraite - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des retraite - Fluiid",
+   "og_url": "https://fluiid.ch/retraite/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/retraite/",
+      "url": "https://fluiid.ch/retraite/",
+      "name": "Archives des retraite - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/retraite/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/retraite/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "retraite"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/23",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=23"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 53,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/sante-2/",
+  "name": "sante",
+  "slug": "sante-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des sante - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des sante - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/sante-2/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante-2\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/sante-2\\/\",\"name\":\"Archives des sante - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/sante-2\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante-2\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"sante\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des sante - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des sante - Fluiid",
+   "og_url": "https://fluiid.ch/sante-2/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/sante-2/",
+      "url": "https://fluiid.ch/sante-2/",
+      "name": "Archives des sante - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/sante-2/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/sante-2/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "sante"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/53",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=53"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 7,
+  "count": 8,
+  "description": "",
+  "link": "https://fluiid.ch/sante/",
+  "name": "santé",
+  "slug": "sante",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des santé - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des santé - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/sante/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/sante\\/\",\"name\":\"Archives des santé - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/sante\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"santé\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des santé - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des santé - Fluiid",
+   "og_url": "https://fluiid.ch/sante/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/sante/",
+      "url": "https://fluiid.ch/sante/",
+      "name": "Archives des santé - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/sante/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/sante/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "santé"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/7",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=7"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 17,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/seo/",
+  "name": "seo",
+  "slug": "seo",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des seo - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des seo - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/seo/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/seo\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/seo\\/\",\"name\":\"Archives des seo - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/seo\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/seo\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"seo\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des seo - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des seo - Fluiid",
+   "og_url": "https://fluiid.ch/seo/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/seo/",
+      "url": "https://fluiid.ch/seo/",
+      "name": "Archives des seo - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/seo/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/seo/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "seo"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/17",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=17"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 55,
+  "count": 9,
+  "description": "",
+  "link": "https://fluiid.ch/services/",
+  "name": "services",
+  "slug": "services",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des services - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des services - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/services/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/services\\/\",\"name\":\"Archives des services - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/services\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"services\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des services - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des services - Fluiid",
+   "og_url": "https://fluiid.ch/services/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/services/",
+      "url": "https://fluiid.ch/services/",
+      "name": "Archives des services - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/services/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/services/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "services"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/55",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=55"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 24,
+  "count": 1,
+  "description": "",
+  "link": "https://fluiid.ch/sport/",
+  "name": "sport",
+  "slug": "sport",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des sport - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des sport - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/sport/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/sport\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/sport\\/\",\"name\":\"Archives des sport - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/sport\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/sport\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"sport\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des sport - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des sport - Fluiid",
+   "og_url": "https://fluiid.ch/sport/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/sport/",
+      "url": "https://fluiid.ch/sport/",
+      "name": "Archives des sport - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/sport/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/sport/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "sport"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/24",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=24"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 13,
+  "count": 10,
+  "description": "",
+  "link": "https://fluiid.ch/technologie/",
+  "name": "technologie",
+  "slug": "technologie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des technologie - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des technologie - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/technologie/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/technologie\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/technologie\\/\",\"name\":\"Archives des technologie - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/technologie\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/technologie\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"technologie\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des technologie - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des technologie - Fluiid",
+   "og_url": "https://fluiid.ch/technologie/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/technologie/",
+      "url": "https://fluiid.ch/technologie/",
+      "name": "Archives des technologie - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/technologie/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/technologie/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "technologie"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/13",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=13"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 67,
+  "count": 7,
+  "description": "",
+  "link": "https://fluiid.ch/top-10/",
+  "name": "TOP 10",
+  "slug": "top-10",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des TOP 10 - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des TOP 10 - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/top-10/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/top-10\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/top-10\\/\",\"name\":\"Archives des TOP 10 - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/top-10\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/top-10\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"TOP 10\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des TOP 10 - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des TOP 10 - Fluiid",
+   "og_url": "https://fluiid.ch/top-10/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/top-10/",
+      "url": "https://fluiid.ch/top-10/",
+      "name": "Archives des TOP 10 - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/top-10/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/top-10/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "TOP 10"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/67",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=67"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 9,
+  "count": 5,
+  "description": "",
+  "link": "https://fluiid.ch/travaux/",
+  "name": "travaux",
+  "slug": "travaux",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des travaux - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des travaux - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/travaux/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/travaux\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/travaux\\/\",\"name\":\"Archives des travaux - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/travaux\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/travaux\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"travaux\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des travaux - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des travaux - Fluiid",
+   "og_url": "https://fluiid.ch/travaux/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/travaux/",
+      "url": "https://fluiid.ch/travaux/",
+      "name": "Archives des travaux - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/travaux/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/travaux/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "travaux"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/9",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=9"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "count": 6,
+  "description": "",
+  "link": "https://fluiid.ch/voyage/",
+  "name": "voyage",
+  "slug": "voyage",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des voyage - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des voyage - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/voyage/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/voyage\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/voyage\\/\",\"name\":\"Archives des voyage - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/voyage\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/voyage\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"voyage\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des voyage - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des voyage - Fluiid",
+   "og_url": "https://fluiid.ch/voyage/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/voyage/",
+      "url": "https://fluiid.ch/voyage/",
+      "name": "Archives des voyage - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/voyage/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/voyage/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "voyage"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/2",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=2"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 4,
+  "count": 0,
+  "description": "",
+  "link": "https://fluiid.ch/voyance/",
+  "name": "voyance",
+  "slug": "voyance",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Archives des voyance - Fluiid</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"fr_FR\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Archives des voyance - Fluiid\" />\n<meta property=\"og:url\" content=\"https://fluiid.ch/voyance/\" />\n<meta property=\"og:site_name\" content=\"Fluiid\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/fluiid.ch\\/voyance\\/\",\"url\":\"https:\\/\\/fluiid.ch\\/voyance\\/\",\"name\":\"Archives des voyance - Fluiid\",\"isPartOf\":{\"@id\":\"https:\\/\\/fluiid.ch\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/fluiid.ch\\/voyance\\/#breadcrumb\"},\"inLanguage\":\"fr-FR\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/fluiid.ch\\/voyance\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https:\\/\\/fluiid.ch\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"voyance\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/fluiid.ch\\/#website\",\"url\":\"https:\\/\\/fluiid.ch\\/\",\"name\":\"Fluiid\",\"description\":\"Le site de l&#039;actualité en Europe et dans le monde\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/fluiid.ch\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"fr-FR\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Archives des voyance - Fluiid",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "fr_FR",
+   "og_type": "article",
+   "og_title": "Archives des voyance - Fluiid",
+   "og_url": "https://fluiid.ch/voyance/",
+   "og_site_name": "Fluiid",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://fluiid.ch/voyance/",
+      "url": "https://fluiid.ch/voyance/",
+      "name": "Archives des voyance - Fluiid",
+      "isPartOf": {
+       "@id": "https://fluiid.ch/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://fluiid.ch/voyance/#breadcrumb"
+      },
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://fluiid.ch/voyance/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://fluiid.ch/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "voyance"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://fluiid.ch/#website",
+      "url": "https://fluiid.ch/",
+      "name": "Fluiid",
+      "description": "Le site de l&#039;actualité en Europe et dans le monde",
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://fluiid.ch/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "fr-FR"
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories/4",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://fluiid.ch/wp-json/wp/v2/posts?categories=4"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

@@ -23,7 +23,12 @@ jobs:
         run: npm ci
 
       - name: Fetch WordPress content
-        run: npm run fetch:wp
+        # Le WP est joint par IP + Host (domaine basculé vers Pages). Non-bloquant :
+        # si le WP est injoignable, le build continue avec les données du dépôt.
+        run: npm run fetch:wp || echo "⚠️ WordPress injoignable — build avec les données commitées"
+        env:
+          WP_BASE: https://109.234.164.18
+          WP_HOST: fluiid.ch
 
       - name: Build static site
         run: npm run build
