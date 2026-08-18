@@ -249,7 +249,7 @@ main { padding: 20px 0 64px; }
 
 /* ============ ARTICLE ============ */
 
-.entry { max-width: var(--read); margin: 0 auto; }
+.entry { max-width: var(--maxw); margin: 0 auto; }
 
 .breadcrumb {
   font-size: 13px; color: var(--muted); margin-bottom: 14px;

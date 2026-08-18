@@ -145,6 +145,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
             <label class="opt-item" for={o.id}>
               <span class="opt-main">
                 <input type="checkbox" id={o.id} name={o.name} data-price={o.price} />
+                <span class="opt-check" aria-hidden="true"></span>
                 <span>
                   <span class="opt-label">{o.label}</span>
                   <span class="opt-note">{o.note}</span>
@@ -193,6 +194,10 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
           </select>
         </div>
         <div class="form-field">
+          <label for="f-site">URL de votre site internet à mettre en avant *</label>
+          <input type="url" id="f-site" name="site" required inputmode="url" placeholder="https://votre-site.ch" />
+        </div>
+        <div class="form-field">
           <label for="f-sujet">Sujet de la publication *</label>
           <textarea id="f-sujet" name="sujet" required rows="3" placeholder="Thème, angle éditorial, informations clés à mettre en avant…"></textarea>
         </div>
@@ -226,7 +231,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
 </section>
 
 <style>
-  .contact-wrap { display: grid; grid-template-columns: 1fr; gap: 32px; max-width: 1120px; margin: 0 auto; }
+  .contact-wrap { display: grid; grid-template-columns: 1fr; gap: 32px; max-width: var(--maxw); margin: 0 auto; }
   @media (min-width: 900px) { .contact-wrap { grid-template-columns: 2fr 3fr; gap: 48px; } }
 
   .contact-kicker { text-transform: uppercase; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; color: var(--accent); margin: 0 0 8px; }
@@ -324,7 +329,10 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   .opt-item:has(input:focus-visible) { outline: 3px solid #0a5fd0; outline-offset: 2px; }
   .opt-main { display: flex; align-items: center; gap: 10px; min-width: 0; flex: 1 1 auto; }
   .opt-main > span { min-width: 0; }
-  .opt-main input { width: 20px; height: 20px; accent-color: var(--accent); flex: 0 0 auto; }
+  .opt-item input { position: absolute; opacity: 0; pointer-events: none; left: 0; top: 0; width: 1px; height: 1px; }
+  .opt-item .opt-check { width: 20px; height: 20px; border: 2px solid #5c5c5c; border-radius: 4px; flex: 0 0 auto; display: inline-block; background: #fff; }
+  .opt-item:has(input:checked) .opt-check { background: var(--accent); border-color: var(--accent); }
+  .opt-item:has(input:checked) .opt-check::after { content: '✓'; color: #fff; font-size: 14px; line-height: 16px; text-align: center; display: block; font-weight: 700; }
   .opt-label { display: block; font-size: 14px; font-weight: 600; color: #111; overflow-wrap: break-word; }
   .opt-note { display: block; font-size: 12px; color: #5c5c5c; }
   .opt-price { font-size: 14px; font-weight: 800; color: var(--accent); white-space: nowrap; }
@@ -334,7 +342,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   @media (min-width: 640px) { .form-row { grid-template-columns: 1fr 1fr; gap: 16px; } }
   .form-field { margin-bottom: 16px; }
   .form-field label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 6px; color: #111; }
-  .prospect-form input, .prospect-form select, .prospect-form textarea {
+  .prospect-form input:not([type="checkbox"]):not([type="radio"]), .prospect-form select, .prospect-form textarea {
     width: 100%; padding: 12px 13px; font: inherit; font-size: 15px;
     border: 1.5px solid #767676; border-radius: 4px; background: #fff; color: #111;
     transition: border-color 0.15s, box-shadow 0.15s;
