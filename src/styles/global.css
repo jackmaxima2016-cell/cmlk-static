@@ -97,9 +97,10 @@ a { color: inherit; }
 .nav-drop-caret { font-size: 11px; transition: transform 0.2s ease; }
 .nav-drop.is-open .nav-drop-caret { transform: rotate(180deg); }
 .nav-drop-menu { display: none; list-style: none; margin: 0; padding: 0; }
+.nav-drop.is-open .nav-drop-menu { display: block; }
 @media (min-width: 900px) {
-  .nav-drop:hover .nav-drop-menu, .nav-drop.is-open .nav-drop-menu {
-    display: block; position: absolute; top: 100%; left: 0; z-index: 55;
+  .nav-drop.is-open .nav-drop-menu {
+    position: absolute; top: 100%; left: 0; z-index: 55;
     background: var(--bg); min-width: 250px;
     border: 1px solid var(--border); border-top: 2px solid var(--accent);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
@@ -149,7 +150,6 @@ a { color: inherit; }
     justify-content: space-between; border-bottom: 1px solid var(--border);
     border-top: 1px solid var(--border);
   }
-  .nav-drop-menu { display: block; }
   .nav-drop-menu a {
     padding: 15px 24px 15px 44px; font-size: 15px; min-height: 50px;
     border-top: 1px solid var(--border); border-bottom: none;
