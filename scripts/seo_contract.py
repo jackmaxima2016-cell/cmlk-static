@@ -10,8 +10,9 @@ Pour chaque URL de l'audit de référence, vérifie que le site généré produi
   - le contenu intégral des articles (comparé à posts.json)
   - les titres des articles attendus sur les pages de listing
 
-Usage: python3 seo_contract.py ../data/audit_fluiid.json ../astro-site/dist [--posts ../data/wp/posts.json]
+Usage: python3 seo_contract.py ../data/audit_fluiid.json ../astro-site/dist [--posts ../data/wp/posts.json] [--allow-noindex]
 Exit code 0 = conforme, 1 = violations critiques (bloque la mise en prod).
+--allow-noindex : préversion seulement — tolère le meta robots noindex global (NOINDEX=1).
 """
 import json, re, sys
 from pathlib import Path
@@ -20,6 +21,7 @@ REF, DIST = Path(sys.argv[1]), Path(sys.argv[2])
 POSTS_FILE = None
 if '--posts' in sys.argv:
     POSTS_FILE = Path(sys.argv[sys.argv.index('--posts') + 1])
+ALLOW_NOINDEX = '--allow-noindex' in sys.argv
 
 audit = json.loads(REF.read_text())
 pages = audit['pages']
@@ -107,9 +109,9 @@ for p in pages:
     else:
         checks += 1
 
-    # 4. noindex accidentel
+    # 4. noindex accidentel (toléré en préversion --allow-noindex)
     robots = grab(r'<meta name="robots" content="([^"]*)"')
-    if 'noindex' in robots:
+    if 'noindex' in robots and not ALLOW_NOINDEX:
         violations.append({'url': url, 'type': 'NOINDEX', 'detail': robots})
 
     # 5. Contenu
