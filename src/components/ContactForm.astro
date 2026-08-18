@@ -15,74 +15,47 @@ const rubriques = getCategories()
 
 const packs = [
   {
-    id: 'essentiel', name: 'Essentiel', price: 101, old: 169, tagline: 'Pour une première visibilité',
+    id: 'essentiel', name: 'Essentiel', price: 91, old: 169, tagline: 'Pour une première visibilité',
     feats: ['Article de 400–600 mots', '1 lien dofollow vers votre site (SEO)', 'Publication sous 7 jours', '1 rubrique au choix', 'Durée de publication incluse'],
   },
   {
-    id: 'standard', name: 'Standard', price: 239, old: 399, tagline: 'Le meilleur rapport visibilité/prix', popular: true,
+    id: 'standard', name: 'Standard', price: 215, old: 399, tagline: 'Le meilleur rapport visibilité/prix', popular: true,
     feats: ['Article de 700–900 mots', '2 liens + 1 lien interne (SEO renforcé)', 'Publication sous 5 jours', 'Mise en avant dans le fil d’actualité', 'Badge « Contenu sponsorisé »', 'Durée de publication incluse'],
   },
   {
-    id: 'premium', name: 'Premium', price: 479, old: 799, tagline: 'Une présence éditoriale affirmée',
+    id: 'premium', name: 'Premium', price: 431, old: 799, tagline: 'Une présence éditoriale affirmée',
     feats: ['Article de 1 000–1 400 mots', '3 liens + 2 liens internes', 'Publication sous 48 h', 'Mise en avant sur la page d’accueil', 'Relecture éditoriale prioritaire', 'Durée de publication incluse'],
   },
   {
-    id: 'impact', name: 'Impact', price: 899, old: 1499, tagline: 'Dossier complet ou campagne multi-articles',
+    id: 'impact', name: 'Impact', price: 809, old: 1499, tagline: 'Dossier complet ou campagne multi-articles',
     feats: ['Dossier de 2 000+ mots ou 3 articles', 'Liens renforcés (5 + 3 internes)', 'Publication sous 24 h', 'Accompagnement éditorial dédié', 'Mention dans la newsletter', 'Durée de publication incluse'],
   },
 ];
 
 const durees = [
-  { id: 'd1', value: '1 an', note: 'Testez l’impact' },
-  { id: 'd5', value: '5 ans', note: 'Visibilité confirmée' },
-  { id: 'd10', value: '10 ans', note: 'Ancrage durable' },
-  { id: 'dvie', value: 'À vie', note: 'Recommandé — patrimoine de liens', recommended: true },
+  { id: 'd1', value: '1 an', price: 0, note: 'Testez l’impact' },
+  { id: 'd5', value: '5 ans', price: 20, note: 'Visibilité confirmée' },
+  { id: 'd10', value: '10 ans', price: 50, note: 'Ancrage durable' },
+  { id: 'dvie', value: 'À vie', price: 40, note: 'Recommandé — patrimoine de liens', recommended: true },
 ];
 
 const options = [
-  { id: 'opt-redaction', name: 'opt_redaction', label: 'Rédaction par nos soins', note: 'vous fournissez le sujet, nous écrivons', price: 89, old: 149 },
-  { id: 'opt-lien', name: 'opt_lien', label: 'Lien supplémentaire', note: 'un backlink de plus vers votre site', price: 29, old: 49 },
-  { id: 'opt-express', name: 'opt_express', label: 'Publication express 24 h', note: 'priorité absolue au planning', price: 59, old: 99 },
-  { id: 'opt-reseaux', name: 'opt_reseaux', label: 'Post LinkedIn + Facebook', note: 'annonce de votre article', price: 29, old: 49 },
-  { id: 'opt-newsletter', name: 'opt_newsletter', label: 'Mise en avant newsletter', note: 'à nos abonnés', price: 47, old: 79 },
-  { id: 'opt-article', name: 'opt_article', label: 'Article additionnel', note: 'un article de plus dans le même pack', price: 119, old: 199 },
+  { id: 'opt-redaction', name: 'opt_redaction', label: 'Rédaction par nos soins', note: 'vous fournissez le sujet, nous écrivons', price: 71, old: 149 },
+  { id: 'opt-lien', name: 'opt_lien', label: 'Lien supplémentaire', note: 'un backlink de plus vers votre site', price: 23, old: 49 },
+  { id: 'opt-express', name: 'opt_express', label: 'Publication express 24 h', note: 'priorité absolue au planning', price: 47, old: 99 },
+  { id: 'opt-reseaux', name: 'opt_reseaux', label: 'Post LinkedIn + Facebook', note: 'annonce de votre article', price: 23, old: 49 },
+  { id: 'opt-newsletter', name: 'opt_newsletter', label: 'Mise en avant newsletter', note: 'à nos abonnés', price: 38, old: 79 },
+  { id: 'opt-article', name: 'opt_article', label: 'Article additionnel', note: 'un article de plus dans le même pack', price: 95, old: 199 },
 ];
 
 const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informations', 'Votre projet'];
 ---
 
-<section class="contact-wrap">
-  <div class="contact-intro">
-    <p class="contact-kicker">Publications sponsorisées</p>
-    <h2 class="contact-title">Commander maintenant</h2>
-    <p>
-      Quatre étapes, moins de deux minutes. Choisissez votre pack, la durée de
-      publication et vos options : le total se calcule en direct. Nous revenons
-      vers vous sous 24–48&nbsp;h pour valider le calendrier et l'angle
-      éditorial. Paiement sécurisé par carte bancaire (Stripe).
-    </p>
-
-    <h3 class="roi-title">Pourquoi c'est rentable ?</h3>
-    <ul class="roi-list">
-      <li><strong>🔍 SEO — un backlink qui compte.</strong> Votre lien depuis un média d'actualité indexé et suivi (dofollow) renforce l'autorité de votre domaine et améliore votre classement Google.</li>
-      <li><strong>🤖 GEO — visible par les IA.</strong> ChatGPT, Perplexity et Gemini citent les médias : votre contenu devient une source dans les réponses génératives.</li>
-      <li><strong>♾️ Durable — pas un placement éphémère.</strong> Votre article reste en ligne et indexé pendant la durée choisie, jusqu'à vie.</li>
-      <li><strong>💸 Un coût dérisoire.</strong> 169&nbsp;CHF = moins de 0,50&nbsp;CHF par jour sur un an, pour une visibilité permanente.</li>
-    </ul>
-
-    <ol class="contact-steps">
-      <li><strong>1. Votre demande</strong> — pack + durée + options, ci-contre.</li>
-      <li><strong>2. Confirmation sous 24–48&nbsp;h</strong> — validation du calendrier et de l'angle.</li>
-      <li><strong>3. Publication</strong> — votre article paraît dans la rubrique choisie, avec vos liens.</li>
-    </ol>
-    <p class="contact-note">Tous les prix sont en CHF (ou EUR, au taux du jour) et s'entendent hors TVA.</p>
+<section class="contact-form-wrap">
+  <div class="promo-banner" id="promo-banner">
+    <span class="promo-flag">🔥 Offre de lancement — 46&nbsp;% de réduction</span>
+    <span class="promo-timer">⏳ La promotion se termine dans <strong id="promo-countdown">15:00</strong></span>
   </div>
-
-  <div class="contact-form-wrap">
-    <div class="promo-banner" id="promo-banner">
-      <span class="promo-flag">🔥 Offre de lancement — 40&nbsp;% de réduction</span>
-      <span class="promo-timer">⏳ La promotion se termine dans <strong id="promo-countdown">15:00</strong></span>
-    </div>
     <form id="prospect-form" class="prospect-form" action="/api/checkout" method="POST" novalidate>
       <input type="hidden" name="_subject" value="Nouvelle demande de publication — fluiid.ch" />
       <input type="hidden" name="_template" value="table" />
@@ -134,8 +107,9 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
         <div class="duree-grid">
           {durees.map((d) => (
             <label class:list={['duree-card', { 'is-rec': d.recommended }]}>
-              <input type="radio" name="duree" value={d.value} data-price="0" checked={d.recommended} />
+              <input type="radio" name="duree" value={d.value} data-price={d.price} checked={d.recommended} />
               <span class="duree-value">{d.value}</span>
+              <span class="duree-price">{d.price ? `+${d.price} CHF` : 'Inclus'}</span>
               <span class="duree-note">{d.note}</span>
               {d.recommended && <span class="duree-rec">Recommandé</span>}
             </label>
@@ -247,7 +221,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     </form>
 
     <div class="promo-banner promo-banner-2" id="promo-banner-2">
-      <span class="promo-flag">🔥 Offre de lancement — 40&nbsp;% de réduction</span>
+      <span class="promo-flag">🔥 Offre de lancement — 46&nbsp;% de réduction</span>
       <span class="promo-timer">⏳ La promotion se termine dans <strong id="promo-countdown-2">15:00</strong></span>
     </div>
 
@@ -258,28 +232,15 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       <li><strong>🛡️ Annulation gratuite</strong><span>avant publication</span></li>
     </ul>
 
-    <div class="delivery-info">
-      <h4>📦 Livraison de votre publication</h4>
-      <ol>
-        <li><strong>Paiement sécurisé</strong> — carte bancaire (Stripe), reçu immédiat.</li>
-        <li><strong>Confirmation par email</strong> — vous recevrez les détails de votre commande et le calendrier prévu sur votre e-mail.</li>
-        <li><strong>Rédaction &amp; validation</strong> — délai selon le pack : 24&nbsp;h (Impact), 48&nbsp;h (Premium), 5 jours (Standard), 7 jours (Essentiel).</li>
-        <li><strong>Publication</strong> — l'article paraît dans la rubrique choisie, avec vos liens.</li>
-        <li><strong>Lien de livraison</strong> — vous recevez l'URL de votre publication, prête à partager.</li>
-      </ol>
-    </div>
-
     <div class="form-success" hidden>
       <h3>Demande envoyée ✅</h3>
       <p>Merci ! Votre demande est bien reçue. Nous revenons vers vous sous 24–48&nbsp;h avec une proposition.</p>
       <p class="form-success-back"><a href="/">← Retour à l’accueil</a></p>
     </div>
-  </div>
 </section>
 
 <style>
-  .contact-wrap { display: grid; grid-template-columns: 1fr; gap: 32px; max-width: var(--maxw); margin: 0 auto; }
-  @media (min-width: 900px) { .contact-wrap { grid-template-columns: 2fr 3fr; gap: 48px; } }
+  .contact-form-wrap { max-width: var(--maxw); margin: 0 auto; }
 
   .contact-kicker { text-transform: uppercase; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; color: var(--accent); margin: 0 0 8px; }
   .contact-title { font-size: 26px; margin: 0 0 14px; }
@@ -357,6 +318,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   .duree-card:has(input:focus-visible) { outline: 3px solid #0a5fd0; outline-offset: 2px; }
   .duree-card input { position: absolute; opacity: 0; pointer-events: none; left: 0; top: 0; width: 1px; height: 1px; }
   .duree-value { display: block; font-size: 15px; font-weight: 800; color: #111; }
+  .duree-price { display: block; font-size: 13px; font-weight: 800; color: var(--accent); margin-top: 2px; }
   .duree-note { display: block; font-size: 11.5px; color: #5c5c5c; margin-top: 2px; }
   .duree-rec {
     display: inline-block; margin-top: 6px; font-size: 9.5px; font-weight: 700;
@@ -469,16 +431,6 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   .trust-badges li { display: flex; flex-direction: column; font-size: 13px; color: #333; }
   .trust-badges li strong { font-size: 13.5px; color: #111; }
   .trust-badges li span { color: #6b6b6b; }
-
-  /* ---- Livraison de la publication ---- */
-  .delivery-info {
-    margin: 14px 0 0; padding: 14px 16px;
-    background: #fff; border: 1px solid #d5d5d5; border-left: 4px solid var(--accent);
-    border-radius: 8px;
-  }
-  .delivery-info h4 { margin: 0 0 8px; font-size: 15px; color: #111; }
-  .delivery-info ol { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.55; color: #333; }
-  .delivery-info li + li { margin-top: 4px; }
 </style>
 
 <script>
@@ -513,10 +465,11 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
         totalOld += Number(el.dataset.old || 0);
       }
     });
-    totalEl.textContent = total ? `${total} CHF` : '—';
+    const packChecked = form.querySelector('input[name="pack"]:checked');
+    totalEl.textContent = packChecked && total ? `${total} CHF` : '—';
     if (totalOldEl) {
-      totalOldEl.textContent = totalOld ? `${totalOld} CHF` : '';
-      totalOldEl.hidden = !totalOld;
+      totalOldEl.textContent = packChecked && totalOld ? `${totalOld} CHF` : '';
+      totalOldEl.hidden = !(packChecked && totalOld);
     }
   };
   pricers.forEach((el) => el.addEventListener('change', () => { updateTotal(); saveState(); }));

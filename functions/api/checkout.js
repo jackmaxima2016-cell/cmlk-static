@@ -9,15 +9,16 @@ const FORM_MAILTO = 'info@fluiid.ch';
 const SITE = 'https://fluiid.ch';
 
 // Source de vérité des prix (doit correspondre au formulaire)
-// Prix promotionnels (−40 % ; le prix d'origine barré est affiché côté formulaire)
-const PACKS = { Essentiel: 101, Standard: 239, Premium: 479, Impact: 899 };
+// Prix promotionnels (−46 % ; le prix d'origine barré est affiché côté formulaire)
+const PACKS = { Essentiel: 91, Standard: 215, Premium: 431, Impact: 809 };
+const DUREES = { '1 an': 0, '5 ans': 20, '10 ans': 50, 'À vie': 40 };
 const OPTIONS = {
-  opt_redaction: { label: 'Rédaction par nos soins', price: 89 },
-  opt_lien: { label: 'Lien supplémentaire', price: 29 },
-  opt_express: { label: 'Publication express 24 h', price: 59 },
-  opt_reseaux: { label: 'Post LinkedIn + Facebook', price: 29 },
-  opt_newsletter: { label: 'Mise en avant newsletter', price: 47 },
-  opt_article: { label: 'Article additionnel', price: 119 },
+  opt_redaction: { label: 'Rédaction par nos soins', price: 71 },
+  opt_lien: { label: 'Lien supplémentaire', price: 23 },
+  opt_express: { label: 'Publication express 24 h', price: 47 },
+  opt_reseaux: { label: 'Post LinkedIn + Facebook', price: 23 },
+  opt_newsletter: { label: 'Mise en avant newsletter', price: 38 },
+  opt_article: { label: 'Article additionnel', price: 95 },
 };
 
 function json(data, status = 200) {
@@ -93,6 +94,11 @@ export async function onRequestPost(context) {
       }
     }
     const duree = String(data.duree || 'À vie');
+    const dureePrice = DUREES[duree];
+    if (dureePrice === undefined) {
+      return json({ success: 'false', message: 'Durée invalide.' }, 400);
+    }
+    total += dureePrice;
     const entreprise = String(data.entreprise || '');
     const telephone = String(data.telephone || '');
     const rubrique = String(data.rubrique || '');
@@ -140,6 +146,7 @@ export async function onRequestPost(context) {
 
     const items = [
       { name: `Pack ${packName} — fluiid.ch`, price: packPrice },
+      ...(dureePrice > 0 ? [{ name: `Durée de publication : ${duree} — fluiid.ch`, price: dureePrice }] : []),
       ...chosen.map((label, i) => ({ name: `Option : ${label}`, price: OPTIONS[Object.keys(OPTIONS).filter((k) => OPTIONS[k].label === label)[0]].price })),
     ];
     items.forEach((it, i) => {
