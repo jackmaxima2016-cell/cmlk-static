@@ -1,5 +1,5 @@
 ---
-// Pages de pagination /page/N/ (N = 2..total)
+// Pages de pagination /page/N/ (N = 2..total) — grille de cartes
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import { getPosts, getPages, PAGE_SIZE } from '../../lib/wp.mjs';
@@ -42,7 +42,7 @@ const jsonLd = [
 
 <Base title={TITLE} description={DESC} canonical={url} jsonLd={jsonLd} relPrev={PREV} relNext={NEXT ?? undefined}>
   <h1 class="page-title">L’actualité en Europe et dans le monde</h1>
-  <div class="cards">
+  <div class="post-grid">
     {pagePosts.map((post) => <PostCard post={post} />)}
   </div>
 

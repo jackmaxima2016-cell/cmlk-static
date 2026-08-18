@@ -34,12 +34,47 @@ export function getTags() {
   return load('tags');
 }
 
-// Image à la une d'un post (via _embed)
+// Image à la une d'un post (via _embed) — URL pleine taille
 export function getFeaturedImage(post) {
   const media = post._embedded?.['wp:featuredmedia']?.[0];
   if (media?.source_url) return media.source_url;
   if (media?.media_details?.sizes?.large?.source_url) return media.media_details.sizes.large.source_url;
   return null;
+}
+
+// Image à la une avec taille adaptée + dimensions (CLS-safe)
+export function getImageMeta(post, size = 'medium_large') {
+  const media = post._embedded?.['wp:featuredmedia']?.[0];
+  const sizes = media?.media_details?.sizes ?? {};
+  const pick = sizes[size] ?? sizes.large ?? sizes.full ?? {};
+  return {
+    src: pick.source_url ?? media?.source_url ?? '',
+    width: pick.width ?? sizes.full?.width ?? null,
+    height: pick.height ?? sizes.full?.height ?? null,
+    alt: media?.alt_text ?? '',
+    caption: media?.caption?.rendered ?? '',
+  };
+}
+
+export function getImageSrc(post, size = 'medium_large') {
+  return getImageMeta(post, size).src || null;
+}
+
+// Catégories d'un post (nom + slug, depuis _embed)
+export function getPostCategories(post) {
+  const groups = post._embedded?.['wp:term'] ?? [];
+  const cats = groups.find((g) => Array.isArray(g) && g[0]?.taxonomy === 'category') ?? [];
+  return cats.map((c) => ({ id: c.id, name: decodeEntities(c.name ?? ''), slug: c.slug }));
+}
+
+export function getPostAuthor(post) {
+  return decodeEntities(post._embedded?.author?.[0]?.name ?? 'Fluiid');
+}
+
+// Temps de lecture estimé (~200 mots/min)
+export function getReadingTime(post) {
+  const words = stripHtml(post.content?.rendered ?? '').split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 200));
 }
 
 // Décodage des entités HTML (les champs WP sont encodés: &#039; &amp; ...)

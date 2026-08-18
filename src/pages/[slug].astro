@@ -1,7 +1,10 @@
 ---
 // Article (post) ou page statique WordPress, servi à la racine : /{slug}/
+// Mise en page magazine : fil d'ariane, rubrique, méta enrichie, articles liés.
+// ⚠️ Le <h1> et .entry-content restent strictement identiques (contrat SEO).
 import Base from '../layouts/Base.astro';
-import { getPosts, getPages, getFeaturedImage, decodeEntities, stripHtml } from '../lib/wp.mjs';
+import PostCard from '../components/PostCard.astro';
+import { getPosts, getPages, getImageMeta, getPostCategories, getPostAuthor, getReadingTime, decodeEntities, stripHtml } from '../lib/wp.mjs';
 import { getSeoForUrl } from '../lib/seo.mjs';
 
 export async function getStaticPaths() {
@@ -20,17 +23,28 @@ const { kind, entry } = Astro.props;
 const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
 const canonical = `${site}/${entry.slug}/`;
 
-// Titre et description réels (ce que Google voit) depuis l'audit WP,
-// avec repli sur le titre du post + suffixe si l'audit n'est pas disponible.
+// Titre et description réels (ce que Google voit) depuis l'audit WP
 const seo = getSeoForUrl(canonical);
 const title = seo?.title ?? `${decodeEntities(entry.title?.rendered ?? '')} - Fluiid`;
 const description = seo?.description
   ?? stripHtml(entry.excerpt?.rendered ?? entry.content?.rendered ?? '').slice(0, 160)
   ?? decodeEntities(entry.title?.rendered ?? '');
-const image = getFeaturedImage(entry);
-const author = decodeEntities(entry._embedded?.author?.[0]?.name ?? 'Fluiid');
+const img = kind === 'post' ? getImageMeta(entry, 'large') : { src: '', alt: '', caption: '' };
+const author = getPostAuthor(entry);
 const datePublished = entry.date;
 const dateModified = entry.modified ?? entry.date;
+const readingTime = kind === 'post' ? getReadingTime(entry) : null;
+
+const cats = getPostCategories(entry);
+const cat = cats[0];
+const catId = cat?.id;
+
+// Articles liés : même rubrique d'abord, sinon les plus récents
+const allPosts = getPosts();
+const related = allPosts
+  .filter((p) => p.slug !== entry.slug && (!catId || getPostCategories(p).some((pc) => pc.id === catId)))
+  .slice(0, 3);
+const relatedFallback = related.length ? related : allPosts.filter((p) => p.slug !== entry.slug).slice(0, 3);
 
 const jsonLd = kind === 'post'
   ? [
@@ -39,7 +53,7 @@ const jsonLd = kind === 'post'
         '@type': 'Article',
         headline: decodeEntities(entry.title?.rendered ?? ''),
         description,
-        image,
+        image: img.src || undefined,
         datePublished,
         dateModified,
         author: { '@type': 'Person', name: author },
@@ -51,7 +65,8 @@ const jsonLd = kind === 'post'
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Accueil', item: site + '/' },
-          { '@type': 'ListItem', position: 2, name: decodeEntities(entry.title?.rendered ?? ''), item: canonical },
+          ...(cat ? [{ '@type': 'ListItem', position: 2, name: cat.name, item: site + '/#rubrique-' + cat.slug }] : []),
+          { '@type': 'ListItem', position: cat ? 3 : 2, name: decodeEntities(entry.title?.rendered ?? ''), item: canonical },
         ],
       },
       {
@@ -84,18 +99,48 @@ const jsonLd = kind === 'post'
     ];
 ---
 
-<Base title={title} description={description} canonical={canonical} ogImage={image ?? undefined} jsonLd={jsonLd} type={kind === 'post' ? 'article' : 'website'}>
+<Base title={title} description={description} canonical={canonical} ogImage={img.src || undefined} jsonLd={jsonLd} type={kind === 'post' ? 'article' : 'website'}>
   <article class="entry">
+    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+      <a href="/">Accueil</a>
+      <span aria-hidden="true">›</span>
+      {cat && (<><a href={`/#rubrique-${cat.slug}`}>{cat.name}</a><span aria-hidden="true">›</span></>)}
+      <span class="crumb-current">{decodeEntities(entry.title?.rendered ?? '')}</span>
+    </nav>
+
     <header class="entry-header">
+      {kind === 'post' && cat && <span class="badge">{cat.name}</span>}
       <h1 class="entry-title" set:html={entry.title?.rendered ?? ''} />
       {kind === 'post' && (
         <div class="entry-meta">
           <time datetime={datePublished}>{new Date(datePublished).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
-          <span class="entry-author">par {author}</span>
+          <span class="sep">·</span>
+          <span class="byline">par {author}</span>
+          {readingTime && (<><span class="sep">·</span><span>{readingTime} min de lecture</span></>)}
         </div>
       )}
     </header>
-    {image && kind === 'post' && <img class="entry-img" src={image} alt={decodeEntities(entry.title?.rendered ?? '')} />}
+
+    {img.src && kind === 'post' && (
+      <>
+        <img class="entry-img" src={img.src} alt={img.alt || decodeEntities(entry.title?.rendered ?? '')} width={img.width ?? undefined} height={img.height ?? undefined} decoding="async" />
+        {img.caption && <p class="entry-caption" set:html={img.caption} />}
+      </>
+    )}
+
     <div class="entry-content" set:html={entry.content?.rendered ?? ''} />
+
+    {kind === 'post' && relatedFallback.length > 0 && (
+      <section class="related" aria-label="Articles liés">
+        <h2 class="related-title">À lire aussi</h2>
+        <div class="related-grid">
+          {relatedFallback.map((post) => (
+            <div class="related-card">
+              <PostCard post={post} />
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
   </article>
 </Base>

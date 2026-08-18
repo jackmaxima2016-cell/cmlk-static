@@ -1,6 +1,8 @@
 ---
 // Layout de base — head SEO complet (title, description, canonical, og, JSON-LD)
-import { decodeEntities } from '../lib/wp.mjs';
+// Header magazine : bandeau date + marque + navigation rubriques sticky
+import { decodeEntities, getCategories } from '../lib/wp.mjs';
+import '../styles/global.css';
 
 interface Props {
   title: string;
@@ -32,6 +34,16 @@ const noindexAll = typeof process !== 'undefined' && process.env.NOINDEX === '1'
 const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
 const pageUrl = canonical ?? site + '/';
 const ogType = type === 'article' ? 'article' : 'website';
+
+// Rubriques de la navigation : catégories les plus fournies
+const topCats = getCategories()
+  .filter((c) => c.count > 0)
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 9);
+
+const today = new Date().toLocaleDateString('fr-FR', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+});
 ---
 
 <!doctype html>
@@ -57,24 +69,55 @@ const ogType = type === 'article' ? 'article' : 'website';
 
     <link rel="sitemap" href={site + '/sitemap-index.xml'} />
     {jsonLd.map((block) => <script type="application/ld+json" set:html={JSON.stringify(block)} />)}
-    <link rel="stylesheet" href="/styles/global.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="/">Fluiid</a>
-        <nav>
-          <a href="/">Accueil</a>
-          <a href="/contact/">Contact</a>
-        </nav>
+      <div class="header-top">
+        <div class="container header-top-inner">
+          <span class="header-date">{today}</span>
+          <span class="header-tagline">L'actualité en Europe et dans le monde</span>
+        </div>
       </div>
+      <div class="header-brand">
+        <div class="container header-brand-inner">
+          <a class="logo" href="/">Fluiid</a>
+        </div>
+      </div>
+      <nav class="header-nav" aria-label="Rubriques">
+        <div class="container nav-inner">
+          <a href="/">Accueil</a>
+          {topCats.map((c) => (
+            <a href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a>
+          ))}
+          <a href="/contact/">Contact</a>
+        </div>
+      </nav>
     </header>
     <main class="container">
       <slot />
     </main>
     <footer class="site-footer">
       <div class="container">
-        <p>Fluiid — L’actualité en Europe et dans le monde</p>
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="logo">Fluiid</span>
+            <p>Le site de l'actualité en Europe et dans le monde. Analyse, décryptage et reportages.</p>
+          </div>
+          <div class="footer-col">
+            <h3>Rubriques</h3>
+            {topCats.map((c) => (
+              <a href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a>
+            ))}
+          </div>
+          <div class="footer-col">
+            <h3>Le site</h3>
+            <a href="/">Accueil</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© {new Date().getFullYear()} Fluiid — L'actualité en Europe et dans le monde</p>
+        </div>
       </div>
     </footer>
   </body>
