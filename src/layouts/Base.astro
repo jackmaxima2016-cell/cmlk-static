@@ -31,6 +31,8 @@ const {
 // Préversion : NOINDEX=1 au build => toutes les pages en noindex
 const noindexAll = typeof process !== 'undefined' && process.env.NOINDEX === '1';
 
+const GA4_ID = (import.meta.env.PUBLIC_GA4_ID ?? '').trim();
+
 const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
 const pageUrl = canonical ?? site + '/';
 const ogType = type === 'article' ? 'article' : 'website';
@@ -69,6 +71,25 @@ const today = new Date().toLocaleDateString('fr-FR', {
 
     <link rel="sitemap" href={site + '/sitemap-index.xml'} />
     {jsonLd.map((block) => <script type="application/ld+json" set:html={JSON.stringify(block)} />)}
+
+    {/* Google Analytics 4 — actif uniquement si PUBLIC_GA4_ID est défini au build */}
+    {
+      GA4_ID && (
+        <>
+          <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
+          <script is:inline>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){{dataLayer.push(arguments);}}
+            gtag('js', new Date());
+            gtag('consent', 'default', {{
+              ad_storage: 'denied', ad_user_data: 'denied',
+              ad_personalization: 'denied', analytics_storage: 'denied',
+            }});
+            gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
+          </script>
+        </>
+      )
+    }
   </head>
   <body>
     <!-- Bandeau promo coulissant (sticky, tout en haut de chaque page) -->
@@ -163,6 +184,50 @@ const today = new Date().toLocaleDateString('fr-FR', {
         </div>
       </div>
     </footer>
+    {
+      GA4_ID && (
+        <>
+          <div id="consent-banner" role="dialog" aria-label="Consentement aux cookies de mesure" hidden>
+            <p class="consent-text">
+              Nous utilisons des cookies de mesure d'audience (Google Analytics&nbsp;4) pour améliorer ce site.
+              Vous pouvez les accepter ou les refuser — <a href="/confidentialite/">en savoir plus</a>.
+            </p>
+            <div class="consent-actions">
+              <button type="button" id="consent-accept">Accepter</button>
+              <button type="button" id="consent-refuse" class="consent-refuse">Refuser</button>
+            </div>
+          </div>
+          <script is:inline>
+            // Consentement cookies (GA4) — mémorisé, demande une seule fois par visiteur
+            (function () {
+              var KEY = 'fluiid_consent_v1';
+              var banner = document.getElementById('consent-banner');
+              if (!banner) return;
+              var update = function (v) {
+                if (window.gtag) {
+                  gtag('consent', 'update', {
+                    ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v,
+                  });
+                }
+              };
+              var st = null;
+              try { st = localStorage.getItem(KEY); } catch (e) {}
+              if (st === 'granted') { update('granted'); return; }
+              if (st === 'denied') { update('denied'); return; }
+              banner.hidden = false;
+              document.getElementById('consent-accept').addEventListener('click', function () {
+                try { localStorage.setItem(KEY, 'granted'); } catch (e) {}
+                update('granted'); banner.hidden = true;
+              });
+              document.getElementById('consent-refuse').addEventListener('click', function () {
+                try { localStorage.setItem(KEY, 'denied'); } catch (e) {}
+                update('denied'); banner.hidden = true;
+              });
+            })();
+          </script>
+        </>
+      )
+    }
     <script>
       // Menu burger mobile : ouverture/fermeture + accessibilité
       const navToggle = document.querySelector('.nav-toggle');

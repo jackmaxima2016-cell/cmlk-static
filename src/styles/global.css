@@ -354,6 +354,25 @@ main { padding: 20px 0 64px; }
   margin-bottom: 22px; border-bottom: 2px solid var(--ink); padding-bottom: 12px;
 }
 
+/* ============ CONSENTEMENT COOKIES (GA4) ============ */
+
+#consent-banner {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 200;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 12px 20px; padding: 14px 20px;
+  background: #141414; color: #e6e6e6; font-size: 14px; line-height: 1.5;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.35);
+}
+#consent-banner[hidden] { display: none; }
+.consent-text { margin: 0; max-width: 860px; }
+.consent-text a { color: #fff; text-decoration: underline; }
+.consent-actions { display: flex; gap: 10px; }
+.consent-actions button {
+  border: 0; border-radius: 6px; padding: 8px 18px; font-size: 14px; font-weight: 700;
+  cursor: pointer; background: var(--accent); color: #fff;
+}
+.consent-actions button.consent-refuse { background: transparent; color: #d8d8d8; border: 1px solid #777; }
+
 /* ============ FOOTER ============ */
 
 .site-footer { background: #141414; color: #b9b9b9; margin-top: 40px; }
