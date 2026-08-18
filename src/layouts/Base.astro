@@ -26,6 +26,9 @@ const {
   relNext,
 } = Astro.props;
 
+// Préversion : NOINDEX=1 au build => toutes les pages en noindex
+const noindexAll = typeof process !== 'undefined' && process.env.NOINDEX === '1';
+
 const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
 const pageUrl = canonical ?? site + '/';
 const ogType = type === 'article' ? 'article' : 'website';
@@ -39,6 +42,7 @@ const ogType = type === 'article' ? 'article' : 'website';
     <title>{decodeEntities(title)}</title>
     {description && <meta name="description" content={decodeEntities(description)} />}
     {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {noindexAll && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={pageUrl} />
     {relPrev && <link rel="prev" href={relPrev} />}
     {relNext && <link rel="next" href={relNext} />}
