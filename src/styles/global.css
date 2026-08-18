@@ -437,23 +437,26 @@ main { padding: 20px 0 64px; }
 .promo-ticker {
   position: sticky; top: 0; z-index: 60; height: 42px;
   overflow: hidden; width: 100%;
+  display: flex; align-items: center;
   background: linear-gradient(90deg, #c40000, #e60000);
   color: #fff;
   border-bottom: 2px solid #9e0000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
 }
 .ticker-countdown {
-  position: absolute; top: 50%; right: 10px; transform: translateY(-50%);
+  position: static; transform: none; flex: 0 0 auto;
+  margin-left: 14px; margin-right: 10px;
   z-index: 2; white-space: nowrap;
-  background: rgba(0, 0, 0, 0.25); border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(0, 0, 0, 0.45); border: 1px solid rgba(255, 255, 255, 0.35);
   color: #fff; font-weight: 700; font-size: 13px; letter-spacing: 0.04em;
   padding: 3px 10px; border-radius: 999px;
 }
 @media (max-width: 639px) {
-  .ticker-countdown { right: 6px; font-size: 12px; padding: 2px 8px; }
+  .ticker-countdown { margin-right: 6px; font-size: 12px; padding: 2px 8px; }
 }
 .promo-ticker-track {
   display: flex; align-items: center; width: max-content; white-space: nowrap;
+  flex: 0 0 auto;
   animation: promo-ticker 40s linear infinite;
   will-change: transform;
 }
