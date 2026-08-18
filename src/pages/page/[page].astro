@@ -1,0 +1,54 @@
+---
+// Pages de pagination /page/N/ (N = 2..total)
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getPosts, getPages, PAGE_SIZE } from '../../lib/wp.mjs';
+
+export async function getStaticPaths() {
+  const posts = getPosts();
+  const totalPages = Math.ceil(posts.length / PAGE_SIZE);
+  return Array.from({ length: totalPages - 1 }, (_, i) => {
+    const n = i + 2;
+    return {
+      params: { page: String(n) },
+      props: { pageNum: n, totalPages, posts: posts.slice((n - 1) * PAGE_SIZE, n * PAGE_SIZE) },
+    };
+  });
+}
+
+const { pageNum, totalPages, posts: pagePosts } = Astro.props;
+const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
+const url = `${site}/page/${pageNum}/`;
+
+const TITLE = `Fluiid - Page ${pageNum} sur ${totalPages} - Le site de l'actualité en Europe et dans le monde`;
+const DESC = "Le site de l'actualité en Europe et dans le monde";
+const PREV = pageNum > 2 ? `/page/${pageNum - 1}/` : '/';
+const NEXT = pageNum < totalPages ? `/page/${pageNum + 1}/` : null;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Fluiid',
+    url: site + '/',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: site + '/?s={search_term_string}' },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+];
+---
+
+<Base title={TITLE} description={DESC} canonical={url} jsonLd={jsonLd} relPrev={PREV} relNext={NEXT ?? undefined}>
+  <h1 class="page-title">L’actualité en Europe et dans le monde</h1>
+  <div class="cards">
+    {pagePosts.map((post) => <PostCard post={post} />)}
+  </div>
+
+  <nav class="pagination" aria-label="Pagination">
+    <a rel="prev" href={PREV}>← Page précédente</a>
+    <span class="page-info">Page {pageNum} sur {totalPages}</span>
+    {NEXT && <a rel="next" href={NEXT}>Page suivante →</a>}
+  </nav>
+</Base>

@@ -1,0 +1,40 @@
+---
+// Accueil = page 1 des articles (identique au comportement WordPress)
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPosts, getPages, PAGE_SIZE } from '../lib/wp.mjs';
+
+const posts = getPosts();
+const totalPages = Math.ceil(posts.length / PAGE_SIZE);
+const pagePosts = posts.slice(0, PAGE_SIZE);
+const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
+
+const TITLE = "Fluiid - Le site de l'actualité en Europe et dans le monde";
+const DESC = "Le site de l'actualité en Europe et dans le monde";
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Fluiid',
+    url: site + '/',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: site + '/?s={search_term_string}' },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+];
+---
+
+<Base title={TITLE} description={DESC} canonical={site + '/'} jsonLd={jsonLd} relNext="/page/2/">
+  <h1 class="page-title">L’actualité en Europe et dans le monde</h1>
+  <div class="cards">
+    {pagePosts.map((post) => <PostCard post={post} />)}
+  </div>
+
+  <nav class="pagination" aria-label="Pagination">
+    <span class="page-info">Page 1 sur {totalPages}</span>
+    <a rel="next" href="/page/2/">Page suivante →</a>
+  </nav>
+</Base>

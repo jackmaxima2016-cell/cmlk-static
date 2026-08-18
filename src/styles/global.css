@@ -1,0 +1,64 @@
+/* Style minimal et neutre — design provisoire en attendant la validation SEO */
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #0f766e;
+  --maxw: 860px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+.container { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+.site-header { border-bottom: 1px solid var(--border); background: #fff; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.logo { font-size: 22px; font-weight: 800; color: var(--accent); text-decoration: none; letter-spacing: -0.5px; }
+.site-header nav a { margin-left: 18px; color: var(--text); text-decoration: none; font-size: 15px; }
+.site-header nav a:hover { color: var(--accent); }
+
+main { padding: 32px 20px 64px; }
+
+.page-title { font-size: 28px; margin-bottom: 24px; line-height: 1.3; }
+
+.cards { display: grid; gap: 28px; }
+
+.card { border-bottom: 1px solid var(--border); padding-bottom: 24px; }
+.card-link { display: block; text-decoration: none; color: inherit; }
+.card-img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 12px; }
+.card h2 { font-size: 22px; line-height: 1.35; margin: 6px 0 8px; }
+.card h2:hover { color: var(--accent); }
+.card time { font-size: 13px; color: var(--muted); }
+.card p { color: var(--muted); font-size: 15px; }
+
+.pagination { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--border); }
+.pagination a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.page-info { color: var(--muted); font-size: 14px; }
+
+.entry-header { margin-bottom: 20px; }
+.entry-title { font-size: 32px; line-height: 1.25; margin-bottom: 8px; }
+.entry-meta { color: var(--muted); font-size: 14px; display: flex; gap: 14px; }
+.entry-img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 24px; }
+
+.entry-content { font-size: 17px; }
+.entry-content h2 { font-size: 24px; margin: 28px 0 12px; }
+.entry-content h3 { font-size: 20px; margin: 24px 0 10px; }
+.entry-content p { margin: 14px 0; }
+.entry-content a { color: var(--accent); }
+.entry-content img { max-width: 100%; height: auto; border-radius: 8px; }
+.entry-content ul, .entry-content ol { margin: 14px 0 14px 24px; }
+.entry-content blockquote { border-left: 3px solid var(--border); padding-left: 16px; color: var(--muted); margin: 16px 0; }
+
+.site-footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--muted); font-size: 14px; text-align: center; }
+
+.notfound { text-align: center; padding: 60px 0; }
+.notfound a { color: var(--accent); }

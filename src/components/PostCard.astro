@@ -1,0 +1,28 @@
+---
+// Carte d'article (liste home + pagination)
+import { decodeEntities, getFeaturedImage, stripHtml } from '../lib/wp.mjs';
+
+interface Props {
+  post: any;
+}
+const { post } = Astro.props;
+const title = decodeEntities(post.title?.rendered ?? '');
+const image = getFeaturedImage(post);
+const excerpt = stripHtml(post.excerpt?.rendered ?? '');
+const date = new Date(post.date).toLocaleDateString('fr-FR', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<article class="card">
+  <a class="card-link" href={`/${post.slug}/`}>
+    {image && <img class="card-img" src={image} alt={title} loading="lazy" />}
+    <div class="card-body">
+      <time datetime={post.date}>{date}</time>
+      <h2>{title}</h2>
+      {excerpt && <p>{excerpt}</p>}
+    </div>
+  </a>
+</article>

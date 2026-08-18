@@ -1,0 +1,4342 @@
+{
+ "domain": "https://fluiid.ch",
+ "audited_at": "2026-08-18T04:52:31",
+ "total_urls": 146,
+ "http_ok": 146,
+ "http_errors": [],
+ "missing_title": [],
+ "missing_h1": [],
+ "missing_canonical": [],
+ "noindex_pages": [],
+ "pages": [
+  {
+   "url": "https://fluiid.ch/",
+   "final_url": "https://fluiid.ch/",
+   "http_status": 200,
+   "title": "Fluiid - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 8435,
+   "internal_links": 126,
+   "rel_next": "https://fluiid.ch/page/2/"
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-international-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-international-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi faire appel à un avocat international à Genève ? - Fluiid",
+   "meta_description": "Pourquoi faire appel à un avocat international à Genève ?",
+   "canonical": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-international-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi faire appel à un avocat international à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi faire appel à un avocat international à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8325,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/avantages-de-la-cheminee-ethanol/",
+   "final_url": "https://fluiid.ch/avantages-de-la-cheminee-ethanol/",
+   "http_status": 200,
+   "title": "Avantages de la cheminée éthanol - Fluiid",
+   "meta_description": "Elle marche grâce à un combustible appelé éthanol. Ce mode de chauffage regorge de plusieurs atouts. Découvrez-les dans cet article.",
+   "canonical": "https://fluiid.ch/avantages-de-la-cheminee-ethanol/",
+   "robots_meta": "",
+   "og_title": "Avantages de la cheminée éthanol - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Avantages de la cheminée éthanol"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7065,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-choisir-la-meilleure-lampe-torche/",
+   "final_url": "https://fluiid.ch/comment-choisir-la-meilleure-lampe-torche/",
+   "http_status": 200,
+   "title": "Comment choisir la meilleure lampe torche ? - Fluiid",
+   "meta_description": "Pour certaines personnes comme les randonneurs ou les campeurs, la lampe torche est le compagnon du quotidien.",
+   "canonical": "https://fluiid.ch/comment-choisir-la-meilleure-lampe-torche/",
+   "robots_meta": "",
+   "og_title": "Comment choisir la meilleure lampe torche ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment choisir la meilleure lampe torche ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6936,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/tout-savoir-sur-les-techniques-de-desembouage/",
+   "final_url": "https://fluiid.ch/tout-savoir-sur-les-techniques-de-desembouage/",
+   "http_status": 200,
+   "title": "Tout savoir sur les techniques de désembouage - Fluiid",
+   "meta_description": "Alors, pour vous assurer de la pérennité de vos installations, l’équipe de désembouage Val de marne pourra répondre à vos besoins.",
+   "canonical": "https://fluiid.ch/tout-savoir-sur-les-techniques-de-desembouage/",
+   "robots_meta": "",
+   "og_title": "Tout savoir sur les techniques de désembouage - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Tout savoir sur les techniques de désembouage"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10647,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-desembouer-votre-chauffage/",
+   "final_url": "https://fluiid.ch/comment-desembouer-votre-chauffage/",
+   "http_status": 200,
+   "title": "Comment désembouer votre chauffage ? - Fluiid",
+   "meta_description": "En cas de panne de votre chauffage, veillez à vérifier l’état de votre canalisation. Le désembouage seine et marne vous aide généralement à régler le problème rapidement et efficacement.",
+   "canonical": "https://fluiid.ch/comment-desembouer-votre-chauffage/",
+   "robots_meta": "",
+   "og_title": "Comment désembouer votre chauffage ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment désembouer votre chauffage ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10412,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/meilleur-robinet-de-cuisine-pour-lavabo/",
+   "final_url": "https://fluiid.ch/meilleur-robinet-de-cuisine-pour-lavabo/",
+   "http_status": 200,
+   "title": "Meilleur robinet de cuisine pour lavabo - Fluiid",
+   "meta_description": "Meilleur robinet de cuisine pour lavabo",
+   "canonical": "https://fluiid.ch/meilleur-robinet-de-cuisine-pour-lavabo/",
+   "robots_meta": "",
+   "og_title": "Meilleur robinet de cuisine pour lavabo - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Meilleur robinet de cuisine pour lavabo"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7834,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/guide-complet-pour-la-recuperation-de-donnees-etapes-outils-et-conseils-dexperts/",
+   "final_url": "https://fluiid.ch/guide-complet-pour-la-recuperation-de-donnees-etapes-outils-et-conseils-dexperts/",
+   "http_status": 200,
+   "title": "Guide complet pour la récupération de données : étapes, outils et conseils d&#039;experts - Fluiid",
+   "meta_description": "Guide complet pour la récupération de données : étapes, outils et conseils d&#039;experts",
+   "canonical": "https://fluiid.ch/guide-complet-pour-la-recuperation-de-donnees-etapes-outils-et-conseils-dexperts/",
+   "robots_meta": "",
+   "og_title": "Guide complet pour la récupération de données : étapes, outils et conseils d&#039;experts - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Guide complet pour la récupération de données : étapes, outils et conseils d&rsquo;experts"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9019,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/panne-comment-remorquer-votre-moto/",
+   "final_url": "https://fluiid.ch/panne-comment-remorquer-votre-moto/",
+   "http_status": 200,
+   "title": "Comment remorquer votre moto en cas de panne",
+   "meta_description": "Si votre moto tombe en panna vous pourvez contacter le service de remorquage moto le plus proche de vous pour remorquer votre moto rapidement.",
+   "canonical": "https://fluiid.ch/panne-comment-remorquer-votre-moto/",
+   "robots_meta": "",
+   "og_title": "Comment remorquer votre moto en cas de panne",
+   "hreflang": [],
+   "h1": [
+    "Panne: Comment Remorquer Votre Moto"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7691,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/zoom-sur-les-tchats-les-sites-de-rencontre-webcam/",
+   "final_url": "https://fluiid.ch/zoom-sur-les-tchats-les-sites-de-rencontre-webcam/",
+   "http_status": 200,
+   "title": "Zoom sur les tchats les sites de rencontre webcam. - Fluiid",
+   "meta_description": "Zoom sur les tchats les sites de rencontre webcam.",
+   "canonical": "https://fluiid.ch/zoom-sur-les-tchats-les-sites-de-rencontre-webcam/",
+   "robots_meta": "",
+   "og_title": "Zoom sur les tchats les sites de rencontre webcam. - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Zoom sur les tchats les sites de rencontre webcam."
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7882,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/riad-marrakech-atouts-investissement-immobilier-maroc/",
+   "final_url": "https://fluiid.ch/riad-marrakech-atouts-investissement-immobilier-maroc/",
+   "http_status": 200,
+   "title": "Pourquoi acheter un riad à Marrakech au Maroc ? Guide d&#039;Investissement - Fluiid",
+   "meta_description": "Acheter un riad à Marrakech au Maroc peut être une excellente opportunité d&#039;investissement. Mais pourquoi devriez-vous acheter un riad à Marrakech ? Découvrez les caractéristiques, la valeur et le potentiel de ces propriétés du patrimoine historique marocain !",
+   "canonical": "https://fluiid.ch/riad-marrakech-atouts-investissement-immobilier-maroc/",
+   "robots_meta": "",
+   "og_title": "Pourquoi acheter un riad à Marrakech au Maroc ? Guide d&#039;Investissement - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les avantages d&rsquo;un investissement immobilier au Maroc en achetant un riad à Marrakech"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8416,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/escapade-inde-top-3-choses-insolites-plus-incontournables/",
+   "final_url": "https://fluiid.ch/escapade-inde-top-3-choses-insolites-plus-incontournables/",
+   "http_status": 200,
+   "title": "Voyage en Inde: top des choses les plus incontournables",
+   "meta_description": "Des choses hors du commun valent notamment le détour lors d&#039;un voyage en Inde. Les voyageurs auront le plaisir de découvrir le fait qu&#039;ils n&#039;ont certainement pas encore tout vu.",
+   "canonical": "https://fluiid.ch/escapade-inde-top-3-choses-insolites-plus-incontournables/",
+   "robots_meta": "",
+   "og_title": "Voyage en Inde: top des choses les plus incontournables",
+   "hreflang": [],
+   "h1": [
+    "Escapade en Inde : top 3 des choses insolites les plus incontournables"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7323,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/deux-villes-dexception-a-privilegier-au-cours-dun-sejour-au-japon/",
+   "final_url": "https://fluiid.ch/deux-villes-dexception-a-privilegier-au-cours-dun-sejour-au-japon/",
+   "http_status": 200,
+   "title": "Voyage au Japon: Deux villes d&#039;exception à privilégier",
+   "meta_description": "Voyage au Japon: Comme vous ne pourrez peut-être pas découvrir tous les attraits du pays en un seul séjour, voici deux villes japonaises à privilégier au cours de votre escapade.",
+   "canonical": "https://fluiid.ch/deux-villes-dexception-a-privilegier-au-cours-dun-sejour-au-japon/",
+   "robots_meta": "",
+   "og_title": "Voyage au Japon: Deux villes d&#039;exception à privilégier",
+   "hreflang": [],
+   "h1": [
+    "Deux villes d&rsquo;exception à privilégier au cours d&rsquo;un séjour au Japon"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7407,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/sejourner-en-namibie-3-idees-dhebergement-a-privilegier-dans-le-pays/",
+   "final_url": "https://fluiid.ch/sejourner-en-namibie-3-idees-dhebergement-a-privilegier-dans-le-pays/",
+   "http_status": 200,
+   "title": "Voyage en Namibie: des idées d&#039;hébergement",
+   "meta_description": "Voyage en Namibie: Pour vous aider dans votre choix d&#039;hébergeùent, voici quelques conseils pertinents qui pourront vous être utiles lors de votre escapade sur le territoire namibien.",
+   "canonical": "https://fluiid.ch/sejourner-en-namibie-3-idees-dhebergement-a-privilegier-dans-le-pays/",
+   "robots_meta": "",
+   "og_title": "Voyage en Namibie: des idées d&#039;hébergement",
+   "hreflang": [],
+   "h1": [
+    "Séjourner en Namibie : 3 idées d&rsquo;hébergement à privilégier dans le pays"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7308,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-decorer-ses-murs-avec-de-lart/",
+   "final_url": "https://fluiid.ch/comment-decorer-ses-murs-avec-de-lart/",
+   "http_status": 200,
+   "title": "Comment décorer ses murs avec de l&#039;art ? - Fluiid",
+   "meta_description": "Comment décorer ses murs avec de l&#039;art ?",
+   "canonical": "https://fluiid.ch/comment-decorer-ses-murs-avec-de-lart/",
+   "robots_meta": "",
+   "og_title": "Comment décorer ses murs avec de l&#039;art ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment décorer ses murs avec de l&rsquo;art ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7132,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-consommer-made-in-france/",
+   "final_url": "https://fluiid.ch/pourquoi-consommer-made-in-france/",
+   "http_status": 200,
+   "title": "Pourquoi consommer made in France ? - Fluiid",
+   "meta_description": "Pourquoi consommer made in France ?",
+   "canonical": "https://fluiid.ch/pourquoi-consommer-made-in-france/",
+   "robots_meta": "",
+   "og_title": "Pourquoi consommer made in France ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi consommer made in France ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7303,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/remorque-velo-quels-sont-les-avantages/",
+   "final_url": "https://fluiid.ch/remorque-velo-quels-sont-les-avantages/",
+   "http_status": 200,
+   "title": "Remorque vélo: Quels sont les avantages? - Fluiid",
+   "meta_description": "Remorque vélo: Quels sont les avantages?",
+   "canonical": "https://fluiid.ch/remorque-velo-quels-sont-les-avantages/",
+   "robots_meta": "",
+   "og_title": "Remorque vélo: Quels sont les avantages? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Remorque vélo: Quels sont les avantages?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6721,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/quest-ce-quun-disque-dur-multimedia/",
+   "final_url": "https://fluiid.ch/quest-ce-quun-disque-dur-multimedia/",
+   "http_status": 200,
+   "title": "Qu’est ce qu’un disque dur multimédia? - Fluiid",
+   "meta_description": "Qu’est ce qu’un disque dur multimédia?",
+   "canonical": "https://fluiid.ch/quest-ce-quun-disque-dur-multimedia/",
+   "robots_meta": "",
+   "og_title": "Qu’est ce qu’un disque dur multimédia? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Qu’est ce qu’un disque dur multimédia?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7975,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-choisir-les-bonnes-fenetres-pour-votre-maison/",
+   "final_url": "https://fluiid.ch/comment-choisir-les-bonnes-fenetres-pour-votre-maison/",
+   "http_status": 200,
+   "title": "Comment choisir les bonnes fenêtres pour votre maison ?",
+   "meta_description": "Fenêtres en bois, PVC, aluminium ou mixte? Avec double ou triple vitrage? Ce sont les questions les plus immédiates lorsque vous décidez de remplacer les fenêtres de votre maison.",
+   "canonical": "https://fluiid.ch/comment-choisir-les-bonnes-fenetres-pour-votre-maison/",
+   "robots_meta": "",
+   "og_title": "Comment choisir les bonnes fenêtres pour votre maison ?",
+   "hreflang": [],
+   "h1": [
+    "Comment choisir les bonnes fenêtres pour votre maison ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7948,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/de-quel-depannage-de-grille-metallique-avez-vous-besoin/",
+   "final_url": "https://fluiid.ch/de-quel-depannage-de-grille-metallique-avez-vous-besoin/",
+   "http_status": 200,
+   "title": "De quel dépannage de grille métallique avez-vous besoin ?",
+   "meta_description": "Quel que soit le type de grille métallique 94 que vous avez décidé de monter sur votre devanture, un bon serrurier saura quel dépannage il faudra en cas de dommages.",
+   "canonical": "https://fluiid.ch/de-quel-depannage-de-grille-metallique-avez-vous-besoin/",
+   "robots_meta": "",
+   "og_title": "De quel dépannage de grille métallique avez-vous besoin ?",
+   "hreflang": [],
+   "h1": [
+    "De quel dépannage de grille métallique avez-vous besoin ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7860,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-faire-recherche-fuite-deau-dans-sol/",
+   "final_url": "https://fluiid.ch/comment-faire-recherche-fuite-deau-dans-sol/",
+   "http_status": 200,
+   "title": "Tous savoir sur la recherche de fuite d’eau dans le sol",
+   "meta_description": "Comment faire une recherche de fuite d’eau dans le sol ?",
+   "canonical": "https://fluiid.ch/comment-faire-recherche-fuite-deau-dans-sol/",
+   "robots_meta": "",
+   "og_title": "Tous savoir sur la recherche de fuite d’eau dans le sol",
+   "hreflang": [],
+   "h1": [
+    "Comment faire une recherche de fuite d’eau dans le sol ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7232,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/taxi-moto-service-facilite-vie-quotidienne/",
+   "final_url": "https://fluiid.ch/taxi-moto-service-facilite-vie-quotidienne/",
+   "http_status": 200,
+   "title": "Taxi moto : le service qui facilite la vie quotidienne !",
+   "meta_description": "Le service de taxi moto peut facilite la vie de ceux qui doivent faire face au quotidien au trafic, aux embouteillages et à la situation de mobilité.",
+   "canonical": "https://fluiid.ch/taxi-moto-service-facilite-vie-quotidienne/",
+   "robots_meta": "",
+   "og_title": "Taxi moto : le service qui facilite la vie quotidienne !",
+   "hreflang": [],
+   "h1": [
+    "Taxi moto : Un service qui facilite la vie quotidienne !"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8015,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/le-taxi-moto-pour-les-longs-et-les-courts-trajets/",
+   "final_url": "https://fluiid.ch/le-taxi-moto-pour-les-longs-et-les-courts-trajets/",
+   "http_status": 200,
+   "title": "Les taxis moto pour les longs et les courts trajets",
+   "meta_description": "Les taxis moto pour les longs trajets sont les mêmes que ceux pour les courts trajets. Il suffit d’utiliser une application ; un numéro ou un site web de taxi moto.",
+   "canonical": "https://fluiid.ch/le-taxi-moto-pour-les-longs-et-les-courts-trajets/",
+   "robots_meta": "",
+   "og_title": "Les taxis moto pour les longs et les courts trajets",
+   "hreflang": [],
+   "h1": [
+    "Le taxi moto pour les longs et les courts trajets"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7829,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/arreter-de-fumer-avec-lhypnose/",
+   "final_url": "https://fluiid.ch/arreter-de-fumer-avec-lhypnose/",
+   "http_status": 200,
+   "title": "Pratiquer l’hypnose pour Arrêter de fumer",
+   "meta_description": "Pourtant, la plupart d&#039;entre nous ne savons pas encore ce qu&#039;est l&#039;hypnose. D&#039;où venait l&#039;idée? Et surtout: peut-il aider à rompre l&#039;habitude de fumer?",
+   "canonical": "https://fluiid.ch/arreter-de-fumer-avec-lhypnose/",
+   "robots_meta": "",
+   "og_title": "Pratiquer l’hypnose pour Arrêter de fumer",
+   "hreflang": [],
+   "h1": [
+    "Arrêter de fumer avec l’hypnose"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8305,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/7-avantages-dinternet-par-fibre-hybride-par-rapport-au-cable/",
+   "final_url": "https://fluiid.ch/7-avantages-dinternet-par-fibre-hybride-par-rapport-au-cable/",
+   "http_status": 200,
+   "title": "7 avantages d&#039;Internet par fibre hybride par rapport au câble - Fluiid",
+   "meta_description": "7 avantages d&#039;Internet par fibre hybride par rapport au câble",
+   "canonical": "https://fluiid.ch/7-avantages-dinternet-par-fibre-hybride-par-rapport-au-cable/",
+   "robots_meta": "",
+   "og_title": "7 avantages d&#039;Internet par fibre hybride par rapport au câble - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "7 avantages d&rsquo;Internet par fibre hybride par rapport au câble"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7405,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/reparation-fuite-tuyau-en-cuivre-sans-soudure/",
+   "final_url": "https://fluiid.ch/reparation-fuite-tuyau-en-cuivre-sans-soudure/",
+   "http_status": 200,
+   "title": "Comment réparer une fuite tuyau en cuivre sans Soudure ?",
+   "meta_description": "En cas de fuite tuyau Il est important de signaler que le rôle d’un artisan de plomberie c’est de vous venir en aide en cas de besoin",
+   "canonical": "https://fluiid.ch/reparation-fuite-tuyau-en-cuivre-sans-soudure/",
+   "robots_meta": "",
+   "og_title": "Comment réparer une fuite tuyau en cuivre sans Soudure ?",
+   "hreflang": [],
+   "h1": [
+    "Réparation fuite tuyau en cuivre sans soudure"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7043,
+   "internal_links": 77,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/que-faire-lorsque-la-baignoire-fuit/",
+   "final_url": "https://fluiid.ch/que-faire-lorsque-la-baignoire-fuit/",
+   "http_status": 200,
+   "title": "Votre baignoire fuit ? Que faire ?",
+   "meta_description": "Une fuite s’est déclenchée dans votre salle de bains ? Votre baignoire déborde ? Alors, ne paniquez pas et essayez avant toute chose de bien couper l’arrivée de l’eau.",
+   "canonical": "https://fluiid.ch/que-faire-lorsque-la-baignoire-fuit/",
+   "robots_meta": "",
+   "og_title": "Votre baignoire fuit ? Que faire ?",
+   "hreflang": [],
+   "h1": [
+    "Que faire lorsque la baignoire fuit ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7172,
+   "internal_links": 77,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/raisons-pour-lesquelles-la-detection-des-fuites-deau-est-importante/",
+   "final_url": "https://fluiid.ch/raisons-pour-lesquelles-la-detection-des-fuites-deau-est-importante/",
+   "http_status": 200,
+   "title": "Raisons pour lesquelles la détection des fuites d&#039;eau est importante",
+   "meta_description": "Les fuites d&#039;eau peuvent faire plus que des eaux usées. Au fil du temps, une fuite dans le sol peut causer des dommages importants aux fondations d’une maison ou d’un bâtiment, augmenter l’humidité de la structure et favoriser la croissance de moisissures et d’autres infestations.",
+   "canonical": "https://fluiid.ch/raisons-pour-lesquelles-la-detection-des-fuites-deau-est-importante/",
+   "robots_meta": "",
+   "og_title": "Raisons pour lesquelles la détection des fuites d&#039;eau est importante",
+   "hreflang": [],
+   "h1": [
+    "Raisons pour lesquelles la détection des fuites d&rsquo;eau est importante"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8574,
+   "internal_links": 75,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-installer-arrivee-deau/",
+   "final_url": "https://fluiid.ch/comment-installer-arrivee-deau/",
+   "http_status": 200,
+   "title": "Comment installer une arrivée d’eau ?",
+   "meta_description": "Si vous avez besoin d’aide pour réussir l’installation d’une arrivée d’eau ? Pour cela, vous pouvez vous confier à un plombier certifié.",
+   "canonical": "https://fluiid.ch/comment-installer-arrivee-deau/",
+   "robots_meta": "",
+   "og_title": "Comment installer une arrivée d’eau ?",
+   "hreflang": [],
+   "h1": [
+    "Comment installer une arrivée d’eau ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7118,
+   "internal_links": 76,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/remettre-en-route-des-radiateurs-electriques/",
+   "final_url": "https://fluiid.ch/remettre-en-route-des-radiateurs-electriques/",
+   "http_status": 200,
+   "title": "Remettre en route des radiateurs électriques",
+   "meta_description": "Vous êtes absenté de votre maison pendant des mois ? De toute évidence la remise en route de vos radiateurs électriques  nécessite quelques réglages et vérifications",
+   "canonical": "https://fluiid.ch/remettre-en-route-des-radiateurs-electriques/",
+   "robots_meta": "",
+   "og_title": "Remettre en route des radiateurs électriques",
+   "hreflang": [],
+   "h1": [
+    "Remettre en route des radiateurs électriques"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7174,
+   "internal_links": 76,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-detecter-une-fuite-de-gaz-dans-une-habitation/",
+   "final_url": "https://fluiid.ch/comment-detecter-une-fuite-de-gaz-dans-une-habitation/",
+   "http_status": 200,
+   "title": "Comment détecter une fuite de gaz dans une habitation ?",
+   "meta_description": "En cas de fuite de gaz, essayez de couper le robinet d’arrivée de gaz en attendant l’arrivée de l’expert. Entre temps, il est jussif d’ouvrir les fenêtres afin de ventiler et aérer les pièces de votre domicile.",
+   "canonical": "https://fluiid.ch/comment-detecter-une-fuite-de-gaz-dans-une-habitation/",
+   "robots_meta": "",
+   "og_title": "Comment détecter une fuite de gaz dans une habitation ?",
+   "hreflang": [],
+   "h1": [
+    "Comment détecter une fuite de gaz dans une habitation ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7224,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/la-reparation-dordinateurs-portables-a-bordeaux-un-service-essentiel-pour-la-technologie-daujourdhui/",
+   "final_url": "https://fluiid.ch/la-reparation-dordinateurs-portables-a-bordeaux-un-service-essentiel-pour-la-technologie-daujourdhui/",
+   "http_status": 200,
+   "title": "La Réparation d&#039;Ordinateurs Portables à Bordeaux : Un Service Essentiel pour la Technologie d&#039;Aujourd&#039;hui - Fluiid",
+   "meta_description": "La Réparation d&#039;Ordinateurs Portables à Bordeaux : Un Service Essentiel pour la Technologie d&#039;Aujourd&#039;hui",
+   "canonical": "https://fluiid.ch/la-reparation-dordinateurs-portables-a-bordeaux-un-service-essentiel-pour-la-technologie-daujourdhui/",
+   "robots_meta": "",
+   "og_title": "La Réparation d&#039;Ordinateurs Portables à Bordeaux : Un Service Essentiel pour la Technologie d&#039;Aujourd&#039;hui - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "La Réparation d&rsquo;Ordinateurs Portables à Bordeaux : Un Service Essentiel pour la Technologie d&rsquo;Aujourd&rsquo;hui"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7164,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/paiements-qr-code-restaurants-suisse-romande-avantages-enjeux/",
+   "final_url": "https://fluiid.ch/paiements-qr-code-restaurants-suisse-romande-avantages-enjeux/",
+   "http_status": 200,
+   "title": "Paiement par QR code en Suisse, une révolution - Fluiid",
+   "meta_description": "Découvrez les avantages des commandes et des paiements par QR code dans les restaurants en Suisse romande : y-a-t-il une révolution en cours ? Nous explorons ce phénomène pour vous !",
+   "canonical": "https://fluiid.ch/paiements-qr-code-restaurants-suisse-romande-avantages-enjeux/",
+   "robots_meta": "",
+   "og_title": "Paiement par QR code en Suisse, une révolution - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "La révolution des paiements par QR Code dans les restaurants de Suisse romande: avantages et enjeux pour les consommateurs et restaurateurs"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9235,
+   "internal_links": 65,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/fuite-de-plancher-chauffant-que-faire/",
+   "final_url": "https://fluiid.ch/fuite-de-plancher-chauffant-que-faire/",
+   "http_status": 200,
+   "title": "Fuite de plancher chauffant : Que faire ?",
+   "meta_description": "L&#039;une des principales préoccupations demeure lors de l&#039;installation d&#039;un système de chauffage par le sol dans la maison.",
+   "canonical": "https://fluiid.ch/fuite-de-plancher-chauffant-que-faire/",
+   "robots_meta": "",
+   "og_title": "Fuite de plancher chauffant : Que faire ?",
+   "hreflang": [],
+   "h1": [
+    "Fuite de plancher chauffant : Que faire ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7901,
+   "internal_links": 74,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comparatif-de-bouilloires-avec-thermostat-reglable/",
+   "final_url": "https://fluiid.ch/comparatif-de-bouilloires-avec-thermostat-reglable/",
+   "http_status": 200,
+   "title": "Comparatif de bouilloires avec thermostat réglable",
+   "meta_description": "Comparatif des bouilloires avec thermostat réglable : avis, atouts/inconvénients. Découvrez la sélection des meilleurs articles !",
+   "canonical": "https://fluiid.ch/comparatif-de-bouilloires-avec-thermostat-reglable/",
+   "robots_meta": "",
+   "og_title": "Comparatif de bouilloires avec thermostat réglable",
+   "hreflang": [],
+   "h1": [
+    "Comparatif de bouilloires avec thermostat réglable",
+    "Comparatif de bouilloires avec thermostat réglable – par Yuksekhome"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6319,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/marketing-facebook/",
+   "final_url": "https://fluiid.ch/marketing-facebook/",
+   "http_status": 200,
+   "title": "Marketing Facebook - Fluiid",
+   "meta_description": "Marketing Facebook",
+   "canonical": "https://fluiid.ch/marketing-facebook/",
+   "robots_meta": "",
+   "og_title": "Marketing Facebook - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Marketing Facebook"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 13231,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/7-astuces-pour-entretenir-rideaux-metallique-fenetres/",
+   "final_url": "https://fluiid.ch/7-astuces-pour-entretenir-rideaux-metallique-fenetres/",
+   "http_status": 200,
+   "title": "7 astuces pour entretenir les rideaux métalliques de vos fenêtres",
+   "meta_description": "Les rideaux métalliques sont idéaux pour les espaces commerciaux et les maisons. Ils sont installés dans le but d&#039;assurer la sécurité",
+   "canonical": "https://fluiid.ch/7-astuces-pour-entretenir-rideaux-metallique-fenetres/",
+   "robots_meta": "",
+   "og_title": "7 astuces pour entretenir les rideaux métalliques de vos fenêtres",
+   "hreflang": [],
+   "h1": [
+    "7 astuces pour entretenir les rideaux métalliques de vos fenêtres"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8434,
+   "internal_links": 75,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-choisir-la-meilleure-coque-iphone-se/",
+   "final_url": "https://fluiid.ch/comment-choisir-la-meilleure-coque-iphone-se/",
+   "http_status": 200,
+   "title": "Comment choisir la meilleure coque iPhone SE ? - Fluiid",
+   "meta_description": "Comment choisir la meilleure coque iPhone SE ?",
+   "canonical": "https://fluiid.ch/comment-choisir-la-meilleure-coque-iphone-se/",
+   "robots_meta": "",
+   "og_title": "Comment choisir la meilleure coque iPhone SE ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment choisir la meilleure coque iPhone SE ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7770,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/thermostat-dambiance/",
+   "final_url": "https://fluiid.ch/thermostat-dambiance/",
+   "http_status": 200,
+   "title": "Où installer un thermostat d&#039;ambiance ?",
+   "meta_description": "Thermostat d&#039;ambiance : le meilleur emplacement pour gérer la température de votre domicile. Ou si le vôtre est déjà à la place idéale?",
+   "canonical": "https://fluiid.ch/thermostat-dambiance/",
+   "robots_meta": "",
+   "og_title": "Où installer un thermostat d&#039;ambiance ?",
+   "hreflang": [],
+   "h1": [
+    "Où installer un thermostat d&rsquo;ambiance ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8609,
+   "internal_links": 78,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comparatif-des-bouilloires-electriques-a-temperature-reglable/",
+   "final_url": "https://fluiid.ch/comparatif-des-bouilloires-electriques-a-temperature-reglable/",
+   "http_status": 200,
+   "title": "Comparatif des bouilloires électriques à température réglable",
+   "meta_description": "Comparatif des bouilloires électriques à température réglable : avis, atouts/inconvénients. Découvrez la sélection des meilleurs articles !",
+   "canonical": "https://fluiid.ch/comparatif-des-bouilloires-electriques-a-temperature-reglable/",
+   "robots_meta": "",
+   "og_title": "Comparatif des bouilloires électriques à température réglable",
+   "hreflang": [],
+   "h1": [
+    "Comparatif des bouilloires électriques à température réglable",
+    "Comparatif des bouilloires électriques à température réglable – par Yuksekhome"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6782,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/determinez-vos-elements-de-recherches-pour-effectuer-des-rencontres-memorables-sur-le-web/",
+   "final_url": "https://fluiid.ch/determinez-vos-elements-de-recherches-pour-effectuer-des-rencontres-memorables-sur-le-web/",
+   "http_status": 200,
+   "title": "Déterminez vos éléments de recherches pour effectuer des rencontres mémorables sur le web. - Fluiid",
+   "meta_description": "Déterminez vos éléments de recherches pour effectuer des rencontres mémorables sur le web.",
+   "canonical": "https://fluiid.ch/determinez-vos-elements-de-recherches-pour-effectuer-des-rencontres-memorables-sur-le-web/",
+   "robots_meta": "",
+   "og_title": "Déterminez vos éléments de recherches pour effectuer des rencontres mémorables sur le web. - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Déterminez vos éléments de recherches pour effectuer des rencontres mémorables sur le web."
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7218,
+   "internal_links": 76,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comparatif-cafetieres-italiennes/",
+   "final_url": "https://fluiid.ch/comparatif-cafetieres-italiennes/",
+   "http_status": 200,
+   "title": "Comparatif cafetières italiennes - Fluiid gastronomie",
+   "meta_description": "Comparatif des cafetières italiennes : avis clients, conseils utiles, atouts/inconvénients. Découvrez la sélection des meilleurs articles !",
+   "canonical": "https://fluiid.ch/comparatif-cafetieres-italiennes/",
+   "robots_meta": "",
+   "og_title": "Comparatif cafetières italiennes - Fluiid gastronomie",
+   "hreflang": [],
+   "h1": [
+    "Comparatif cafetières italiennes",
+    "Comparatif cafetières italiennes – par Yuksekhome"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6395,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comparatif-cafetieres-nespresso/",
+   "final_url": "https://fluiid.ch/comparatif-cafetieres-nespresso/",
+   "http_status": 200,
+   "title": "Comparatif cafetières nespresso - Fluiid gastronomie",
+   "meta_description": "Comparatif des cafetières nespresso : avis clients, conseils utiles, atouts/inconvénients. Découvrez la sélection des meilleurs articles !",
+   "canonical": "https://fluiid.ch/comparatif-cafetieres-nespresso/",
+   "robots_meta": "",
+   "og_title": "Comparatif cafetières nespresso - Fluiid gastronomie",
+   "hreflang": [],
+   "h1": [
+    "Comparatif cafetières nespresso",
+    "Comparatif cafetières nespresso – par Yuksekhome"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6380,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/vide-appartement-a-nanterre-au-meilleur-prix-et-pas-cher-dans-un-delai-eclair/",
+   "final_url": "https://fluiid.ch/vide-appartement-a-nanterre-au-meilleur-prix-et-pas-cher-dans-un-delai-eclair/",
+   "http_status": 200,
+   "title": "Vide appartement à Nanterre au meilleur prix et pas cher dans un délai éclair - Fluiid",
+   "meta_description": "Vide appartement à Nanterre au meilleur prix et pas cher dans un délai éclair",
+   "canonical": "https://fluiid.ch/vide-appartement-a-nanterre-au-meilleur-prix-et-pas-cher-dans-un-delai-eclair/",
+   "robots_meta": "",
+   "og_title": "Vide appartement à Nanterre au meilleur prix et pas cher dans un délai éclair - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Vide appartement à Nanterre au meilleur prix et pas cher dans un délai éclair"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8875,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/expulser-squatteur-rapidement-france/",
+   "final_url": "https://fluiid.ch/expulser-squatteur-rapidement-france/",
+   "http_status": 200,
+   "title": "Comment Expulser un Squatteur Rapidement en France ? Guide Complet 2026 - Fluiid",
+   "meta_description": "Découvrez comment expulser légalement un squatteur en France en moins de 30 jours. Procédures, lois, droits et solutions rapides expliqués clairement.",
+   "canonical": "https://fluiid.ch/expulser-squatteur-rapidement-france/",
+   "robots_meta": "",
+   "og_title": "Comment Expulser un Squatteur Rapidement en France ? Guide Complet 2026 - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment Expulser un Squatteur Rapidement en France ? Guide Complet 2026"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10856,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/bouilloire-electrique-avec-thermostat-le-guide-complet/",
+   "final_url": "https://fluiid.ch/bouilloire-electrique-avec-thermostat-le-guide-complet/",
+   "http_status": 200,
+   "title": "Bouilloire électrique avec thermostat : le guide complet - Fluiid",
+   "meta_description": "Découvrez notre guide sur les bouilloires électriques ! Pour en savoir plus sur les bouilloires électriques à thermostat réglable, il y a Yuksekhome.",
+   "canonical": "https://fluiid.ch/bouilloire-electrique-avec-thermostat-le-guide-complet/",
+   "robots_meta": "",
+   "og_title": "Bouilloire électrique avec thermostat : le guide complet - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Bouilloire électrique avec thermostat : le guide complet",
+    "Bouilloire électrique avec thermostat – par Yuksekhome"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6798,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/un-service-de-rencontre-pour-les-celibataires-handicape/",
+   "final_url": "https://fluiid.ch/un-service-de-rencontre-pour-les-celibataires-handicape/",
+   "http_status": 200,
+   "title": "Un service de rencontre pour les célibataires handicape. - Fluiid",
+   "meta_description": "Un service de rencontre pour les célibataires handicape.",
+   "canonical": "https://fluiid.ch/un-service-de-rencontre-pour-les-celibataires-handicape/",
+   "robots_meta": "",
+   "og_title": "Un service de rencontre pour les célibataires handicape. - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Un service de rencontre pour les célibataires handicape."
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7733,
+   "internal_links": 78,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-se-demarquer-des-autres-sur-les-sites-de-rencontre/",
+   "final_url": "https://fluiid.ch/comment-se-demarquer-des-autres-sur-les-sites-de-rencontre/",
+   "http_status": 200,
+   "title": "Comment se démarquer des autres sur les sites de rencontre? - Fluiid",
+   "meta_description": "Comment se démarquer des autres sur les sites de rencontre?",
+   "canonical": "https://fluiid.ch/comment-se-demarquer-des-autres-sur-les-sites-de-rencontre/",
+   "robots_meta": "",
+   "og_title": "Comment se démarquer des autres sur les sites de rencontre? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment se démarquer des autres sur les sites de rencontre?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7208,
+   "internal_links": 75,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-sites-de-rencontres-amoureuses-en-ligne/",
+   "final_url": "https://fluiid.ch/les-sites-de-rencontres-amoureuses-en-ligne/",
+   "http_status": 200,
+   "title": "Les sites de rencontres amoureuses en ligne. - Fluiid",
+   "meta_description": "Les sites de rencontres amoureuses en ligne.",
+   "canonical": "https://fluiid.ch/les-sites-de-rencontres-amoureuses-en-ligne/",
+   "robots_meta": "",
+   "og_title": "Les sites de rencontres amoureuses en ligne. - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les sites de rencontres amoureuses en ligne."
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6903,
+   "internal_links": 74,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/lpp-suisse/",
+   "final_url": "https://fluiid.ch/lpp-suisse/",
+   "http_status": 200,
+   "title": "Comprendre la LPP : La Prévoyance Professionnelle en Suisse - Fluiid",
+   "meta_description": "Découvrez tout ce que vous devez savoir sur la LPP en Suisse : objectifs, fonctionnement, obligation d&#039;assurance, options facultatives, et coordination des salaires. Informez-vous sur ce pilier essentiel de la prévoyance suisse pour une retraite sereine et une protection financière optimale.",
+   "canonical": "https://fluiid.ch/lpp-suisse/",
+   "robots_meta": "",
+   "og_title": "Comprendre la LPP : La Prévoyance Professionnelle en Suisse - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comprendre la LPP : La Prévoyance Professionnelle en Suisse"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7774,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-reconnaitre-les-arnaques-sur-les-sites-de-rencontre/",
+   "final_url": "https://fluiid.ch/comment-reconnaitre-les-arnaques-sur-les-sites-de-rencontre/",
+   "http_status": 200,
+   "title": "Comment reconnaitre les arnaques sur les sites de rencontre? - Fluiid",
+   "meta_description": "Comment reconnaitre les arnaques sur les sites de rencontre?",
+   "canonical": "https://fluiid.ch/comment-reconnaitre-les-arnaques-sur-les-sites-de-rencontre/",
+   "robots_meta": "",
+   "og_title": "Comment reconnaitre les arnaques sur les sites de rencontre? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment reconnaitre les arnaques sur les sites de rencontre?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7230,
+   "internal_links": 76,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/choisir-son-agence-digitale-web-a-geneve/",
+   "final_url": "https://fluiid.ch/choisir-son-agence-digitale-web-a-geneve/",
+   "http_status": 200,
+   "title": "Choisir son agence digitale web à genève - Fluiid",
+   "meta_description": "Choisir son agence digitale web à genève",
+   "canonical": "https://fluiid.ch/choisir-son-agence-digitale-web-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Choisir son agence digitale web à genève - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Choisir son agence digitale web à genève"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7804,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/explication-de-lhypnose-pour-les-nuls-en-general/",
+   "final_url": "https://fluiid.ch/explication-de-lhypnose-pour-les-nuls-en-general/",
+   "http_status": 200,
+   "title": "Explication de l&#039;hypnose pour les nuls en général - Fluiid",
+   "meta_description": "Explication de l&#039;hypnose pour les nuls en général",
+   "canonical": "https://fluiid.ch/explication-de-lhypnose-pour-les-nuls-en-general/",
+   "robots_meta": "",
+   "og_title": "Explication de l&#039;hypnose pour les nuls en général - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Explication de l&rsquo;hypnose pour les nuls en général"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9451,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/5-astuces-pour-securiser-votre-maison/",
+   "final_url": "https://fluiid.ch/5-astuces-pour-securiser-votre-maison/",
+   "http_status": 200,
+   "title": "5 astuces pour sécuriser votre maison - Fluiid",
+   "meta_description": "5 astuces pour sécuriser votre maison",
+   "canonical": "https://fluiid.ch/5-astuces-pour-securiser-votre-maison/",
+   "robots_meta": "",
+   "og_title": "5 astuces pour sécuriser votre maison - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "5 astuces pour sécuriser votre maison"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7578,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/trouver-le-meilleur-coiffeur-a-geneve-top-10-des-meilleurs-coiffeurs-de-geneve-en-suisse/",
+   "final_url": "https://fluiid.ch/trouver-le-meilleur-coiffeur-a-geneve-top-10-des-meilleurs-coiffeurs-de-geneve-en-suisse/",
+   "http_status": 200,
+   "title": "Trouver le meilleur coiffeur à Genève : TOP 10 des meilleurs coiffeurs de Geneve en Suisse - Fluiid",
+   "meta_description": "Trouver le meilleur coiffeur à Genève : TOP 10 des meilleurs coiffeurs de Geneve en Suisse avec les prix, les avis, horaires et prise de rendez vous.",
+   "canonical": "https://fluiid.ch/trouver-le-meilleur-coiffeur-a-geneve-top-10-des-meilleurs-coiffeurs-de-geneve-en-suisse/",
+   "robots_meta": "",
+   "og_title": "Trouver le meilleur coiffeur à Genève : TOP 10 des meilleurs coiffeurs de Geneve en Suisse - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Trouver le meilleur coiffeur à Genève : TOP 10 des meilleurs coiffeurs de Geneve en Suisse"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9361,
+   "internal_links": 65,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/maximisez-vos-chances-de-faire-des-rencontres/",
+   "final_url": "https://fluiid.ch/maximisez-vos-chances-de-faire-des-rencontres/",
+   "http_status": 200,
+   "title": "Maximisez vos chances de faire des rencontres - Fluiid",
+   "meta_description": "Maximisez vos chances de faire des rencontres",
+   "canonical": "https://fluiid.ch/maximisez-vos-chances-de-faire-des-rencontres/",
+   "robots_meta": "",
+   "og_title": "Maximisez vos chances de faire des rencontres - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Maximisez vos chances de faire des rencontres"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6941,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-un-logiciel-de-gmao-est-il-indispensable-avantages-et-perspectives/",
+   "final_url": "https://fluiid.ch/pourquoi-un-logiciel-de-gmao-est-il-indispensable-avantages-et-perspectives/",
+   "http_status": 200,
+   "title": "Pourquoi un logiciel de GMAO est-il indispensable ? Avantages et perspectives - Fluiid",
+   "meta_description": "Pourquoi un logiciel de GMAO est-il indispensable ? Avantages et perspectives",
+   "canonical": "https://fluiid.ch/pourquoi-un-logiciel-de-gmao-est-il-indispensable-avantages-et-perspectives/",
+   "robots_meta": "",
+   "og_title": "Pourquoi un logiciel de GMAO est-il indispensable ? Avantages et perspectives - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi un logiciel de GMAO est-il indispensable ? Avantages et perspectives"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10928,
+   "internal_links": 74,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/tableaux-de-bord-kpi-et-gmao/",
+   "final_url": "https://fluiid.ch/tableaux-de-bord-kpi-et-gmao/",
+   "http_status": 200,
+   "title": "Tableaux de bord KPI et GMAO",
+   "meta_description": "Pour les experts de maintenance, l’utilisation d&#039;indicateurs clés sur leurs activités est largement simplifiée, voire même enfin rendue possible, grâce à une solution de gestion de maintenance assistée par ordinateur, une GMAO",
+   "canonical": "https://fluiid.ch/tableaux-de-bord-kpi-et-gmao/",
+   "robots_meta": "",
+   "og_title": "Tableaux de bord KPI et GMAO",
+   "hreflang": [],
+   "h1": [
+    "Tableaux de bord KPI et GMAO"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 11678,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/4-moyens-simples-de-doubler-ses-niveaux-denergie/",
+   "final_url": "https://fluiid.ch/4-moyens-simples-de-doubler-ses-niveaux-denergie/",
+   "http_status": 200,
+   "title": "4 MOYENS SIMPLES DE DOUBLER SES NIVEAUX D’ÉNERGIE - Fluiid",
+   "meta_description": "4 MOYENS SIMPLES DE DOUBLER SES NIVEAUX D’ÉNERGIE",
+   "canonical": "https://fluiid.ch/4-moyens-simples-de-doubler-ses-niveaux-denergie/",
+   "robots_meta": "",
+   "og_title": "4 MOYENS SIMPLES DE DOUBLER SES NIVEAUX D’ÉNERGIE - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "4 MOYENS SIMPLES DE DOUBLER SES NIVEAUX D’ÉNERGIE"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10970,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/guide-dosage-gouttes-cbd-quotidien/",
+   "final_url": "https://fluiid.ch/guide-dosage-gouttes-cbd-quotidien/",
+   "http_status": 200,
+   "title": "Comment prendre des gouttes de CBD : Guide de dosage et conseils - Fluiid",
+   "meta_description": "Comment prendre des gouttes de CBD ? Découvrez comment consommer efficacement l&#039;huile de CBD pour bénéficier au mieux des propriétés du Cannabidiol et obtenir le dosage adapté à votre besoin",
+   "canonical": "https://fluiid.ch/guide-dosage-gouttes-cbd-quotidien/",
+   "robots_meta": "",
+   "og_title": "Comment prendre des gouttes de CBD : Guide de dosage et conseils - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment bien doser et prendre des gouttes de CBD au quotidien"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7761,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/le-seul-moyen-scientifiquement-prouve-de-faire-rajeunir-son-visage/",
+   "final_url": "https://fluiid.ch/le-seul-moyen-scientifiquement-prouve-de-faire-rajeunir-son-visage/",
+   "http_status": 200,
+   "title": "LE SEUL MOYEN SCIENTIFIQUEMENT PROUVÉ DE FAIRE RAJEUNIR SON VISAGE",
+   "meta_description": "Le seul moyen scientifiquement prouvé de faire rajeunir son image est dans son article. Avec les crèmes anti âge par exemple.",
+   "canonical": "https://fluiid.ch/le-seul-moyen-scientifiquement-prouve-de-faire-rajeunir-son-visage/",
+   "robots_meta": "",
+   "og_title": "LE SEUL MOYEN SCIENTIFIQUEMENT PROUVÉ DE FAIRE RAJEUNIR SON VISAGE",
+   "hreflang": [],
+   "h1": [
+    "LE SEUL MOYEN SCIENTIFIQUEMENT PROUVÉ DE FAIRE RAJEUNIR SON VISAGE"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 13735,
+   "internal_links": 68,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/quelles-sont-les-attitudes-a-adopter-pour-eviter-la-covid-19/",
+   "final_url": "https://fluiid.ch/quelles-sont-les-attitudes-a-adopter-pour-eviter-la-covid-19/",
+   "http_status": 200,
+   "title": "Quelles sont les attitudes à adopter pour éviter la Covid 19 ? - Fluiid",
+   "meta_description": "Fluiid",
+   "canonical": "https://fluiid.ch/quelles-sont-les-attitudes-a-adopter-pour-eviter-la-covid-19/",
+   "robots_meta": "",
+   "og_title": "Quelles sont les attitudes à adopter pour éviter la Covid 19 ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Quelles sont les attitudes à adopter pour éviter la Covid 19 ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9525,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/faire-appel-a-une-societe-fiduciaire-en-suisse-pour-quoi-faire/",
+   "final_url": "https://fluiid.ch/faire-appel-a-une-societe-fiduciaire-en-suisse-pour-quoi-faire/",
+   "http_status": 200,
+   "title": "Faire appel à une société fiduciaire en Suisse : pour quoi faire ? - Fluiid",
+   "meta_description": "Faire appel à une société fiduciaire en Suisse : pour quoi faire ?",
+   "canonical": "https://fluiid.ch/faire-appel-a-une-societe-fiduciaire-en-suisse-pour-quoi-faire/",
+   "robots_meta": "",
+   "og_title": "Faire appel à une société fiduciaire en Suisse : pour quoi faire ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Faire appel à une société fiduciaire en Suisse : pour quoi faire ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 12784,
+   "internal_links": 74,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/plongee-sous-marine-france-les-meilleurs-sites-de-plongee/",
+   "final_url": "https://fluiid.ch/plongee-sous-marine-france-les-meilleurs-sites-de-plongee/",
+   "http_status": 200,
+   "title": "Plongée sous-marine France : Les meilleurs sites de plongée ! - Fluiid",
+   "meta_description": "Plongée sous-marine France : Les meilleurs sites de plongée !",
+   "canonical": "https://fluiid.ch/plongee-sous-marine-france-les-meilleurs-sites-de-plongee/",
+   "robots_meta": "",
+   "og_title": "Plongée sous-marine France : Les meilleurs sites de plongée ! - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Plongée sous-marine France : Les meilleurs sites de plongée !"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10999,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/sites-de-rencontres-la-difference-pour-les-mecs-et-les-nanas/",
+   "final_url": "https://fluiid.ch/sites-de-rencontres-la-difference-pour-les-mecs-et-les-nanas/",
+   "http_status": 200,
+   "title": "Sites de rencontres: la différence pour les mecs et les nanas - Fluiid",
+   "meta_description": "Comment faire des rencontres en ligne sur internet pour trouver l&#039;amour et votre ame soeur. Les sites de rencontres sont la pour ca",
+   "canonical": "https://fluiid.ch/sites-de-rencontres-la-difference-pour-les-mecs-et-les-nanas/",
+   "robots_meta": "",
+   "og_title": "Sites de rencontres: la différence pour les mecs et les nanas - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Sites de rencontres: la différence pour les mecs et les nanas"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7261,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/maximisez-vos-chances-de-faire-des-rencontres-gays-et-lesbiennes-via-les-sites-de-rencontre/",
+   "final_url": "https://fluiid.ch/maximisez-vos-chances-de-faire-des-rencontres-gays-et-lesbiennes-via-les-sites-de-rencontre/",
+   "http_status": 200,
+   "title": "Maximisez vos chances de faire des rencontres gays et lesbiennes via les sites de rencontre - Fluiid",
+   "meta_description": "Maximisez vos chances de faire des rencontres gays et lesbiennes via les sites de rencontre",
+   "canonical": "https://fluiid.ch/maximisez-vos-chances-de-faire-des-rencontres-gays-et-lesbiennes-via-les-sites-de-rencontre/",
+   "robots_meta": "",
+   "og_title": "Maximisez vos chances de faire des rencontres gays et lesbiennes via les sites de rencontre - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Maximisez vos chances de faire des rencontres gays et lesbiennes via les sites de rencontre"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7247,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/difference-entre-les-projecteurs-video-4k/",
+   "final_url": "https://fluiid.ch/difference-entre-les-projecteurs-video-4k/",
+   "http_status": 200,
+   "title": "Différence entre les projecteurs vidéo 4k - Fluiid",
+   "meta_description": "Vidéoprojecteur 4K : comment choisir la résolution FULL HD pour avoir une qualité d&#039;image époustouflante dans votre salon",
+   "canonical": "https://fluiid.ch/difference-entre-les-projecteurs-video-4k/",
+   "robots_meta": "",
+   "og_title": "Différence entre les projecteurs vidéo 4k - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Différence entre les projecteurs vidéo 4k"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9438,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/combattez-le-manque-de-vitamine-d-pour-votre-sante/",
+   "final_url": "https://fluiid.ch/combattez-le-manque-de-vitamine-d-pour-votre-sante/",
+   "http_status": 200,
+   "title": "&quot;Combattez le Manque de Vitamine D pour Votre Santé&quot; - Fluiid",
+   "meta_description": "&quot;Combattez le Manque de Vitamine D pour Votre Santé&quot;",
+   "canonical": "https://fluiid.ch/combattez-le-manque-de-vitamine-d-pour-votre-sante/",
+   "robots_meta": "",
+   "og_title": "&quot;Combattez le Manque de Vitamine D pour Votre Santé&quot; - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "« Combattez le Manque de Vitamine D pour Votre Santé »"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9827,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/casque-bebe-enfant-en-bas-age-une-protection-optimale-pour-les-plus-petits/",
+   "final_url": "https://fluiid.ch/casque-bebe-enfant-en-bas-age-une-protection-optimale-pour-les-plus-petits/",
+   "http_status": 200,
+   "title": "Casque bébé et enfant en bas âge - une protection optimale pour les plus petits - Fluiid",
+   "meta_description": "Casque bébé et enfant en bas âge - une protection optimale pour les plus petits",
+   "canonical": "https://fluiid.ch/casque-bebe-enfant-en-bas-age-une-protection-optimale-pour-les-plus-petits/",
+   "robots_meta": "",
+   "og_title": "Casque bébé et enfant en bas âge - une protection optimale pour les plus petits - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Casque bébé et enfant en bas âge &#8211; une protection optimale pour les plus petits"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9247,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-trouver-une-bonne-agence-web/",
+   "final_url": "https://fluiid.ch/comment-trouver-une-bonne-agence-web/",
+   "http_status": 200,
+   "title": "Comment trouver une bonne agence web : - Fluiid",
+   "meta_description": "Comment trouver une bonne agence web :",
+   "canonical": "https://fluiid.ch/comment-trouver-une-bonne-agence-web/",
+   "robots_meta": "",
+   "og_title": "Comment trouver une bonne agence web : - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment trouver une bonne agence web :"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7683,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/marc-arthur-kohn-un-expert-dans-le-domaine-de-lart/",
+   "final_url": "https://fluiid.ch/marc-arthur-kohn-un-expert-dans-le-domaine-de-lart/",
+   "http_status": 200,
+   "title": "Marc-Arthur Kohn, un expert dans le domaine de l’art - Fluiid",
+   "meta_description": "Marc-Arthur Kohn, un expert dans le domaine de l’art",
+   "canonical": "https://fluiid.ch/marc-arthur-kohn-un-expert-dans-le-domaine-de-lart/",
+   "robots_meta": "",
+   "og_title": "Marc-Arthur Kohn, un expert dans le domaine de l’art - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Marc-Arthur Kohn, un expert dans le domaine de l’art"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7352,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/fiduciaire-geneve-impots-fiduciaire-geneve-frontalier/",
+   "final_url": "https://fluiid.ch/fiduciaire-geneve-impots-fiduciaire-geneve-frontalier/",
+   "http_status": 200,
+   "title": "Fiduciaire Geneve, pour les frontalier ou la déclaraion impots",
+   "meta_description": "Fiduciaire geneve impots s&#039;occupe de traiter votre déclaration d&#039;impôts sur Genève et à Carouge, Versoix, eaux vives, cologny, vandoeuvres. Bon tarifs.",
+   "canonical": "https://fluiid.ch/fiduciaire-geneve-impots-fiduciaire-geneve-frontalier/",
+   "robots_meta": "",
+   "og_title": "Fiduciaire Geneve, pour les frontalier ou la déclaraion impots",
+   "hreflang": [],
+   "h1": [
+    "Fiduciaire geneve impots, fiduciaire geneve frontalier"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 4763,
+   "internal_links": 65,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/marche-du-credit-consommation-croissance-au-ralenti-deja-en-vue/",
+   "final_url": "https://fluiid.ch/marche-du-credit-consommation-croissance-au-ralenti-deja-en-vue/",
+   "http_status": 200,
+   "title": "Marché du crédit à la consommation : croissance au ralenti déjà en vue - Fluiid",
+   "meta_description": "Marché du crédit à la consommation : croissance au ralenti déjà en vue",
+   "canonical": "https://fluiid.ch/marche-du-credit-consommation-croissance-au-ralenti-deja-en-vue/",
+   "robots_meta": "",
+   "og_title": "Marché du crédit à la consommation : croissance au ralenti déjà en vue - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Marché du crédit à la consommation : croissance au ralenti déjà en vue"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7141,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/outre-atlantique-un-secteur-bancaire-en-plein-essor-au-cours-des-trois-premiers-mois-de-2019/",
+   "final_url": "https://fluiid.ch/outre-atlantique-un-secteur-bancaire-en-plein-essor-au-cours-des-trois-premiers-mois-de-2019/",
+   "http_status": 200,
+   "title": "Outre-Atlantique : Un secteur bancaire en plein essor au cours des trois premiers mois de 2019 - Fluiid",
+   "meta_description": "Outre-Atlantique : Un secteur bancaire en plein essor au cours des trois premiers mois de 2019",
+   "canonical": "https://fluiid.ch/outre-atlantique-un-secteur-bancaire-en-plein-essor-au-cours-des-trois-premiers-mois-de-2019/",
+   "robots_meta": "",
+   "og_title": "Outre-Atlantique : Un secteur bancaire en plein essor au cours des trois premiers mois de 2019 - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Outre-Atlantique : Un secteur bancaire en plein essor au cours des trois premiers mois de 2019"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6748,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/accroissement-de-dettes-du-secteur-prive-un-danger-pour-leconomie-francaise/",
+   "final_url": "https://fluiid.ch/accroissement-de-dettes-du-secteur-prive-un-danger-pour-leconomie-francaise/",
+   "http_status": 200,
+   "title": "Accroissement de dettes du secteur privé : un danger pour l’économie française - Fluiid",
+   "meta_description": "Accroissement de dettes du secteur privé : un danger pour l’économie française",
+   "canonical": "https://fluiid.ch/accroissement-de-dettes-du-secteur-prive-un-danger-pour-leconomie-francaise/",
+   "robots_meta": "",
+   "og_title": "Accroissement de dettes du secteur privé : un danger pour l’économie française - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Accroissement de dettes du secteur privé : un danger pour l’économie française"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7164,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/30-des-revenus-deja-affecte-aux-depenses-pre-engagees-les-menages-francais-se-plaignent/",
+   "final_url": "https://fluiid.ch/30-des-revenus-deja-affecte-aux-depenses-pre-engagees-les-menages-francais-se-plaignent/",
+   "http_status": 200,
+   "title": "30 % des revenus déjà affecté aux dépenses pré engagées : les ménages français se plaignent - Fluiid",
+   "meta_description": "30 % des revenus déjà affecté aux dépenses pré engagées : les ménages français se plaignent",
+   "canonical": "https://fluiid.ch/30-des-revenus-deja-affecte-aux-depenses-pre-engagees-les-menages-francais-se-plaignent/",
+   "robots_meta": "",
+   "og_title": "30 % des revenus déjà affecté aux dépenses pré engagées : les ménages français se plaignent - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "30 % des revenus déjà affecté aux dépenses pré engagées : les ménages français se plaignent"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6898,
+   "internal_links": 72,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/commenter-poser-des-faux-cils/",
+   "final_url": "https://fluiid.ch/commenter-poser-des-faux-cils/",
+   "http_status": 200,
+   "title": "Commenter poser des faux cils? - Fluiid",
+   "meta_description": "Commenter poser des faux cils?",
+   "canonical": "https://fluiid.ch/commenter-poser-des-faux-cils/",
+   "robots_meta": "",
+   "og_title": "Commenter poser des faux cils? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Commenter poser des faux cils?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7086,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/sejourner-dans-un-riad-avec-piscine-a-marrakech/",
+   "final_url": "https://fluiid.ch/sejourner-dans-un-riad-avec-piscine-a-marrakech/",
+   "http_status": 200,
+   "title": "Séjourner dans un riad avec piscine à marrakech - Fluiid",
+   "meta_description": "Séjourner dans un riad avec piscine à marrakech",
+   "canonical": "https://fluiid.ch/sejourner-dans-un-riad-avec-piscine-a-marrakech/",
+   "robots_meta": "",
+   "og_title": "Séjourner dans un riad avec piscine à marrakech - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Séjourner dans un riad avec piscine à marrakech"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6580,
+   "internal_links": 71,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/achat-followers-instagram/",
+   "final_url": "https://fluiid.ch/achat-followers-instagram/",
+   "http_status": 200,
+   "title": "Le phénomène de l&#039;achat de followers sur instagram - Fluiid",
+   "meta_description": "Le phénomène de l&#039;achat de followers sur instagram",
+   "canonical": "https://fluiid.ch/achat-followers-instagram/",
+   "robots_meta": "",
+   "og_title": "Le phénomène de l&#039;achat de followers sur instagram - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Le phénomène de l&rsquo;achat de followers sur instagram"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7969,
+   "internal_links": 75,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/chambres-avec-jacuzzi-var/",
+   "final_url": "https://fluiid.ch/chambres-avec-jacuzzi-var/",
+   "http_status": 200,
+   "title": "Decouvrir les chambres avec jacuzzi à frejus sur la cote d&#039;azur - Fluiid",
+   "meta_description": "Decouvrir les chambres avec jacuzzi à frejus sur la cote d&#039;azur",
+   "canonical": "https://fluiid.ch/chambres-avec-jacuzzi-var/",
+   "robots_meta": "",
+   "og_title": "Decouvrir les chambres avec jacuzzi à frejus sur la cote d&#039;azur - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Decouvrir les chambres avec jacuzzi à frejus sur la cote d&rsquo;azur"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7038,
+   "internal_links": 75,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-sortir-avec-cette-canicule-a-paris/",
+   "final_url": "https://fluiid.ch/comment-sortir-avec-cette-canicule-a-paris/",
+   "http_status": 200,
+   "title": "Comment sortir avec cette canicule à Paris - Fluiid",
+   "meta_description": "Comment sortir avec cette canicule à Paris",
+   "canonical": "https://fluiid.ch/comment-sortir-avec-cette-canicule-a-paris/",
+   "robots_meta": "",
+   "og_title": "Comment sortir avec cette canicule à Paris - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment sortir avec cette canicule à Paris"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7461,
+   "internal_links": 74,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/histoire-et-origine-des-tissus-en-france/",
+   "final_url": "https://fluiid.ch/histoire-et-origine-des-tissus-en-france/",
+   "http_status": 200,
+   "title": "Histoire et origine des tissus en France - Fluiid",
+   "meta_description": "Histoire et origine des tissus en France",
+   "canonical": "https://fluiid.ch/histoire-et-origine-des-tissus-en-france/",
+   "robots_meta": "",
+   "og_title": "Histoire et origine des tissus en France - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Histoire et origine des tissus en France"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7745,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/la-monde-de-la-photographie/",
+   "final_url": "https://fluiid.ch/la-monde-de-la-photographie/",
+   "http_status": 200,
+   "title": "Le monde de la photographie - Fluiid",
+   "meta_description": "Le monde de la photographie",
+   "canonical": "https://fluiid.ch/la-monde-de-la-photographie/",
+   "robots_meta": "",
+   "og_title": "Le monde de la photographie - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Le monde de la photographie"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 5646,
+   "internal_links": 74,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/la-retraite-un-passage-difficile-aujourdhui/",
+   "final_url": "https://fluiid.ch/la-retraite-un-passage-difficile-aujourdhui/",
+   "http_status": 200,
+   "title": "La retraite : un passage difficile aujourd’hui - Fluiid",
+   "meta_description": "La retraite : un passage difficile aujourd’hui",
+   "canonical": "https://fluiid.ch/la-retraite-un-passage-difficile-aujourdhui/",
+   "robots_meta": "",
+   "og_title": "La retraite : un passage difficile aujourd’hui - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "La retraite : un passage difficile aujourd’hui"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7397,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/combien-coute-un-appareil-auditif/",
+   "final_url": "https://fluiid.ch/combien-coute-un-appareil-auditif/",
+   "http_status": 200,
+   "title": "Combien coûte un appareil auditif? - Fluiid",
+   "meta_description": "Combien coûte un appareil auditif?",
+   "canonical": "https://fluiid.ch/combien-coute-un-appareil-auditif/",
+   "robots_meta": "",
+   "og_title": "Combien coûte un appareil auditif? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Combien coûte un appareil auditif?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9003,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-avantages-de-la-traduction-a-lausanne-top-10-des-services-de-traduction-a-lausanne-en-suisse/",
+   "final_url": "https://fluiid.ch/les-avantages-de-la-traduction-a-lausanne-top-10-des-services-de-traduction-a-lausanne-en-suisse/",
+   "http_status": 200,
+   "title": "Les avantages de la traduction à Lausanne - Top 10 des services de traduction à Lausanne en Suisse - Fluiid",
+   "meta_description": "Les avantages de la traduction à Lausanne - Top 10 des services de traduction à Lausanne en Suisse",
+   "canonical": "https://fluiid.ch/les-avantages-de-la-traduction-a-lausanne-top-10-des-services-de-traduction-a-lausanne-en-suisse/",
+   "robots_meta": "",
+   "og_title": "Les avantages de la traduction à Lausanne - Top 10 des services de traduction à Lausanne en Suisse - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les avantages de la traduction à Lausanne &#8211; Top 10 des services de traduction à Lausanne en Suisse"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9230,
+   "internal_links": 67,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/couvreur-geneve-le-savoir-faire-et-la-qualite-au-service-des-clients-top-10-des-meilleurs-couvreurs-de-geneve-en-suisse/",
+   "final_url": "https://fluiid.ch/couvreur-geneve-le-savoir-faire-et-la-qualite-au-service-des-clients-top-10-des-meilleurs-couvreurs-de-geneve-en-suisse/",
+   "http_status": 200,
+   "title": "Couvreur, Genève : le savoir-faire et la qualité au service des clients : Top 10 des meilleurs couvreurs de Geneve en Suisse - Fluiid",
+   "meta_description": "Couvreur, Genève : le savoir-faire et la qualité au service des clients : Top 10 des meilleurs couvreurs de Geneve en Suisse",
+   "canonical": "https://fluiid.ch/couvreur-geneve-le-savoir-faire-et-la-qualite-au-service-des-clients-top-10-des-meilleurs-couvreurs-de-geneve-en-suisse/",
+   "robots_meta": "",
+   "og_title": "Couvreur, Genève : le savoir-faire et la qualité au service des clients : Top 10 des meilleurs couvreurs de Geneve en Suisse - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Couvreur, Genève : le savoir-faire et la qualité au service des clients : Top 10 des meilleurs couvreurs de Geneve en Suisse"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9203,
+   "internal_links": 66,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/top-10-des-charpentiers-a-geneve-un-savoir-faire-exceptionnel/",
+   "final_url": "https://fluiid.ch/top-10-des-charpentiers-a-geneve-un-savoir-faire-exceptionnel/",
+   "http_status": 200,
+   "title": "TOP 10 des charpentiers à Genève : un savoir-faire exceptionnel - Fluiid",
+   "meta_description": "TOP 10 des charpentiers à Genève : un savoir-faire exceptionnel",
+   "canonical": "https://fluiid.ch/top-10-des-charpentiers-a-geneve-un-savoir-faire-exceptionnel/",
+   "robots_meta": "",
+   "og_title": "TOP 10 des charpentiers à Genève : un savoir-faire exceptionnel - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "TOP 10 des charpentiers à Genève : un savoir-faire exceptionnel"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 10043,
+   "internal_links": 67,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/cable-multi-usb-cable-usb-multi-connecteurs-cable-usb-multi-embout/",
+   "final_url": "https://fluiid.ch/cable-multi-usb-cable-usb-multi-connecteurs-cable-usb-multi-embout/",
+   "http_status": 200,
+   "title": "Cable usb muti embout ou Cable multi usb qui est TOP VENTES AMAZON",
+   "meta_description": "Cable usb muti embout et Cable multi usb équipé de 3 embout d&#039;un côté (Micro usb - Usb type C - Lightning Iphone/Ipad) et (USB Standard et USB C) (RARE)",
+   "canonical": "https://fluiid.ch/cable-multi-usb-cable-usb-multi-connecteurs-cable-usb-multi-embout/",
+   "robots_meta": "",
+   "og_title": "Cable usb muti embout ou Cable multi usb qui est TOP VENTES AMAZON",
+   "hreflang": [],
+   "h1": [
+    "Cable Multi USB, Cable Multi Chargeur, cable usb multi connecteur, cable multi usb, cable  Multi Embout, cable usb 3 en 1"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7837,
+   "internal_links": 73,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-meilleurs-plombiers-de-geneve-en-suisse-top-10-plombier-geneve/",
+   "final_url": "https://fluiid.ch/les-meilleurs-plombiers-de-geneve-en-suisse-top-10-plombier-geneve/",
+   "http_status": 200,
+   "title": "Les meilleurs plombiers de Genève en Suisse - TOP 10 Plombier Geneve - Fluiid",
+   "meta_description": "Les meilleurs plombiers de Genève en Suisse - TOP 10 Plombier Geneve",
+   "canonical": "https://fluiid.ch/les-meilleurs-plombiers-de-geneve-en-suisse-top-10-plombier-geneve/",
+   "robots_meta": "",
+   "og_title": "Les meilleurs plombiers de Genève en Suisse - TOP 10 Plombier Geneve - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les meilleurs plombiers de Genève en Suisse &#8211; TOP 10 Plombier Geneve"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9601,
+   "internal_links": 68,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-astuces-pour-prendre-soin-de-son-manteau-en-fausse-fourrure/",
+   "final_url": "https://fluiid.ch/les-astuces-pour-prendre-soin-de-son-manteau-en-fausse-fourrure/",
+   "http_status": 200,
+   "title": "Les astuces pour prendre soin de son manteau en fausse fourrure - Fluiid",
+   "meta_description": "Les astuces pour prendre soin de son manteau en fausse fourrure",
+   "canonical": "https://fluiid.ch/les-astuces-pour-prendre-soin-de-son-manteau-en-fausse-fourrure/",
+   "robots_meta": "",
+   "og_title": "Les astuces pour prendre soin de son manteau en fausse fourrure - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les astuces pour prendre soin de son manteau en fausse fourrure"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9750,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-avantages-dutiliser-un-tapissier-a-geneve-en-suisse-top-10-des-tapissier-geneve/",
+   "final_url": "https://fluiid.ch/les-avantages-dutiliser-un-tapissier-a-geneve-en-suisse-top-10-des-tapissier-geneve/",
+   "http_status": 200,
+   "title": "Les avantages d&#039;utiliser un tapissier à Genève en Suisse - TOP 10 des tapissier Geneve - Fluiid",
+   "meta_description": "Les avantages d&#039;utiliser un tapissier à Genève en Suisse - TOP 10 des tapissier Geneve",
+   "canonical": "https://fluiid.ch/les-avantages-dutiliser-un-tapissier-a-geneve-en-suisse-top-10-des-tapissier-geneve/",
+   "robots_meta": "",
+   "og_title": "Les avantages d&#039;utiliser un tapissier à Genève en Suisse - TOP 10 des tapissier Geneve - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les avantages d&rsquo;utiliser un tapissier à Genève en Suisse &#8211; TOP 10 des tapissier Geneve"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 11530,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-avantages-dutiliser-une-entreprise-de-demenagement-top-10-des-demenageurs-a-geneve-en-suisse/",
+   "final_url": "https://fluiid.ch/les-avantages-dutiliser-une-entreprise-de-demenagement-top-10-des-demenageurs-a-geneve-en-suisse/",
+   "http_status": 200,
+   "title": "Les avantages d&#039;utiliser une entreprise de déménagement, Top 10 des déménageurs à Genève en Suisse - Fluiid",
+   "meta_description": "Les avantages d&#039;utiliser une entreprise de déménagement, Top 10 des déménageurs à Genève en Suisse",
+   "canonical": "https://fluiid.ch/les-avantages-dutiliser-une-entreprise-de-demenagement-top-10-des-demenageurs-a-geneve-en-suisse/",
+   "robots_meta": "",
+   "og_title": "Les avantages d&#039;utiliser une entreprise de déménagement, Top 10 des déménageurs à Genève en Suisse - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les avantages d&rsquo;utiliser une entreprise de déménagement, Top 10 des déménageurs à Genève en Suisse"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9060,
+   "internal_links": 68,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/location-de-jet-prive-a-geneve-le-luxe-et-la-commodite-a-portee-de-main/",
+   "final_url": "https://fluiid.ch/location-de-jet-prive-a-geneve-le-luxe-et-la-commodite-a-portee-de-main/",
+   "http_status": 200,
+   "title": "Location de jet privé à Genève : Le luxe et la commodité à portée de main - Fluiid",
+   "meta_description": "Location de jet privé à Genève : Le luxe et la commodité à portée de main à l&#039;aéroport de Cointrin en Suisse. Quel compagnie choisir ? Comment choisir ?",
+   "canonical": "https://fluiid.ch/location-de-jet-prive-a-geneve-le-luxe-et-la-commodite-a-portee-de-main/",
+   "robots_meta": "",
+   "og_title": "Location de jet privé à Genève : Le luxe et la commodité à portée de main - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Location de jet privé à Genève : Le luxe et la commodité à portée de main"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 15636,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/les-avantages-dun-partenariat-avec-une-agence-marketing-digital-comme-performances-digital/",
+   "final_url": "https://fluiid.ch/les-avantages-dun-partenariat-avec-une-agence-marketing-digital-comme-performances-digital/",
+   "http_status": 200,
+   "title": "Les avantages d&#039;un partenariat avec une Agence Marketing Digital comme Performances.Digital - Fluiid",
+   "meta_description": "Les avantages d&#039;un partenariat avec une Agence Marketing Digital comme Performances.Digital",
+   "canonical": "https://fluiid.ch/les-avantages-dun-partenariat-avec-une-agence-marketing-digital-comme-performances-digital/",
+   "robots_meta": "",
+   "og_title": "Les avantages d&#039;un partenariat avec une Agence Marketing Digital comme Performances.Digital - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Les avantages d&rsquo;un partenariat avec une Agence Marketing Digital comme Performances.Digital"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8476,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-creer-un-site-internet-ou-une-application-mobile-top-10-des-agences-web-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-creer-un-site-internet-ou-une-application-mobile-top-10-des-agences-web-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi créer un site internet ou une application mobile ? Top 10 des agences web à Genève - Fluiid",
+   "meta_description": "Pourquoi créer un site internet ou une application mobile ? Top 10 des agences web à Genève",
+   "canonical": "https://fluiid.ch/pourquoi-creer-un-site-internet-ou-une-application-mobile-top-10-des-agences-web-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi créer un site internet ou une application mobile ? Top 10 des agences web à Genève - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi créer un site internet ou une application mobile ? Top 10 des agences web à Genève"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9844,
+   "internal_links": 66,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/formation-ia-decouvrez-les-meilleures-formations-en-intelligence-artificielle/",
+   "final_url": "https://fluiid.ch/formation-ia-decouvrez-les-meilleures-formations-en-intelligence-artificielle/",
+   "http_status": 200,
+   "title": "Top formations pour maîtriser l&#039;IA",
+   "meta_description": "Formation IA : explorez les meilleures formations en intelligence artificielle pour booster vos compétences et votre carrière dès aujourd&#039;hui.",
+   "canonical": "https://fluiid.ch/formation-ia-decouvrez-les-meilleures-formations-en-intelligence-artificielle/",
+   "robots_meta": "",
+   "og_title": "Top formations pour maîtriser l&#039;IA",
+   "hreflang": [],
+   "h1": [
+    "Formation IA : Découvrez les meilleures formations en intelligence artificielle"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person",
+    "FAQPage",
+    "Question",
+    "Answer"
+   ],
+   "text_length": 17876,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/sport-et-fitness-tout-les-avantages-meconnu-dans-cet-article/",
+   "final_url": "https://fluiid.ch/sport-et-fitness-tout-les-avantages-meconnu-dans-cet-article/",
+   "http_status": 200,
+   "title": "Sport et fitness : tout les avantages méconnu dans cet article - Fluiid",
+   "meta_description": "Sport et fitness : tout les avantages méconnu dans cet article",
+   "canonical": "https://fluiid.ch/sport-et-fitness-tout-les-avantages-meconnu-dans-cet-article/",
+   "robots_meta": "",
+   "og_title": "Sport et fitness : tout les avantages méconnu dans cet article - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Sport et fitness : tout les avantages méconnu dans cet article"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9938,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/le-role-passionnant-de-lavocat-en-droit-du-sport-a-paris/",
+   "final_url": "https://fluiid.ch/le-role-passionnant-de-lavocat-en-droit-du-sport-a-paris/",
+   "http_status": 200,
+   "title": "Le rôle passionnant de l&#039;avocat en droit du sport à Paris - Fluiid",
+   "meta_description": "Le rôle passionnant de l&#039;avocat en droit du sport à Paris",
+   "canonical": "https://fluiid.ch/le-role-passionnant-de-lavocat-en-droit-du-sport-a-paris/",
+   "robots_meta": "",
+   "og_title": "Le rôle passionnant de l&#039;avocat en droit du sport à Paris - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Le rôle passionnant de l&rsquo;avocat en droit du sport à Paris"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9028,
+   "internal_links": 66,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/des-idees-de-parcours-vtt-en-france/",
+   "final_url": "https://fluiid.ch/des-idees-de-parcours-vtt-en-france/",
+   "http_status": 200,
+   "title": "Des idées de parcours VTT en France - Fluiid",
+   "meta_description": "Des idées de parcours VTT en France",
+   "canonical": "https://fluiid.ch/des-idees-de-parcours-vtt-en-france/",
+   "robots_meta": "",
+   "og_title": "Des idées de parcours VTT en France - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Des idées de parcours VTT en France"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6604,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/du-verre-sur-mesure-pour-sublimer-votre-interieur/",
+   "final_url": "https://fluiid.ch/du-verre-sur-mesure-pour-sublimer-votre-interieur/",
+   "http_status": 200,
+   "title": "Du verre sur mesure pour sublimer votre intérieur - Fluiid",
+   "meta_description": "Du verre sur mesure pour sublimer votre intérieur",
+   "canonical": "https://fluiid.ch/du-verre-sur-mesure-pour-sublimer-votre-interieur/",
+   "robots_meta": "",
+   "og_title": "Du verre sur mesure pour sublimer votre intérieur - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Du verre sur mesure pour sublimer votre intérieur"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6669,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/en-quoi-la-berberine-est-utile-a-votre-corps/",
+   "final_url": "https://fluiid.ch/en-quoi-la-berberine-est-utile-a-votre-corps/",
+   "http_status": 200,
+   "title": "En quoi la berbérine est utile à votre corps ? - Fluiid",
+   "meta_description": "En quoi la berbérine est utile à votre corps ?",
+   "canonical": "https://fluiid.ch/en-quoi-la-berberine-est-utile-a-votre-corps/",
+   "robots_meta": "",
+   "og_title": "En quoi la berbérine est utile à votre corps ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "En quoi la berbérine est utile à votre corps ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6612,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/privatiser-une-peniche-a-paris-pourquoi-faire/",
+   "final_url": "https://fluiid.ch/privatiser-une-peniche-a-paris-pourquoi-faire/",
+   "http_status": 200,
+   "title": "Privatiser une péniche à Paris, pourquoi faire ? - Fluiid",
+   "meta_description": "Privatiser une péniche à Paris, pourquoi faire ?",
+   "canonical": "https://fluiid.ch/privatiser-une-peniche-a-paris-pourquoi-faire/",
+   "robots_meta": "",
+   "og_title": "Privatiser une péniche à Paris, pourquoi faire ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Privatiser une péniche à Paris, pourquoi faire ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 5940,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/consultant-seo/",
+   "final_url": "https://fluiid.ch/consultant-seo/",
+   "http_status": 200,
+   "title": "L&#039;importance du design de votre site web - Fluiid",
+   "meta_description": "L&#039;importance du design de votre site web",
+   "canonical": "https://fluiid.ch/consultant-seo/",
+   "robots_meta": "",
+   "og_title": "L&#039;importance du design de votre site web - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;importance du design de votre site web"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7292,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/tendance-des-barrettes/",
+   "final_url": "https://fluiid.ch/tendance-des-barrettes/",
+   "http_status": 200,
+   "title": "Tendance des barrettes - Fluiid",
+   "meta_description": "Tendance des barrettes",
+   "canonical": "https://fluiid.ch/tendance-des-barrettes/",
+   "robots_meta": "",
+   "og_title": "Tendance des barrettes - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Tendance des barrettes"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6496,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/bien-choisir-sa-location-de-voiture-pour-les-vacances/",
+   "final_url": "https://fluiid.ch/bien-choisir-sa-location-de-voiture-pour-les-vacances/",
+   "http_status": 200,
+   "title": "Bien choisir sa location de voiture pour les vacances - Fluiid",
+   "meta_description": "Bien choisir sa location de voiture pour les vacances",
+   "canonical": "https://fluiid.ch/bien-choisir-sa-location-de-voiture-pour-les-vacances/",
+   "robots_meta": "",
+   "og_title": "Bien choisir sa location de voiture pour les vacances - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Bien choisir sa location de voiture pour les vacances"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6716,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/la-lumiere-bleue-un-probleme-lie-a-lere-numerique/",
+   "final_url": "https://fluiid.ch/la-lumiere-bleue-un-probleme-lie-a-lere-numerique/",
+   "http_status": 200,
+   "title": "La lumière bleue : Un problème lié à l’ère numérique - Fluiid",
+   "meta_description": "La lumière bleue : Un problème lié à l’ère numérique",
+   "canonical": "https://fluiid.ch/la-lumiere-bleue-un-probleme-lie-a-lere-numerique/",
+   "robots_meta": "",
+   "og_title": "La lumière bleue : Un problème lié à l’ère numérique - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "La lumière bleue : Un problème lié à l’ère numérique"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7827,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/utiliser-un-chargeur-a-induction-pour-se-debarrasser-des-cables/",
+   "final_url": "https://fluiid.ch/utiliser-un-chargeur-a-induction-pour-se-debarrasser-des-cables/",
+   "http_status": 200,
+   "title": "Utiliser un chargeur à induction pour se débarrasser des câbles - Fluiid",
+   "meta_description": "Utiliser un chargeur à induction pour se débarrasser des câbles",
+   "canonical": "https://fluiid.ch/utiliser-un-chargeur-a-induction-pour-se-debarrasser-des-cables/",
+   "robots_meta": "",
+   "og_title": "Utiliser un chargeur à induction pour se débarrasser des câbles  - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Utiliser un chargeur à induction pour se débarrasser des câbles"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6031,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/agnes-buzyn-condamne-de-sabotage-le-geste-des-mutuelles-face-au-reste-a-charge-zero/",
+   "final_url": "https://fluiid.ch/agnes-buzyn-condamne-de-sabotage-le-geste-des-mutuelles-face-au-reste-a-charge-zero/",
+   "http_status": 200,
+   "title": "Agnès Buzyn condamne de sabotage le geste des mutuelles face au reste à charge zéro - Fluiid",
+   "meta_description": "Agnès Buzyn condamne de sabotage le geste des mutuelles face au reste à charge zéro",
+   "canonical": "https://fluiid.ch/agnes-buzyn-condamne-de-sabotage-le-geste-des-mutuelles-face-au-reste-a-charge-zero/",
+   "robots_meta": "",
+   "og_title": "Agnès Buzyn condamne de sabotage le geste des mutuelles face au reste à charge zéro - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Agnès Buzyn condamne de sabotage le geste des mutuelles face au reste à charge zéro"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 6696,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/maison-galerie-comment-ouvrir-la-tienne/",
+   "final_url": "https://fluiid.ch/maison-galerie-comment-ouvrir-la-tienne/",
+   "http_status": 200,
+   "title": "Maison galerie, comment ouvrir la tienne ? - Fluiid",
+   "meta_description": "Maison galerie, comment ouvrir la tienne ?",
+   "canonical": "https://fluiid.ch/maison-galerie-comment-ouvrir-la-tienne/",
+   "robots_meta": "",
+   "og_title": "Maison galerie, comment ouvrir la tienne ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Maison galerie, comment ouvrir la tienne ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7440,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/quels-sont-les-differences-entre-un-regime-et-un-reequilibrage-alimentaire/",
+   "final_url": "https://fluiid.ch/quels-sont-les-differences-entre-un-regime-et-un-reequilibrage-alimentaire/",
+   "http_status": 200,
+   "title": "Quels sont les différences entre un régime et un rééquilibrage alimentaire ? - Fluiid",
+   "meta_description": "Quels sont les différences entre un régime et un rééquilibrage alimentaire ?",
+   "canonical": "https://fluiid.ch/quels-sont-les-differences-entre-un-regime-et-un-reequilibrage-alimentaire/",
+   "robots_meta": "",
+   "og_title": "Quels sont les différences entre un régime et un rééquilibrage alimentaire ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Quels sont les différences entre un régime et un rééquilibrage alimentaire ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8559,
+   "internal_links": 69,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/entreprise-de-peinture-sur-geneve-renovation-appartement-ou-maison/",
+   "final_url": "https://fluiid.ch/entreprise-de-peinture-sur-geneve-renovation-appartement-ou-maison/",
+   "http_status": 200,
+   "title": "Entreprise peinture Geneve, rénovation maison ou appartement.",
+   "meta_description": "Entreprise peinture Geneve à votre service pour rénover vos peintures, peintre décoration intérieur, rénovation appartemet et autre service en rénovation.",
+   "canonical": "https://fluiid.ch/entreprise-de-peinture-sur-geneve-renovation-appartement-ou-maison/",
+   "robots_meta": "",
+   "og_title": "Entreprise peinture Geneve, rénovation maison ou appartement.",
+   "hreflang": [],
+   "h1": [
+    "Entreprise de peinture sur geneve, renovation appartement ou maison."
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 5130,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/jai-oublie-ma-cle-a-linterieur-et-la-porte-est-fermee-que-faire/",
+   "final_url": "https://fluiid.ch/jai-oublie-ma-cle-a-linterieur-et-la-porte-est-fermee-que-faire/",
+   "http_status": 200,
+   "title": "J&#039;ai oublié ma clé à l&#039;intérieur et la porte est fermée, que faire ? - Fluiid",
+   "meta_description": "J&#039;ai oublié ma clé à l&#039;intérieur et la porte est fermée, que faire ?",
+   "canonical": "https://fluiid.ch/jai-oublie-ma-cle-a-linterieur-et-la-porte-est-fermee-que-faire/",
+   "robots_meta": "",
+   "og_title": "J&#039;ai oublié ma clé à l&#039;intérieur et la porte est fermée, que faire ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "J&rsquo;ai oublié ma clé à l&rsquo;intérieur et la porte est fermée, que faire ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7103,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/est-ce-quun-booster-abime-la-batterie-une-analyse-approfondie/",
+   "final_url": "https://fluiid.ch/est-ce-quun-booster-abime-la-batterie-une-analyse-approfondie/",
+   "http_status": 200,
+   "title": "Est-ce qu&#039;un booster abîme la batterie ? Une analyse approfondie - Fluiid",
+   "meta_description": "Est-ce qu&#039;un booster abîme la batterie ? Une analyse approfondie",
+   "canonical": "https://fluiid.ch/est-ce-quun-booster-abime-la-batterie-une-analyse-approfondie/",
+   "robots_meta": "",
+   "og_title": "Est-ce qu&#039;un booster abîme la batterie ? Une analyse approfondie - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Est-ce qu&rsquo;un booster abîme la batterie ? Une analyse approfondie"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 14083,
+   "internal_links": 66,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-choisir-la-lampe-a-poser-parfaite/",
+   "final_url": "https://fluiid.ch/comment-choisir-la-lampe-a-poser-parfaite/",
+   "http_status": 200,
+   "title": "Comment choisir la lampe à poser parfaite ? - Fluiid",
+   "meta_description": "Comment choisir la lampe à poser parfaite ?",
+   "canonical": "https://fluiid.ch/comment-choisir-la-lampe-a-poser-parfaite/",
+   "robots_meta": "",
+   "og_title": "Comment choisir la lampe à poser parfaite ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment choisir la lampe à poser parfaite ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7107,
+   "internal_links": 70,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/agence-relocation-geneve/",
+   "final_url": "https://fluiid.ch/agence-relocation-geneve/",
+   "http_status": 200,
+   "title": "Agence de Relocation Genève – Services Experts pour Votre Déménagement International- Fluiid",
+   "meta_description": "Découvrez notre agence de relocation spécialisée dans les déménagements internationaux. Assistance complète, de la recherche de logement à l&#039;intégration locale. Simplifiez votre transition avec des experts à votre écoute.",
+   "canonical": "https://fluiid.ch/agence-relocation-geneve/",
+   "robots_meta": "",
+   "og_title": "Agence de Relocation Genève – Services Experts pour Votre Déménagement International- Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Tout savoir sur les services d&rsquo;agence de relocation à Genève et en Suisse Romande"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8320,
+   "internal_links": 65,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-specialise-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-specialise-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi faire appel à un avocat spécialisé à Genève ? - Fluiid",
+   "meta_description": "Pourquoi faire appel à un avocat spécialisé à Genève ?",
+   "canonical": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-specialise-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi faire appel à un avocat spécialisé à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi faire appel à un avocat spécialisé à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7987,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/besoin-dun-avocat-penaliste-a-geneve-decouvrez-comment-faire-face-aux-poursuites-judiciaires/",
+   "final_url": "https://fluiid.ch/besoin-dun-avocat-penaliste-a-geneve-decouvrez-comment-faire-face-aux-poursuites-judiciaires/",
+   "http_status": 200,
+   "title": "Besoin d&#039;un avocat pénaliste à Genève? Découvrez comment faire face aux poursuites judiciaires! - Fluiid",
+   "meta_description": "Besoin d&#039;un avocat pénaliste à Genève? Découvrez comment faire face aux poursuites judiciaires!",
+   "canonical": "https://fluiid.ch/besoin-dun-avocat-penaliste-a-geneve-decouvrez-comment-faire-face-aux-poursuites-judiciaires/",
+   "robots_meta": "",
+   "og_title": "Besoin d&#039;un avocat pénaliste à Genève? Découvrez comment faire face aux poursuites judiciaires! - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Besoin d&rsquo;un avocat pénaliste à Genève? Découvrez comment faire face aux poursuites judiciaires!"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8967,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/levolution-dun-paysage-publicitaire-en-mutation/",
+   "final_url": "https://fluiid.ch/levolution-dun-paysage-publicitaire-en-mutation/",
+   "http_status": 200,
+   "title": "L’évolution d’un paysage publicitaire en mutation - Fluiid",
+   "meta_description": "L’évolution d’un paysage publicitaire en mutation",
+   "canonical": "https://fluiid.ch/levolution-dun-paysage-publicitaire-en-mutation/",
+   "robots_meta": "",
+   "og_title": "L’évolution d’un paysage publicitaire en mutation - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L’évolution d’un paysage publicitaire en mutation"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 15056,
+   "internal_links": 66,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/cherchez-vous-un-avocat-en-droit-du-travail-a-geneve/",
+   "final_url": "https://fluiid.ch/cherchez-vous-un-avocat-en-droit-du-travail-a-geneve/",
+   "http_status": 200,
+   "title": "Cherchez-vous un avocat en droit du travail à Genève ? - Fluiid",
+   "meta_description": "Cherchez-vous un avocat en droit du travail à Genève ?",
+   "canonical": "https://fluiid.ch/cherchez-vous-un-avocat-en-droit-du-travail-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Cherchez-vous un avocat en droit du travail à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Cherchez-vous un avocat en droit du travail à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7606,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-choisir-le-meilleur-avocat-pour-un-divorce-a-geneve/",
+   "final_url": "https://fluiid.ch/comment-choisir-le-meilleur-avocat-pour-un-divorce-a-geneve/",
+   "http_status": 200,
+   "title": "Comment choisir le meilleur avocat pour un divorce à Genève ? - Fluiid",
+   "meta_description": "Comment choisir le meilleur avocat pour un divorce à Genève ?",
+   "canonical": "https://fluiid.ch/comment-choisir-le-meilleur-avocat-pour-un-divorce-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Comment choisir le meilleur avocat pour un divorce à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment choisir le meilleur avocat pour un divorce à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 7643,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-en-droit-des-affaires-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-en-droit-des-affaires-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi faire appel à un avocat en droit des affaires à Genève ? - Fluiid",
+   "meta_description": "Pourquoi faire appel à un avocat en droit des affaires à Genève ?",
+   "canonical": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-en-droit-des-affaires-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi faire appel à un avocat en droit des affaires à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi faire appel à un avocat en droit des affaires à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8844,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/besoin-dun-avocat-fiscaliste-a-geneve-decouvrez-comment-trouver-le-meilleur-conseiller-fiscal/",
+   "final_url": "https://fluiid.ch/besoin-dun-avocat-fiscaliste-a-geneve-decouvrez-comment-trouver-le-meilleur-conseiller-fiscal/",
+   "http_status": 200,
+   "title": "Besoin d&#039;un avocat fiscaliste à Genève? Découvrez comment trouver le meilleur conseiller fiscal! - Fluiid",
+   "meta_description": "Besoin d&#039;un avocat fiscaliste à Genève? Découvrez comment trouver le meilleur conseiller fiscal!",
+   "canonical": "https://fluiid.ch/besoin-dun-avocat-fiscaliste-a-geneve-decouvrez-comment-trouver-le-meilleur-conseiller-fiscal/",
+   "robots_meta": "",
+   "og_title": "Besoin d&#039;un avocat fiscaliste à Genève? Découvrez comment trouver le meilleur conseiller fiscal! - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Besoin d&rsquo;un avocat fiscaliste à Genève? Découvrez comment trouver le meilleur conseiller fiscal!"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8669,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-trouver-le-meilleur-avocat-en-immobilier-a-geneve/",
+   "final_url": "https://fluiid.ch/comment-trouver-le-meilleur-avocat-en-immobilier-a-geneve/",
+   "http_status": 200,
+   "title": "Comment trouver le meilleur avocat en immobilier à Genève ? - Fluiid",
+   "meta_description": "Comment trouver le meilleur avocat en immobilier à Genève ?",
+   "canonical": "https://fluiid.ch/comment-trouver-le-meilleur-avocat-en-immobilier-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Comment trouver le meilleur avocat en immobilier à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment trouver le meilleur avocat en immobilier à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8579,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/quels-sont-les-avantages-de-faire-appel-a-un-avocat-en-droit-de-la-famille-a-geneve/",
+   "final_url": "https://fluiid.ch/quels-sont-les-avantages-de-faire-appel-a-un-avocat-en-droit-de-la-famille-a-geneve/",
+   "http_status": 200,
+   "title": "Quels sont les avantages de faire appel à un avocat en droit de la famille à Genève ? - Fluiid",
+   "meta_description": "Quels sont les avantages de faire appel à un avocat en droit de la famille à Genève ?",
+   "canonical": "https://fluiid.ch/quels-sont-les-avantages-de-faire-appel-a-un-avocat-en-droit-de-la-famille-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Quels sont les avantages de faire appel à un avocat en droit de la famille à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Quels sont les avantages de faire appel à un avocat en droit de la famille à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8576,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/besoin-dun-avocat-en-droit-civil-a-geneve/",
+   "final_url": "https://fluiid.ch/besoin-dun-avocat-en-droit-civil-a-geneve/",
+   "http_status": 200,
+   "title": "Besoin d&#039;un avocat en droit civil à Genève ? - Fluiid",
+   "meta_description": "Besoin d&#039;un avocat en droit civil à Genève ?",
+   "canonical": "https://fluiid.ch/besoin-dun-avocat-en-droit-civil-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Besoin d&#039;un avocat en droit civil à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Besoin d&rsquo;un avocat en droit civil à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8071,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/comment-trouver-un-avocat-specialise-en-licenciement-a-geneve/",
+   "final_url": "https://fluiid.ch/comment-trouver-un-avocat-specialise-en-licenciement-a-geneve/",
+   "http_status": 200,
+   "title": "Comment trouver un avocat spécialisé en licenciement à Genève ? - Fluiid",
+   "meta_description": "Comment trouver un avocat spécialisé en licenciement à Genève ?",
+   "canonical": "https://fluiid.ch/comment-trouver-un-avocat-specialise-en-licenciement-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Comment trouver un avocat spécialisé en licenciement à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Comment trouver un avocat spécialisé en licenciement à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8090,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-conseil-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-conseil-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi faire appel à un avocat conseil à Genève ? - Fluiid",
+   "meta_description": "Pourquoi faire appel à un avocat conseil à Genève ?",
+   "canonical": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-conseil-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi faire appel à un avocat conseil à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi faire appel à un avocat conseil à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8143,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-faire-appel-a-un-cabinet-davocat-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-faire-appel-a-un-cabinet-davocat-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi faire appel à un cabinet d&#039;avocat à Genève ? - Fluiid",
+   "meta_description": "Pourquoi faire appel à un cabinet d&#039;avocat à Genève ?",
+   "canonical": "https://fluiid.ch/pourquoi-faire-appel-a-un-cabinet-davocat-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi faire appel à un cabinet d&#039;avocat à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi faire appel à un cabinet d&rsquo;avocat à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 9031,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/le-role-de-la-finma-et-ce-que-sa-surveillance-change-concretement-pour-les-clients-des-banques-suisses/",
+   "final_url": "https://fluiid.ch/le-role-de-la-finma-et-ce-que-sa-surveillance-change-concretement-pour-les-clients-des-banques-suisses/",
+   "http_status": 200,
+   "title": "La FINMA et tout ce qu&#039;elle change pour les clients des banques",
+   "meta_description": "La FINMA supervise les banques et prestataires financiers en Suisse. Nous vous présentons ce que cette surveillance implique concrètement pour un client.",
+   "canonical": "https://fluiid.ch/le-role-de-la-finma-et-ce-que-sa-surveillance-change-concretement-pour-les-clients-des-banques-suisses/",
+   "robots_meta": "",
+   "og_title": "La FINMA et tout ce qu&#039;elle change pour les clients des banques",
+   "hreflang": [],
+   "h1": [
+    "Le rôle de la FINMA et ce que sa surveillance change concrètement pour les clients des banques suisses"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8497,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/besoin-dun-avocat-pour-resoudre-vos-litiges-a-geneve/",
+   "final_url": "https://fluiid.ch/besoin-dun-avocat-pour-resoudre-vos-litiges-a-geneve/",
+   "http_status": 200,
+   "title": "Besoin d&#039;un avocat pour résoudre vos litiges à Genève ? - Fluiid",
+   "meta_description": "Besoin d&#039;un avocat pour résoudre vos litiges à Genève ?",
+   "canonical": "https://fluiid.ch/besoin-dun-avocat-pour-resoudre-vos-litiges-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Besoin d&#039;un avocat pour résoudre vos litiges à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Besoin d&rsquo;un avocat pour résoudre vos litiges à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8509,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-dentreprise-a-geneve/",
+   "final_url": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-dentreprise-a-geneve/",
+   "http_status": 200,
+   "title": "Pourquoi faire appel à un avocat d&#039;entreprise à Genève ? - Fluiid",
+   "meta_description": "Pourquoi faire appel à un avocat d&#039;entreprise à Genève ?",
+   "canonical": "https://fluiid.ch/pourquoi-faire-appel-a-un-avocat-dentreprise-a-geneve/",
+   "robots_meta": "",
+   "og_title": "Pourquoi faire appel à un avocat d&#039;entreprise à Genève ? - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Pourquoi faire appel à un avocat d&rsquo;entreprise à Genève ?"
+   ],
+   "jsonld_types": [
+    "Article",
+    "WebPage",
+    "ReadAction",
+    "ImageObject",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification",
+    "Person"
+   ],
+   "text_length": 8234,
+   "internal_links": 64,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/contact/",
+   "final_url": "https://fluiid.ch/contact/",
+   "http_status": 200,
+   "title": "Contact - Fluiid",
+   "meta_description": "",
+   "canonical": "https://fluiid.ch/contact/",
+   "robots_meta": "",
+   "og_title": "Contact - Fluiid",
+   "hreflang": [],
+   "h1": [
+    "Contact"
+   ],
+   "jsonld_types": [
+    "WebPage",
+    "ReadAction",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 901,
+   "internal_links": 38,
+   "rel_next": ""
+  },
+  {
+   "url": "https://fluiid.ch/page/2/",
+   "final_url": "https://fluiid.ch/page/2/",
+   "http_status": 200,
+   "title": "Fluiid - Page 2 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/2/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 8316,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/3/"
+  },
+  {
+   "url": "https://fluiid.ch/page/3/",
+   "final_url": "https://fluiid.ch/page/3/",
+   "http_status": 200,
+   "title": "Fluiid - Page 3 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/3/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7919,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/4/"
+  },
+  {
+   "url": "https://fluiid.ch/page/4/",
+   "final_url": "https://fluiid.ch/page/4/",
+   "http_status": 200,
+   "title": "Fluiid - Page 4 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/4/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 8396,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/5/"
+  },
+  {
+   "url": "https://fluiid.ch/page/5/",
+   "final_url": "https://fluiid.ch/page/5/",
+   "http_status": 200,
+   "title": "Fluiid - Page 5 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/5/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 8318,
+   "internal_links": 131,
+   "rel_next": "https://fluiid.ch/page/6/"
+  },
+  {
+   "url": "https://fluiid.ch/page/6/",
+   "final_url": "https://fluiid.ch/page/6/",
+   "http_status": 200,
+   "title": "Fluiid - Page 6 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/6/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7951,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/7/"
+  },
+  {
+   "url": "https://fluiid.ch/page/7/",
+   "final_url": "https://fluiid.ch/page/7/",
+   "http_status": 200,
+   "title": "Fluiid - Page 7 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/7/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7862,
+   "internal_links": 130,
+   "rel_next": "https://fluiid.ch/page/8/"
+  },
+  {
+   "url": "https://fluiid.ch/page/8/",
+   "final_url": "https://fluiid.ch/page/8/",
+   "http_status": 200,
+   "title": "Fluiid - Page 8 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/8/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 8119,
+   "internal_links": 131,
+   "rel_next": "https://fluiid.ch/page/9/"
+  },
+  {
+   "url": "https://fluiid.ch/page/9/",
+   "final_url": "https://fluiid.ch/page/9/",
+   "http_status": 200,
+   "title": "Fluiid - Page 9 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/9/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7991,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/10/"
+  },
+  {
+   "url": "https://fluiid.ch/page/10/",
+   "final_url": "https://fluiid.ch/page/10/",
+   "http_status": 200,
+   "title": "Fluiid - Page 10 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/10/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7969,
+   "internal_links": 131,
+   "rel_next": "https://fluiid.ch/page/11/"
+  },
+  {
+   "url": "https://fluiid.ch/page/11/",
+   "final_url": "https://fluiid.ch/page/11/",
+   "http_status": 200,
+   "title": "Fluiid - Page 11 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/11/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7829,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/12/"
+  },
+  {
+   "url": "https://fluiid.ch/page/12/",
+   "final_url": "https://fluiid.ch/page/12/",
+   "http_status": 200,
+   "title": "Fluiid - Page 12 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/12/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7658,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/13/"
+  },
+  {
+   "url": "https://fluiid.ch/page/13/",
+   "final_url": "https://fluiid.ch/page/13/",
+   "http_status": 200,
+   "title": "Fluiid - Page 13 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/13/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 7922,
+   "internal_links": 129,
+   "rel_next": "https://fluiid.ch/page/14/"
+  },
+  {
+   "url": "https://fluiid.ch/page/14/",
+   "final_url": "https://fluiid.ch/page/14/",
+   "http_status": 200,
+   "title": "Fluiid - Page 14 sur 14 - Le site de l&#039;actualité en Europe et dans le monde",
+   "meta_description": "Le site de l&#039;actualité en Europe et dans le monde",
+   "canonical": "https://fluiid.ch/page/14/",
+   "robots_meta": "",
+   "og_title": "Fluiid",
+   "hreflang": [],
+   "h1": [
+    "L&rsquo;actualité en Europe et dans le monde"
+   ],
+   "jsonld_types": [
+    "CollectionPage",
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+   ],
+   "text_length": 3368,
+   "internal_links": 91,
+   "rel_next": ""
+  }
+ ]
+}
