@@ -178,7 +178,7 @@ main { padding: 20px 0 64px; }
 
 /* --- HERO : l'article principal --- */
 .hero {
-  border-top: 3px solid var(--ink); border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   padding: 20px 0 24px; margin: 16px 0 34px;
 }
 .hero-grid { display: grid; gap: 18px; }
