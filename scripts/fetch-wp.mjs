@@ -5,8 +5,8 @@
  *
  * Usage: node scripts/fetch-wp.mjs [https://ip-du-wp]
  * Env :
- *   WP_BASE (URL du WordPress, défaut https://109.234.164.18 — IP de l'hébergeur)
- *   WP_HOST (Host header + SNI, défaut fluiid.ch — le domaine pointe maintenant vers Pages)
+ *   WP_BASE (URL du WordPress, défaut https://109.234.162.70 — IP o2switch)
+ *   WP_HOST (Host header + SNI, défaut cmlk.ch — le domaine pointe maintenant vers Pages)
  *
  * Le WP est joint par IP : certificat TLS non vérifié (source fixe et connue),
  * SNI et Host réglés sur le domaine réel pour que le vhost mutualisé réponde.
@@ -16,8 +16,8 @@ import path from 'node:path';
 import https from 'node:https';
 import { fileURLToPath } from 'node:url';
 
-const BASE = (process.env.WP_BASE || process.argv[2] || 'https://109.234.164.18').replace(/\/$/, '');
-const HOST = process.env.WP_HOST || 'fluiid.ch';
+const BASE = (process.env.WP_BASE || process.argv[2] || 'https://109.234.162.70').replace(/\/$/, '');
+const HOST = process.env.WP_HOST || 'cmlk.ch';
 const OUT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'wp');
 fs.mkdirSync(OUT, { recursive: true });
 

@@ -1,4 +1,4 @@
-name: Deploy fluiid.ch
+name: Deploy cmlk.ch
 
 on:
   push:
@@ -27,8 +27,8 @@ jobs:
         # si le WP est injoignable, le build continue avec les données du dépôt.
         run: npm run fetch:wp || echo "⚠️ WordPress injoignable — build avec les données commitées"
         env:
-          WP_BASE: https://109.234.164.18
-          WP_HOST: fluiid.ch
+          WP_BASE: https://109.234.162.70
+          WP_HOST: cmlk.ch
 
       - name: Build static site
         run: npm run build
@@ -37,10 +37,10 @@ jobs:
 
       - name: SEO contract (bloquant)
         run: |
-          python3 scripts/seo_contract.py data/audit_fluiid.json dist --posts data/wp/posts.json
+          python3 scripts/seo_contract.py data/audit_cmlk.json dist --posts data/wp/posts.json
 
       - name: Deploy to Cloudflare Pages
-        run: npx wrangler pages deploy dist --project-name fluiid --branch main
+        run: npx wrangler pages deploy dist --project-name cmlk --branch main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

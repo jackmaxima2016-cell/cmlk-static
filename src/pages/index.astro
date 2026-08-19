@@ -1,16 +1,19 @@
 ---
-// Accueil — page magazine : hero + à la une + rubriques + fil d'actualités
-// Le H1 et le <title> restent identiques à l'audit (contrat SEO).
+// Accueil — page magazine (modèle fluiid) : hero + à la une + rubriques + fil d'actualités
+// + sidebar reproduisant les widgets ColorMag de cmlk.ch (Sponsorisé / récents / catégories).
+// Le <title> reste identique à l'audit (contrat SEO). Pas de H1 visible (le WP n'en a pas),
+// H1 sr-only pour le référencement.
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
+import Sidebar from '../components/Sidebar.astro';
 import { getPosts, getPages, PAGE_SIZE, getCategories, getImageMeta, getPostCategories, getPostAuthor, getReadingTime, decodeEntities } from '../lib/wp.mjs';
 
 const posts = getPosts();
 const totalPages = Math.ceil(posts.length / PAGE_SIZE);
-const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
+const site = String(Astro.site ?? 'https://cmlk.ch').replace(/\/$/, '');
 
-const TITLE = "Fluiid - Le site de l'actualité en Europe et dans le monde";
-const DESC = "Le site de l'actualité en Europe et dans le monde";
+const TITLE = "Conseil en business et webmarketing avec Google - L'avenir est sur internet, commencer maintenant";
+const DESC = "L'avenir est sur internet, commencer maintenant";
 
 // ---- Composition éditoriale ----
 const [hero, ...rest] = posts;
@@ -40,7 +43,7 @@ const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Fluiid',
+    name: 'CMLK',
     url: site + '/',
     potentialAction: {
       '@type': 'SearchAction',
@@ -52,77 +55,83 @@ const jsonLd = [
 ---
 
 <Base title={TITLE} description={DESC} canonical={site + '/'} jsonLd={jsonLd} relNext="/page/2/">
-  <h1 class="sr-only">L’actualité en Europe et dans le monde</h1>
+  <h1 class="sr-only">Conseil en business et webmarketing avec Google</h1>
 
-  <!-- ARTICLE PRINCIPAL -->
-  <section class="hero" aria-label="Article principal">
-    <div class="hero-grid">
-      <div class="hero-img-wrap">
-        <a href={`/${hero.slug}/`}>
-          {heroImg.src && (
-            <img
-              class="hero-img"
-              src={heroImg.src}
-              alt={heroImg.alt || decodeEntities(hero.title?.rendered ?? '')}
-              width={heroImg.width ?? undefined}
-              height={heroImg.height ?? undefined}
-              fetchpriority="high"
-              decoding="async"
-            />
-          )}
-        </a>
-      </div>
-      <div class="hero-body">
-        <p class="hero-label">À la une</p>
-        {heroCat && <span class="badge">{heroCat.name}</span>}
-        <h2 class="hero-title"><a href={`/${hero.slug}/`}>{decodeEntities(hero.title?.rendered ?? '')}</a></h2>
-        {heroExcerpt && <p class="hero-excerpt">{heroExcerpt}</p>}
-        <div class="meta">
-          <time datetime={hero.date}>{new Date(hero.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
-          <span class="sep">·</span>
-          <span>par {heroAuthor}</span>
-          <span class="sep">·</span>
-          <span>{getReadingTime(hero)} min de lecture</span>
+  <div class="layout-ws">
+    <div class="layout-main">
+      <!-- ARTICLE PRINCIPAL -->
+      <section class="hero" aria-label="Article principal">
+        <div class="hero-grid">
+          <div class="hero-img-wrap">
+            <a href={`/${hero.slug}/`}>
+              {heroImg.src && (
+                <img
+                  class="hero-img"
+                  src={heroImg.src}
+                  alt={heroImg.alt || decodeEntities(hero.title?.rendered ?? '')}
+                  width={heroImg.width ?? undefined}
+                  height={heroImg.height ?? undefined}
+                  fetchpriority="high"
+                  decoding="async"
+                />
+              )}
+            </a>
+          </div>
+          <div class="hero-body">
+            <p class="hero-label">À la une</p>
+            {heroCat && <span class="badge">{heroCat.name}</span>}
+            <h2 class="hero-title"><a href={`/${hero.slug}/`}>{decodeEntities(hero.title?.rendered ?? '')}</a></h2>
+            {heroExcerpt && <p class="hero-excerpt">{heroExcerpt}</p>}
+            <div class="meta">
+              <time datetime={hero.date}>{new Date(hero.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
+              <span class="sep">·</span>
+              <span>par {heroAuthor}</span>
+              <span class="sep">·</span>
+              <span>{getReadingTime(hero)} min de lecture</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- À LA UNE -->
-  <section class="section-block" aria-label="À la une">
-    <div class="section-head">
-      <h2 class="section-title">À la une</h2>
-    </div>
-    <div class="edito-grid">
-      {edito.map((post) => <PostCard post={post} />)}
-    </div>
-  </section>
+      <!-- À LA UNE -->
+      <section class="section-block" aria-label="À la une">
+        <div class="section-head">
+          <h2 class="section-title">À la une</h2>
+        </div>
+        <div class="edito-grid">
+          {edito.map((post) => <PostCard post={post} />)}
+        </div>
+      </section>
 
-  <!-- RUBRIQUES PAR CATÉGORIE -->
-  {rubriques.map((r) => (
-    <section class="section-block" id={`rubrique-${r.slug}`} aria-label={r.name}>
-      <div class="section-head">
-        <h2 class="section-title">{r.name}</h2>
-        <span class="section-link">{r.count} articles</span>
-      </div>
-      <div class="rubric-grid">
-        {r.posts.map((post) => <PostCard post={post} />)}
-      </div>
-    </section>
-  ))}
+      <!-- RUBRIQUES PAR CATÉGORIE -->
+      {rubriques.map((r) => (
+        <section class="section-block" id={`rubrique-${r.slug}`} aria-label={r.name}>
+          <div class="section-head">
+            <h2 class="section-title">{r.name}</h2>
+            <span class="section-link">{r.count} articles</span>
+          </div>
+          <div class="rubric-grid">
+            {r.posts.map((post) => <PostCard post={post} />)}
+          </div>
+        </section>
+      ))}
 
-  <!-- FIL COMPLET -->
-  <section class="section-block" aria-label="Toutes les actualités">
-    <div class="section-head">
-      <h2 class="section-title">Toutes les actualités</h2>
-    </div>
-    <div class="feed">
-      {feed.map((post) => <PostCard post={post} variant="line" />)}
-    </div>
-  </section>
+      <!-- FIL COMPLET -->
+      <section class="section-block" aria-label="Toutes les actualités">
+        <div class="section-head">
+          <h2 class="section-title">Toutes les actualités</h2>
+        </div>
+        <div class="feed">
+          {feed.map((post) => <PostCard post={post} variant="line" />)}
+        </div>
+      </section>
 
-  <nav class="pagination" aria-label="Pagination">
-    <span class="page-info">Page 1 sur {totalPages}</span>
-    <a rel="next" href="/page/2/">Page suivante →</a>
-  </nav>
+      <nav class="pagination" aria-label="Pagination">
+        <span class="page-info">Page 1 sur {totalPages}</span>
+        <a rel="next" href="/page/2/">Page suivante →</a>
+      </nav>
+    </div>
+
+    <Sidebar />
+  </div>
 </Base>

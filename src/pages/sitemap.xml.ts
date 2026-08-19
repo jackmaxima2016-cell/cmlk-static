@@ -3,7 +3,7 @@ import type { APIRoute } from 'astro';
 import { getPosts, getPages, PAGE_SIZE } from '../lib/wp.mjs';
 
 export const GET: APIRoute = ({ site }) => {
-  const base = String(site ?? 'https://fluiid.ch').replace(/\/$/, '');
+  const base = String(site ?? 'https://cmlk.ch').replace(/\/$/, '');
   const posts = getPosts();
   const pages = getPages();
   const total = Math.ceil(posts.length / PAGE_SIZE);

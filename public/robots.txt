@@ -21,4 +21,4 @@ Disallow: /*.xhtml$
 Disallow: /author/*/
 Disallow: /tag/
 
-Sitemap: https://fluiid.ch/sitemap.xml
+Sitemap: https://cmlk.ch/sitemap.xml

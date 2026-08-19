@@ -86,7 +86,7 @@ export function getPostCategories(post) {
 }
 
 export function getPostAuthor(post) {
-  return decodeEntities(post._embedded?.author?.[0]?.name ?? 'Fluiid');
+  return decodeEntities(post._embedded?.author?.[0]?.name ?? 'CMLK');
 }
 
 // Temps de lecture estimé (~200 mots/min)

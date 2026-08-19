@@ -2,7 +2,7 @@
 // Page de remerciement post-paiement — hors contrat SEO (noindex, hors sitemap)
 import Base from '../../layouts/Base.astro';
 
-const TITLE = "Merci — Fluiid";
+const TITLE = "Merci — CMLK";
 const DESC = "Confirmation de votre demande de publication";
 ---
 <Base title={TITLE} description={DESC} noindex={true}>
@@ -46,7 +46,7 @@ const DESC = "Confirmation de votre demande de publication";
 
 <script>
   // Confirme la session Stripe et affiche le récapitulatif (un seul appel par session)
-  const KEY = 'fluiid_merci_v1';
+  const KEY = 'cmlk_merci_v1';
   const status = document.getElementById('merci-status');
   const recap = document.getElementById('merci-recap');
   const sid = new URLSearchParams(location.search).get('session_id');

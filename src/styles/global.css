@@ -10,8 +10,8 @@
   --muted: #6a6a6a;
   --faint: #9a9a9a;
   --border: #e4e4e4;
-  --accent: #c8102e;        /* rouge presse */
-  --accent-dark: #a30d24;
+  --accent: #207daf;        /* bleu ColorMag (branding CMLK) */
+  --accent-dark: #1a6a94;
   --serif: Georgia, 'Times New Roman', Times, serif;
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --maxw: 1200px;
@@ -38,6 +38,19 @@ a { color: inherit; }
 
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
 
+/* Colonne latérale (widgets ColorMag reproduits) — repli 1 colonne < 980px */
+.layout-ws {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+@media (min-width: 980px) {
+  .layout-ws { grid-template-columns: minmax(0, 1fr) 300px; }
+  .layout-ws .sidebar { position: sticky; top: 110px; }
+}
+.layout-main { min-width: 0; }
+
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
@@ -63,6 +76,9 @@ a { color: inherit; }
   font-family: var(--serif); font-weight: 800; font-size: clamp(30px, 6vw, 46px);
   letter-spacing: -0.5px; color: var(--ink); text-decoration: none; line-height: 1.1;
 }
+.logo { display: inline-flex; align-items: center; gap: 10px; }
+.logo-img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.logo-text { font-family: var(--sans); font-weight: 900; font-size: clamp(24px, 4.5vw, 36px); letter-spacing: 0.06em; }
 
 /* Navigation rubriques — sticky ; menu burger sur mobile, barre sur desktop */
 .header-nav {

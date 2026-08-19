@@ -5,8 +5,8 @@
 //    → sans STRIPE_SECRET_KEY (env Pages), repli : email direct FormSubmit (comportement provisoire)
 // Zéro secret dans le dépôt : TURNSTILE_SECRET et STRIPE_SECRET_KEY sont injectés par Cloudflare Pages.
 
-const FORM_MAILTO = 'info@fluiid.ch';
-const SITE = 'https://fluiid.ch';
+const FORM_MAILTO = 'optitechgeneve@gmail.com';
+const SITE = 'https://cmlk.ch';
 
 // Source de vérité des prix (doit correspondre au formulaire)
 // Prix promotionnels (−46 % ; le prix d'origine barré est affiché côté formulaire)
@@ -145,8 +145,8 @@ export async function onRequestPost(context) {
     params.set('metadata[total]', `${total} CHF`);
 
     const items = [
-      { name: `Pack ${packName} — fluiid.ch`, price: packPrice },
-      ...(dureePrice > 0 ? [{ name: `Durée de publication : ${duree} — fluiid.ch`, price: dureePrice }] : []),
+      { name: `Pack ${packName} — cmlk.ch`, price: packPrice },
+      ...(dureePrice > 0 ? [{ name: `Durée de publication : ${duree} — cmlk.ch`, price: dureePrice }] : []),
       ...chosen.map((label, i) => ({ name: `Option : ${label}`, price: OPTIONS[Object.keys(OPTIONS).filter((k) => OPTIONS[k].label === label)[0]].price })),
     ];
     items.forEach((it, i) => {

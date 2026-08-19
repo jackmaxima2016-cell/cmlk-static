@@ -33,7 +33,7 @@ const noindexAll = typeof process !== 'undefined' && process.env.NOINDEX === '1'
 
 const GA4_ID = (import.meta.env.PUBLIC_GA4_ID ?? '').trim();
 
-const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
+const site = String(Astro.site ?? 'https://cmlk.ch').replace(/\/$/, '');
 const pageUrl = canonical ?? site + '/';
 const ogType = type === 'article' ? 'article' : 'website';
 
@@ -63,7 +63,7 @@ const today = new Date().toLocaleDateString('fr-FR', {
 
     <meta property="og:type" content={ogType} />
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:site_name" content="Fluiid" />
+    <meta property="og:site_name" content="CMLK" />
     <meta property="og:url" content={pageUrl} />
     <meta property="og:title" content={decodeEntities(title)} />
     {description && <meta property="og:description" content={decodeEntities(description)} />}
@@ -118,12 +118,15 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`}></script>
       <div class="header-top">
         <div class="container header-top-inner">
           <span class="header-date">{today}</span>
-          <span class="header-tagline">L'actualité en Europe et dans le monde</span>
+          <span class="header-tagline">L'avenir est sur internet, commencer maintenant</span>
         </div>
       </div>
       <div class="header-brand">
         <div class="container header-brand-inner">
-          <a class="logo" href="/">Fluiid</a>
+          <a class="logo" href="/">
+            <img class="logo-img" src="/wp-content/uploads/2025/01/cmlk-logo-300x300.jpg" alt="CMLK" width="48" height="48" />
+            <span class="logo-text">CMLK</span>
+          </a>
         </div>
       </div>
     </header>
@@ -155,8 +158,8 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`}></script>
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand">
-            <span class="logo">Fluiid</span>
-            <p>Le site de l'actualité en Europe et dans le monde. Analyse, décryptage et reportages.</p>
+            <span class="logo">CMLK</span>
+            <p>Conseil en business et webmarketing avec Google. L'avenir est sur internet, commencer maintenant.</p>
           </div>
           <div class="footer-col">
             <h3>Rubriques</h3>
@@ -178,7 +181,7 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`}></script>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>© {new Date().getFullYear()} Fluiid — L'actualité en Europe et dans le monde</p>
+          <p>© {new Date().getFullYear()} CMLK — Conseil en business et webmarketing avec Google</p>
         </div>
       </div>
     </footer>
@@ -198,7 +201,7 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`}></script>
           <script is:inline>
             // Consentement cookies (GA4) — mémorisé, demande une seule fois par visiteur
             (function () {
-              var KEY = 'fluiid_consent_v1';
+              var KEY = 'cmlk_consent_v1';
               var banner = document.getElementById('consent-banner');
               if (!banner) return;
               var update = function (v) {
@@ -266,7 +269,7 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`}></script>
       // Compte à rebours promo dans le bandeau (même minuteur que le formulaire)
       const tickerCd = document.getElementById('ticker-countdown');
       if (tickerCd) {
-        const PKEY = 'fluiid_promo_v1';
+        const PKEY = 'cmlk_promo_v1';
         const PMS = 15 * 60 * 1000;
         let premain = PMS;
         try {

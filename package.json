@@ -1,8 +1,8 @@
 {
-  "name": "fluiid-static",
+  "name": "cmlk-static",
   "type": "module",
   "version": "0.1.0",
-  "description": "Site statique Astro généré depuis l'API WordPress de fluiid.ch — migration SEO-safe",
+  "description": "Site statique Astro cmlk.ch — migration WordPress → Cloudflare Pages (modèle fluiid)",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

@@ -38,6 +38,10 @@ def decode_entities(s=''):
 def normalize(s):
     return re.sub(r'\s+', ' ', decode_entities(s or '')).strip().lower()
 
+def canon_norm(u):
+    # Le WP émet parfois des canonicals http:// ; le site Astro est 100 % https.
+    return re.sub(r'^http://', 'https://', u or '')
+
 def url_to_file(url):
     path = url.split('//', 1)[-1]
     path = path.split('/', 1)[1] if '/' in path else ''
@@ -95,7 +99,7 @@ for p in pages:
 
     # 2. Canonical
     gen_canon = grab(r'<link rel="canonical" href="([^"]+)"')
-    if gen_canon != p['canonical']:
+    if canon_norm(gen_canon) != canon_norm(p['canonical']):
         violations.append({'url': url, 'type': 'CANONICAL', 'detail': f'WP: {p["canonical"]} | ASTRO: {gen_canon}'})
     else:
         checks += 1
@@ -104,7 +108,9 @@ for p in pages:
     gen_h1 = grab(r'<h1[^>]*>(.*?)</h1>')
     if not gen_h1:
         violations.append({'url': url, 'type': 'H1_MISSING', 'detail': 'aucun <h1>'})
-    elif normalize(gen_h1) != normalize(p['h1'][0] if p['h1'] else ''):
+    elif p['h1'] and normalize(gen_h1) != normalize(p['h1'][0]):
+        # Si la référence WP n'a pas de H1 (ex. accueil ColorMag), on exige juste
+        # qu'un H1 existe (déjà vérifié ci-dessus) sans comparer le texte.
         violations.append({'url': url, 'type': 'H1_DIFF', 'detail': f'WP: {p["h1"][:60]!r} | ASTRO: {gen_h1[:60]!r}'})
     else:
         checks += 1

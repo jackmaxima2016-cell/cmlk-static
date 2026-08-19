@@ -1,10 +1,10 @@
 // Pages Function — GET /api/confirm
 // Appelée par la page /contact/merci/ après le retour de Stripe Checkout.
 // 1. Récupère la session de paiement Stripe
-// 2. Si payée : envoie la commande complète par email à info@fluiid.ch
+// 2. Si payée : envoie la commande complète par email à optitechgeneve@gmail.com
 // Zéro secret dans le dépôt : STRIPE_SECRET_KEY est injectée par Cloudflare Pages.
 
-const FORM_MAILTO = 'info@fluiid.ch';
+const FORM_MAILTO = 'optitechgeneve@gmail.com';
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
@@ -32,9 +32,9 @@ export async function onRequestGet(context) {
     const meta = s.metadata || {};
     const total = (s.amount_total != null ? s.amount_total / 100 : null);
 
-    // Email de commande → info@fluiid.ch
+    // Email de commande → optitechgeneve@gmail.com
     const fd = new FormData();
-    fd.append('_subject', '🛒 PAIEMENT REÇU — Nouvelle commande fluiid.ch');
+    fd.append('_subject', '🛒 PAIEMENT REÇU — Nouvelle commande cmlk.ch');
     fd.append('_template', 'table');
     const rows = {
       'Pack': meta.pack || '—',
@@ -53,7 +53,7 @@ export async function onRequestGet(context) {
 
     const mail = await fetch(`https://formsubmit.co/ajax/${FORM_MAILTO}`, {
       method: 'POST',
-      headers: { Accept: 'application/json', Origin: 'https://fluiid.ch', Referer: 'https://fluiid.ch/contact/merci/' },
+      headers: { Accept: 'application/json', Origin: 'https://cmlk.ch', Referer: 'https://cmlk.ch/contact/merci/' },
       body: fd,
     });
     const mailData = await mail.json().catch(() => ({}));

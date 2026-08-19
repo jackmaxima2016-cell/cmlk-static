@@ -6,7 +6,8 @@
 import { getCategories, decodeEntities } from '../lib/wp.mjs';
 
 // Site key Turnstile (publique — sans danger dans le code)
-const TURNSTILE_SITE_KEY = '0x4AAAAAAETjkjCYOZ1SXxyR';
+// ⚠️ placeholder : créer la paire Turnstile du domaine cmlk.ch avant mise en prod
+const TURNSTILE_SITE_KEY = '';
 
 const rubriques = getCategories()
   .filter((c) => c.count > 0)
@@ -57,7 +58,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
     <span class="promo-timer">⏳ La promotion se termine dans <strong id="promo-countdown">15:00</strong></span>
   </div>
     <form id="prospect-form" class="prospect-form" action="/api/checkout" method="POST" novalidate>
-      <input type="hidden" name="_subject" value="Nouvelle demande de publication — fluiid.ch" />
+      <input type="hidden" name="_subject" value="Nouvelle demande de publication — cmlk.ch" />
       <input type="hidden" name="_template" value="table" />
       <!-- Honeypot anti-spam (laissé vide par les humains) -->
       <input type="text" name="_honey" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
@@ -433,8 +434,8 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   .trust-badges li span { color: #6b6b6b; }
 </style>
 
-<script>
-  const STORAGE_KEY = 'fluiid_prospect_v1';
+<script define:vars={{ TURNSTILE_SITE_KEY }}>
+  const STORAGE_KEY = 'cmlk_prospect_v1';
   const form = document.getElementById('prospect-form');
   const panels = [...form.querySelectorAll('.step-panel')];
   const steps = [...document.querySelectorAll('.progress-step')];
@@ -633,7 +634,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
       const load = () => {
         if (window.turnstile) {
           window.turnstile.render(turnstileSlot, {
-            sitekey: '0x4AAAAAAETjkjCYOZ1SXxyR',
+            sitekey: TURNSTILE_SITE_KEY,
             theme: 'light',
             language: 'fr',
           });
@@ -646,7 +647,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
         s.async = true;
         s.onload = () => {
           window.turnstile.render(turnstileSlot, {
-            sitekey: '0x4AAAAAAETjkjCYOZ1SXxyR',
+            sitekey: TURNSTILE_SITE_KEY,
             theme: 'light',
             language: 'fr',
           });
@@ -662,7 +663,7 @@ const stepTitles = ['Choisissez votre pack', 'Durée & options', 'Vos informatio
   };
 
   /* ---------- Compte à rebours promo (individuel par visiteur) ---------- */
-  const PROMO_KEY = 'fluiid_promo_v1';
+  const PROMO_KEY = 'cmlk_promo_v1';
   const PROMO_MS = 15 * 60 * 1000;
   const countdownEls = [...document.querySelectorAll('#promo-countdown, #promo-countdown-2')];
   const startPromoCountdown = () => {

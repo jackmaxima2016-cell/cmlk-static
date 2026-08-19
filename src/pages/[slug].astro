@@ -21,12 +21,12 @@ export async function getStaticPaths() {
 }
 
 const { kind, entry } = Astro.props;
-const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
+const site = String(Astro.site ?? 'https://cmlk.ch').replace(/\/$/, '');
 const canonical = `${site}/${entry.slug}/`;
 
 // Titre et description réels (ce que Google voit) depuis l'audit WP
 const seo = getSeoForUrl(canonical);
-const title = seo?.title ?? `${decodeEntities(entry.title?.rendered ?? '')} - Fluiid`;
+const title = seo?.title ?? `${decodeEntities(entry.title?.rendered ?? '')} - CMLK`;
 const description = seo?.description
   ?? stripHtml(entry.excerpt?.rendered ?? entry.content?.rendered ?? '').slice(0, 160)
   ?? decodeEntities(entry.title?.rendered ?? '');
@@ -58,7 +58,7 @@ const jsonLd = kind === 'post'
         datePublished,
         dateModified,
         author: { '@type': 'Person', name: author },
-        publisher: { '@type': 'Organization', name: 'Fluiid' },
+        publisher: { '@type': 'Organization', name: 'CMLK' },
         mainEntityOfPage: canonical,
       },
       {
@@ -73,7 +73,7 @@ const jsonLd = kind === 'post'
       {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'Fluiid',
+        name: 'CMLK',
         url: site + '/',
         potentialAction: {
           '@type': 'SearchAction',

@@ -1,7 +1,7 @@
-# fluiid-static — Migration WordPress → Full HTML (SEO-safe)
+# cmlk-static — Migration WordPress → Astro (SEO-safe)
 
-Site statique Astro généré depuis l'API WordPress de **fluiid.ch**.
-Migration pilote du système `/home/hermes/migration/`.
+Site statique Astro généré depuis l'API WordPress de **cmlk.ch** (modèle fluiid).
+Déploiement : push `main` → GitHub Actions (fetch-wp non-bloquant → build → contrat SEO bloquant → `wrangler pages deploy`).
 
 ## Pipeline
 
@@ -11,42 +11,28 @@ WordPress (API REST) ──► fetch-wp ──► data/wp/*.json ──► Astro
 audit (référence SEO) ──► seo_contract.py ◄─────────────────┘
 ```
 
-1. **Audit** (`audit/audit_site.py`) : inventaire SEO complet du WP actuel
-   (146 URLs : statut, title, canonical, H1, JSON-LD, contenu).
-   Référence = ce que Google voit aujourd'hui.
-2. **Génération** (`npm run fetch:wp && npm run build`) : Astro reproduit
-   chaque URL à l'identique — slugs, barres obliques, `/page/N/`, canonical,
-   titles Yoast, JSON-LD Article/Breadcrumb/WebSite.
-3. **Contrat SEO** (`seo-contract/seo_contract.py`) : compare le site généré
-   à la référence, URL par URL. **Bloque la mise en prod si écart** :
-   URL manquante, title/canonical/H1 différent, noindex accidentel,
-   contenu d'article tronqué, article absent d'un listing.
+1. **Audit** (`audit_cmlk.json`) : inventaire SEO complet du WP (192 URLs : statut, title, canonical, H1, contenu).
+2. **Génération** (`npm run fetch:wp && npm run build`) : Astro reproduit chaque URL à l'identique.
+3. **Contrat SEO** (`scripts/seo_contract.py`) : compare le site généré à la référence, URL par URL. **Bloque la mise en prod si écart.**
 
 ## Commandes
 
 ```bash
-npm run fetch:wp                 # extraction du contenu WordPress
+npm run fetch:wp                 # extraction du contenu WordPress (WP_BASE/WP_HOST)
 npm run build                    # génération statique (dist/)
-python3 ../seo-contract/seo_contract.py ../data/audit_fluiid.json dist --posts data/wp/posts.json
+python3 scripts/seo_contract.py data/audit_cmlk.json dist --posts data/wp/posts.json
 ```
 
-## Commandes de build Cloudflare Pages
+## Particularités cmlk.ch
 
-- Build : `npm run fetch:wp && npm run build`
-- Output : `dist`
-
-## Points d'attention (TODO migration)
-
-- **Formulaire contact** : Ninja Forms (JS requis) — à refaire en HTML natif
-  ou intégré au build (pas de JS côté WordPress).
-- **Images** : les URLs `/wp-content/uploads/...` sont conservées telles
-  quelles (le WP continue de les servir). À la bascule : copie vers R2 ou
-  redirection Cloudflare Rules, en conservant les URLs historiques.
-- **robots.txt** : à reproduire dans le site statique (public/robots.txt).
-- **Sitemap** : à générer (sitemap-index.xml pointé par le layout).
+- Sidebar reproduisant les widgets ColorMag du WP : « Sponsorised » (liens externes du réseau conservés tels quels), « Articles récents », « Catégories ».
+- 173 articles, 2 pages (contact + blog), 22 catégories, 274 tags.
+- Images : `/wp-content/uploads/...` téléchargées dans `public/` (site autonome).
+- Formulaire de commande de publications sponsorisées (packs CHF, Turnstile, Stripe/FormSubmit).
+- L'accueil WP n'a pas de H1 : H1 sr-only ajouté, contrat SEO tolérant (comparaison H1 seulement si la référence en a un).
+- Canonicals WP parfois en `http://` : comparaison normalisée https dans le contrat.
 
 ## Sécurité
 
 - Jamais de secrets dans ce dépôt.
-- Accès WP/GitHub/Cloudflare : fichier `/home/hermes/migration/secrets.env`
-  (chmod 600), hors git.
+- Accès WP/GitHub/Cloudflare : `/home/hermes/migration/secrets.env` (chmod 600), hors git.

@@ -1,9 +1,9 @@
 // Pages Function — POST /api/contact
 // 1. Vérifie le token Cloudflare Turnstile (secret en variable d'env Pages)
-// 2. Relaie les données vers FormSubmit → info@fluiid.ch
+// 2. Relaie les données vers FormSubmit → optitechgeneve@gmail.com
 // Zéro secret dans le dépôt : TURNSTILE_SECRET est injecté par Cloudflare Pages.
 
-const FORM_MAILTO = 'info@fluiid.ch';
+const FORM_MAILTO = 'optitechgeneve@gmail.com';
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {

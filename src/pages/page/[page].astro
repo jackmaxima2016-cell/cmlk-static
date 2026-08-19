@@ -2,6 +2,7 @@
 // Pages de pagination /page/N/ (N = 2..total) — grille de cartes
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
+import Sidebar from '../../components/Sidebar.astro';
 import { getPosts, getPages, PAGE_SIZE } from '../../lib/wp.mjs';
 
 export async function getStaticPaths() {
@@ -17,11 +18,12 @@ export async function getStaticPaths() {
 }
 
 const { pageNum, totalPages, posts: pagePosts } = Astro.props;
-const site = String(Astro.site ?? 'https://fluiid.ch').replace(/\/$/, '');
+const site = String(Astro.site ?? 'https://cmlk.ch').replace(/\/$/, '');
 const url = `${site}/page/${pageNum}/`;
 
-const TITLE = `Fluiid - Page ${pageNum} sur ${totalPages} - Le site de l'actualité en Europe et dans le monde`;
-const DESC = "Le site de l'actualité en Europe et dans le monde";
+// Titre identique à l'accueil (format Yoast réel : pas de « Page N » dans le <title>)
+const TITLE = "Conseil en business et webmarketing avec Google - L'avenir est sur internet, commencer maintenant";
+const DESC = "L'avenir est sur internet, commencer maintenant";
 const PREV = pageNum > 2 ? `/page/${pageNum - 1}/` : '/';
 const NEXT = pageNum < totalPages ? `/page/${pageNum + 1}/` : null;
 
@@ -29,7 +31,7 @@ const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Fluiid',
+    name: 'CMLK',
     url: site + '/',
     potentialAction: {
       '@type': 'SearchAction',
@@ -41,14 +43,20 @@ const jsonLd = [
 ---
 
 <Base title={TITLE} description={DESC} canonical={url} jsonLd={jsonLd} relPrev={PREV} relNext={NEXT ?? undefined}>
-  <h1 class="page-title">L’actualité en Europe et dans le monde</h1>
-  <div class="post-grid">
-    {pagePosts.map((post) => <PostCard post={post} />)}
-  </div>
+  <div class="layout-ws">
+    <div class="layout-main">
+      <h1 class="page-title">Conseil en business et webmarketing avec Google</h1>
+      <div class="post-grid">
+        {pagePosts.map((post) => <PostCard post={post} />)}
+      </div>
 
-  <nav class="pagination" aria-label="Pagination">
-    <a rel="prev" href={PREV}>← Page précédente</a>
-    <span class="page-info">Page {pageNum} sur {totalPages}</span>
-    {NEXT && <a rel="next" href={NEXT}>Page suivante →</a>}
-  </nav>
+      <nav class="pagination" aria-label="Pagination">
+        <a rel="prev" href={PREV}>← Page précédente</a>
+        <span class="page-info">Page {pageNum} sur {totalPages}</span>
+        {NEXT && <a rel="next" href={NEXT}>Page suivante →</a>}
+      </nav>
+    </div>
+
+    <Sidebar />
+  </div>
 </Base>

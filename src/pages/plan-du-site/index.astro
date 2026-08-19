@@ -3,9 +3,9 @@
 import Base from '../../layouts/Base.astro';
 import { getCategories, decodeEntities } from '../../lib/wp.mjs';
 
-const TITLE = 'Plan du site — Fluiid';
-const DESC = "Plan du site Fluiid : accueil, rubriques, contact et pages légales.";
-const CANONICAL = 'https://fluiid.ch/plan-du-site/';
+const TITLE = 'Plan du site — CMLK';
+const DESC = "Plan du site CMLK : accueil, rubriques, contact et pages légales.";
+const CANONICAL = 'https://cmlk.ch/plan-du-site/';
 
 const rubriques = getCategories()
   .filter((c) => c.count > 0)
@@ -16,7 +16,7 @@ const rubriques = getCategories()
   <main class="container">
     <article class="legal-page" aria-labelledby="titre">
       <h1 id="titre">Plan du site</h1>
-      <p>Retrouvez l'ensemble des rubriques et pages du site Fluiid.</p>
+      <p>Retrouvez l'ensemble des rubriques et pages du site CMLK.</p>
 
       <h2>Pages principales</h2>
       <ul class="plan-list">

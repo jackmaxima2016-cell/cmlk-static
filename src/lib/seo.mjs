@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const AUDIT_FILE = path.join(
   path.dirname(fileURLToPath(import.meta.url)),
-  '..', '..', 'data', 'audit_fluiid.json',
+  '..', '..', 'data', 'audit_cmlk.json',
 );
 
 let _map = null;
@@ -17,7 +17,9 @@ export function getSeoMap() {
   try {
     const audit = JSON.parse(fs.readFileSync(AUDIT_FILE, 'utf-8'));
     for (const page of audit.pages) {
-      _map.set(page.url, {
+      // L'audit référence les URLs du sitemap en http:// ; le site généré est https://
+      const key = page.url.replace(/^http:\/\//, 'https://');
+      _map.set(key, {
         title: page.title,
         description: page.meta_description || '',
       });

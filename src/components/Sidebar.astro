@@ -1,0 +1,88 @@
+---
+// Sidebar magazine (reproduit les widgets ColorMag de cmlk.ch) :
+// « Sponsorised » (liens externes du réseau), « Articles récents », « Catégories »
+// Les liens sponsorisés sont identiques au widget text-2 du WP (conservés tels quels).
+import { getPosts, getCategories, decodeEntities } from '../lib/wp.mjs';
+
+const recent = getPosts().slice(0, 5);
+const cats = getCategories()
+  .filter((c) => c.count > 0)
+  .sort((a, b) => b.count - a.count);
+
+// Widget text-2 « Sponsorised » — reproduction fidèle du WordPress
+const sponsor = [
+  { href: 'https://fiducompta.ch/', label: 'fiduciaire geneve', blank: false },
+  { href: 'https://prim.net/10-techniques-pour-gagner-de-largent-facilement-sur-internet/', label: 'comment gagner de l argent', blank: true },
+  { href: 'https://www.worldnet.fr/gagner-de-largent-sur-internet-facilement-voici-les-meilleurs-methodes/', label: 'gagner de l argent', blank: true },
+  { href: 'https://www.worldnet.fr/devenir-riche-rapidement-les-5-moyens-les-plus-rapides-selon-les-experts/', label: 'comment devenir riche', blank: true },
+  { href: 'https://prim.net/support-ordinateur-portable-soignez-votre-dos-maintenant-ou-vous-souffrirez-toute-votre-vie/', label: 'Support ordinateur portable', blank: true },
+  { href: 'https://prim.net/systeme-io-loutil-indispensable-pour-gagner-de-largent-sur-internet-et-gerer-votre-business-sur-internet/', label: 'Systeme IO', blank: true },
+  { href: 'http://sos-electricien-geneve.ch', label: 'electricien', blank: false },
+  { href: 'https://prim.net/referencement-google-my-business-attirer-de-nouveau-clients-dans-votre-ville-grace-a-cette-formation-dexpert-reconnu/', label: 'formation google my business', blank: false },
+  { href: 'https://youtu.be/SznGyMiDFyA', label: 'Google my business', blank: false },
+  { href: 'https://prim.net/comment-faire-lamour-le-premier-soir-une-femme-vous-explique-pourquoi-il-faut-sexualiser-votre-relation/', label: 'Comment sexualiser une relation', blank: false },
+  { href: 'http://drmk.ch/trouver-un-electricien-en-urgence-a-geneve/', label: 'Electricien Geneve', blank: false },
+  { href: 'https://mobilitepourtous.ch', label: 'Electricien urgence', blank: false },
+  { href: 'https://prim.net/whatsapp-web-sur-ordinateur-installation-et-utilisation-de-whats-app/', label: 'Whatsapp web', blank: false },
+  { href: 'http://audyva.ch', label: 'thérapie de couple genève', blank: false },
+  { href: 'https://happyplombier.fr/plombier-paris-8-depannage-urgence-tarifs-prix/', label: 'Plombier Paris 8', blank: true },
+  { href: 'https://happyplombier.fr/', label: 'Happyplombier', blank: false },
+];
+---
+
+<aside class="sidebar" aria-label="Colonne latérale">
+  <section class="widget widget-sponsor">
+    <h2 class="widget-title">Sponsorisé</h2>
+    <ul class="widget-links">
+      {sponsor.map((l) => (
+        <li>
+          <a href={l.href} {...(l.blank ? { target: '_blank', rel: 'noopener' } : {})}>{l.label}</a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="widget">
+    <h2 class="widget-title">Articles récents</h2>
+    <ul class="widget-links widget-recent">
+      {recent.map((p) => (
+        <li><a href={`/${p.slug}/`}>{decodeEntities(p.title?.rendered ?? '')}</a></li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="widget">
+    <h2 class="widget-title">Catégories</h2>
+    <ul class="widget-links">
+      {cats.map((c) => (
+        <li><a href={`/#rubrique-${c.slug}`}>{decodeEntities(c.name)}</a></li>
+      ))}
+    </ul>
+  </section>
+</aside>
+
+<style>
+  .sidebar { min-width: 0; }
+  .widget {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 18px;
+  }
+  .widget-title {
+    font-size: 13px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--accent);
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 8px; margin: 0 0 10px;
+  }
+  .widget-links { list-style: none; margin: 0; padding: 0; }
+  .widget-links li { border-top: 1px solid #f0f0f0; }
+  .widget-links li:first-child { border-top: 0; }
+  .widget-links a {
+    display: block; padding: 7px 0; font-size: 13.5px; line-height: 1.45;
+    color: var(--ink); text-decoration: none;
+  }
+  .widget-links a:hover { color: var(--accent); text-decoration: underline; }
+  .widget-recent a { font-size: 13px; }
+</style>
