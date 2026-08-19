@@ -68,7 +68,7 @@ export function getImageMeta(post, size = 'medium_large') {
   if (!_imageCache.has(key)) {
     const source = getPosts().find(
       (p) => p.slug !== post.slug && getPostCategories(p).some((pc) => cats.some((c) => c.id === pc.id)) && imageMetaOf(p, size).src
-    );
+    ) ?? getPosts().find((p) => p.slug !== post.slug && imageMetaOf(p, size).src);
     _imageCache.set(key, source ? imageMetaOf(source, size) : { src: '', width: null, height: null, alt: '', caption: '' });
   }
   return _imageCache.get(key);
