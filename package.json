@@ -5,7 +5,7 @@
   "description": "Site statique Astro cmlk.ch — migration WordPress → Cloudflare Pages (modèle fluiid)",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/optimize-images.mjs",
     "preview": "astro preview",
     "fetch:wp": "node scripts/fetch-wp.mjs"
   },
